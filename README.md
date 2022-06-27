@@ -25,6 +25,9 @@ GIF Images
 | JavaScript | TypeScript |  React   |  Node   |  css   |  html   |  notion   |
 | :--------: | :--------: | :------: | :-----: | :----: | :-----: | :-------: |
 |   ![js]    |   ![ts]    | ![react] | ![node] | ![css] | ![html] | ![notion] |
+|   figma    |
+| :--------: |
+|  ![figma]  |
 
 <br>
 
@@ -61,3 +64,4 @@ MIT &copy; [NoHack](mailto:changwoon2@gmail.com)
 [css]: /readmeimg/css.svg
 [html]: /readmeimg/html.svg
 [notion]: /readmeimg/notion.svg
+[figma]: /readmeimg/figma.svg
