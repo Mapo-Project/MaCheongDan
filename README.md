@@ -22,9 +22,9 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
+| JavaScript | TypeScript |  React   |  Node   |     | jQuery  |
+| :--------: | :--------: | :------: | :-----: | --- | :-----: |
+|   ![js]    |   ![ts]    | ![react] | ![node] |     | ![node] |
 
 <br>
 
@@ -50,7 +50,7 @@ GIF Images
 
 ## 라이센스
 
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
+MIT &copy; [NoHack](mailto:changwoon2@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
@@ -58,3 +58,4 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 [ts]: /readmeimg/typescript.svg
 [react]: /readmeimg/react.svg
 [node]: /readmeimg/node.svg
+[jquery]: /readmeimg/node.svg
