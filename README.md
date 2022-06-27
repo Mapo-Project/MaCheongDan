@@ -22,13 +22,13 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |  css   |  html   |  notion   |
-| :--------: | :--------: | :------: | :-----: | :----: | :-----: | :-------: |
-|   ![js]    |   ![ts]    | ![react] | ![node] | ![css] | ![html] | ![notion] |
+| JavaScript | TypeScript |  React   |  Node   |  css   |  html   |
+| :--------: | :--------: | :------: | :-----: | :----: | :-----: |
+|   ![js]    |   ![ts]    | ![react] | ![node] | ![css] | ![html] |
 
-|  figma   |
-| :------: |
-| ![figma] |
+|  figma   |  notion   |
+| :------: | :-------: |
+| ![figma] | ![notion] |
 
 <br>
 
