@@ -13,9 +13,7 @@
 <p align="justify">
 프로젝트 개요/동기
 </p>
-<p align="center">
-내용설명
-</p>
+
 <p align="justify">
 멤버/소개
 </p>
