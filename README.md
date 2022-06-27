@@ -22,9 +22,9 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |  css   |
-| :--------: | :--------: | :------: | :-----: | :----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] | ![css] |
+| JavaScript | TypeScript |  React   |  Node   |  css   |  html   |
+| :--------: | :--------: | :------: | :-----: | :----: | :-----: |
+|   ![js]    |   ![ts]    | ![react] | ![node] | ![css] | ![html] |
 
 <br>
 
@@ -59,3 +59,4 @@ MIT &copy; [NoHack](mailto:changwoon2@gmail.com)
 [react]: /readmeimg/react.svg
 [node]: /readmeimg/node.svg
 [css]: /readmeimg/css.svg
+[html]: /readmeimg/html.svg
