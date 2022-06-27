@@ -1,4 +1,4 @@
-# 마포 청년 사업단
+# 마포 청년 일자리 사업단
 
 <p align="center">
   <br>
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-GIF Images
+
 </p>
 
 <br>
