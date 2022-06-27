@@ -1,3 +1,12 @@
+/* Google Web Fonts CDN */
+/* 노토산스 */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
+/* 레일웨이 */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+/* 몬트세랫 */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap");
+
+/* font-awesome/4.7.0/css */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* reset css */
@@ -14,12 +23,31 @@ a {
   text-decoration: none;
 }
 
-/* default css */
+/* default css body속성 정의 */
 
 body {
+  font-family: "Noto Sans KR", sans-serif;
   color: #222;
   font-size: 15px;
   margin: 0;
   height: 100vh;
-  background-color: #fff;
+  /* background-color: #fff; */
+}
+
+/* 전체 레이아웃 중요 */
+.cd-section {
+  height: 100vh;
+}
+
+.cd-section > div {
+  height: 100%;
+  position: relative;
+}
+.content {
+  background-color: #ddd;
+  position: absolute;
+  width: calc(100% - 40px);
+  height: calc(100% - 80px);
+  left: 20px;
+  bottom: 20px;
 }
