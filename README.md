@@ -25,9 +25,10 @@ GIF Images
 | JavaScript | TypeScript |  React   |  Node   |  css   |  html   |  notion   |
 | :--------: | :--------: | :------: | :-----: | :----: | :-----: | :-------: |
 |   ![js]    |   ![ts]    | ![react] | ![node] | ![css] | ![html] | ![notion] |
-|   figma    |
-| :--------: |
-|  ![figma]  |
+
+|  figma   |
+| :------: |
+| ![figma] |
 
 <br>
 
