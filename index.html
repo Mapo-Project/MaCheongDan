@@ -23,47 +23,98 @@
     <link rel="stylesheet" href="Mobilestyle.css" />
   </head>
   <!-- animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax  -->
-  <body data-hijacking="on" data-animation="rotate">
+  <body data-hijacking="on" data-animation="catch">
     <div class="container">
       <section class="cd-section visible">
         <div>
           <div class="content">
-            <h2>섹션 1</h2>
+            <svg
+              width="0"
+              height="0"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <filter id="water">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency=".05 .05"
+                  numOctaves="1"
+                  result="noise1"
+                ></feTurbulence>
+                <feColorMatrix
+                  in="noise1"
+                  type="hueRotate"
+                  values="0"
+                  result="noise2"
+                >
+                  <animate
+                    attributeName="values"
+                    from="0"
+                    to="360"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  />
+                </feColorMatrix>
+                <feDisplacementMap
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                  scale="7"
+                  in="SourceGraphic"
+                  in2="noise2"
+                />
+              </filter>
+            </svg>
+            <div id="main">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/467/hawaii-water%20small.jpeg"
+                alt="Hawaiian water crashes against the rocks"
+              />
+            </div>
           </div>
         </div>
       </section>
       <section class="cd-section">
         <div>
           <div class="content">
-            <h2>섹션 1</h2>
+            <img src="images/img-2.jpg" />
           </div>
         </div>
       </section>
       <section class="cd-section">
         <div>
           <div class="content">
-            <h2>섹션 1</h2>
+            <img src="images/img-3.jpg" />
           </div>
         </div>
       </section>
       <section class="cd-section">
         <div>
           <div class="content">
-            <h2>섹션 1</h2>
+            <img src="images/img-4.jpg" />
           </div>
         </div>
       </section>
       <section class="cd-section">
         <div>
           <div class="content">
-            <h2>섹션 1</h2>
+            <img src="images/img-5.jpg" />
           </div>
         </div>
       </section>
-      <section class="cd-section">
+      <section class="cd-section" id="awards">
         <div>
           <div class="content">
-            <h2>섹션 1</h2>
+            <div class="awards-inner">
+              <div class="about-awards">
+                <h2></h2>
+                <hr class="bar" />
+                <p></p>
+                <a href=""></a>
+              </div>
+              <div class="victory-jump">
+                <img src="" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -79,7 +130,11 @@
       <header>
         <div class="gnb-inner">
           <div class="logo">
-            <a href="#none"></a>
+            <a href="#none"
+              ><img
+                src="mapo_badgeFile/휘장 기본형, 활용형/JPG/휘장 활용형_B type.jpg"
+                alt=""
+            /></a>
           </div>
           <div class="gnb">
             <div class="menu">

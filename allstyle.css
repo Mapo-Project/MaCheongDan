@@ -31,7 +31,7 @@ body {
   font-size: 15px;
   margin: 0;
   height: 100vh;
-  /* background-color: #fff; */
+  background-color: #fff;
 }
 
 /* 전체 레이아웃 중요 */
@@ -50,12 +50,49 @@ body {
   height: calc(100% - 80px);
   left: 20px;
   bottom: 20px;
+  overflow: hidden;
 }
 
 /*  헤더 */
-header {}
-.gnb-inner {}
-.logo {}
-.gnb {}
-.gnb a {}
-.slogan {}
+#main img {
+  width: 1980px;
+  height: 1280px;
+  position: absolute;
+  top: -5vh;
+  left: -5vw;
+  object-fit: cover;
+  filter: url("#water");
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+.gnb-inner {
+  width: calc(100% - 40px);
+  margin: auto;
+  height: 60px;
+  line-height: 60px;
+}
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 130px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.menu {
+  display: none;
+}
+.gnb {
+  float: right;
+}
+.gnb a {
+}
+.slogan {
+  font-size: 16px;
+  font-weight: 500;
+}
