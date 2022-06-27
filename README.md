@@ -1,4 +1,4 @@
-# 마청단
+# 마포 청년 사업단
 
 <p align="center">
   <br>
@@ -54,7 +54,7 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
-[js]: /images/stack/javascript.svg
+[js]: /readmeimg/javascript.svg
 [ts]: /images/stack/typescript.svg
 [react]: /images/stack/react.svg
 [node]: /images/stack/node.svg
