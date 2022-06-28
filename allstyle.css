@@ -79,11 +79,11 @@ header {
   font-size: 20px;
 }
 
-/* .logo img {
-  width: 130px;
-  height: 50px;
+.logo img {
+  width: 150px;
   object-fit: cover;
-} */
+  margin-top: 10px;
+}
 
 .menu {
   display: none;
@@ -91,15 +91,211 @@ header {
 .gnb {
   float: right;
 }
-.gnb a {
-}
+
 .slogan {
   font-size: 20px;
   font-weight: 500;
 }
+/* 섹션 어바웃 */
+.about-inner {
+  background: url(images/Forest.png) no-repeat bottom right;
+  height: 100%;
+  background-color: burlywood;
+  background-size: 1000px;
+}
+
+.about-items {
+  color: #fff;
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 200px;
+}
+.item {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.item img {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.item h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.item h3:hover {
+  color: skyblue;
+}
+.item p {
+  overflow: hidden;
+  font-size: 18px;
+}
 
 /* 섹션 어워드 */
-
-.awards-inner div {
+.awards-inner {
+  height: 100%;
+  border: 1px solid #ddd;
+}
+.awards-inner > div {
   float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.about-awards {
+  color: #fff;
+  background-color: black;
+}
+.about-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+.about-heading h2 {
+  margin: 0;
+}
+
+.about-heading p {
+  color: #999;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+.view-awards {
+  color: #bbb;
+  border: 1px solid darkslateblue;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: 0.5s;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.view-awards:hover {
+  background-color: cadetblue;
+  color: #fff;
+  border-color: transparent;
+}
+
+.about-heading a {
+}
+
+.victory-jump {
+}
+
+.victory-jump img {
+  width: 939px;
+  height: 887px;
+  object-fit: cover;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+hr.bar {
+  width: 50px;
+  height: 4px;
+  border: none;
+  background-color: skyblue;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* 섹션 플랜 */
+.plan-inner {
+  background-color: #1d1b24;
+  height: 100%;
+}
+
+.plan-feature {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plan-feature > div {
+  height: 300px;
+  color: #bbb;
+}
+
+.plan-info > div {
+  float: left;
+}
+.plan-heading h2,
+.history-info h2 {
+  color: white;
+  margin: 0;
+}
+.plan-heading p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.plan-heading {
+  width: 70%;
+  padding-right: 50px;
+}
+
+.plan-photo {
+  width: 30%;
+}
+
+.plan-photo img {
+  height: 270px;
+}
+
+.plan-heading hr.bar,
+.history-info hr.bar {
+  background-color: dodgerblue;
+  display: inline-block;
+}
+
+.history-slider {
+}
+
+.history-slider img {
+  object-fit: cover;
+  width: 300px;
+  height: 230px;
+}
+/* .history-slider div h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.history-slider div h4 span {
+  color: dodgerblue;
+}
+
+.history-slider div p {
+  font-size: 16px;
+  line-height: 1.5em;
+} */
+
+/* slick.js custom.css */
+
+.slick-arrow {
+  display: none !important;
+}
+
+.history-slider .slick-dots li button:before {
+  color: #fff;
+  font-size: 20px;
+}
+
+.history-slider .slick-dots li {
 }
