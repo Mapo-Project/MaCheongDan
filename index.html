@@ -36,22 +36,25 @@
               xmlns:xlink="http://www.w3.org/1999/xlink"
             >
               <filter id="water">
+                <!-- 전체 필터 기본 하위 영역을 채움 -->
                 <feTurbulence
                   type="fractalNoise"
                   baseFrequency=".05 .05"
                   numOctaves="1"
                   result="noise1"
                 ></feTurbulence>
+                <!-- 단위 행렬 -->
                 <feColorMatrix
                   in="noise1"
                   type="hueRotate"
                   values="0"
                   result="noise2"
                 >
+                  <!-- 애니메이션 속성 -->
                   <animate
                     attributeName="values"
                     from="0"
-                    to="360"
+                    to="350"
                     dur="1s"
                     repeatCount="indefinite"
                   />
@@ -68,7 +71,6 @@
             <div id="main">
               <img
                 src="https://cdn.imweb.me/upload/S202006097c05fcb776478/97a4e01aa8241.jpg"
-                alt="Hawaiian water crashes against the rocks"
               />
             </div>
           </div>
