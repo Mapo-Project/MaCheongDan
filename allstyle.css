@@ -300,3 +300,101 @@ hr.bar {
 .history-slider .slick-dots li {
   margin: 5px;
 }
+
+/* 섹션 프로젝트 */
+
+.project-inner {
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.project-info {
+  width: 25%;
+}
+.tabs {
+  height: 100%;
+  width: 300%;
+  transition: 0.5s;
+}
+.tab {
+  height: 100%;
+
+  float: left;
+  width: 33.333333%;
+}
+.tab > div {
+  height: 100%;
+  float: left;
+}
+.project-photo {
+  width: 75%;
+  overflow: hidden;
+}
+input[name="tabmenu"] {
+  display: none;
+}
+.btn {
+  left: 0;
+  bottom: 30px;
+  position: absolute;
+  width: 25%;
+  text-align: center;
+}
+.btn label {
+  cursor: pointer;
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 8px;
+  position: relative;
+}
+
+.btn label:before {
+  content: "";
+  display: inline-block;
+  border: 1px solid transparent;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  transition: 0.3s;
+}
+
+.btn label:hover:before {
+  border: 1px solid #bbb;
+}
+
+input[id="tab1"]:checked ~ .btn label[for="tab1"]:before,
+input[id="tab2"]:checked ~ .btn label[for="tab2"]:before,
+input[id="tab3"]:checked ~ .btn label[for="tab3"]:before {
+  border: 1px solid #aaa;
+}
+
+input[id="tab3"]:checked
+  ~ .btn
+  label[for="tab3"]:before
+  input[id="tab1"]:checked
+  ~ .btn
+  label[for="tab1"] {
+  color: red;
+}
+input[id="tab2"]:checked ~ .btn label[for="tab2"] {
+  color: blue;
+}
+input[id="tab3"]:checked ~ .btn label[for="tab3"] {
+  color: yellow;
+}
+input[id="tab1"]:checked ~ .tabs {
+  margin-left: 0;
+}
+input[id="tab2"]:checked ~ .tabs {
+  margin-left: -100%;
+}
+input[id="tab3"]:checked ~ .tabs {
+  margin-left: -200%;
+}
