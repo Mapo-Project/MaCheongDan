@@ -70,7 +70,9 @@ body {
   position: absolute;
   top: -5vh;
   left: -5vw;
+  -o-object-fit: cover;
   object-fit: cover;
+  -webkit-filter: url("#water");
   filter: url("#water");
 }
 
@@ -91,6 +93,7 @@ header {
 
 .logo img {
   width: 150px;
+  -o-object-fit: cover;
   object-fit: cover;
   margin-top: 10px;
 }
@@ -131,6 +134,7 @@ header {
   height: 200px;
   float: left;
   margin-right: 40px;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -206,6 +210,7 @@ header {
 .victory-jump img {
   width: 939px;
   height: 887px;
+  -o-object-fit: cover;
   object-fit: cover;
   /* position: absolute;
   top: 50%;
@@ -275,6 +280,7 @@ hr.bar {
 }
 
 .history-slider img {
+  -o-object-fit: cover;
   object-fit: cover;
   width: 300px;
   height: 230px;
@@ -377,4 +383,27 @@ hr.bar {
   color: #fff;
   font-size: 22px;
   margin: 0;
+}
+
+/* 섹션 컨택트 */
+.contact-inner {
+  background-color: #fff;
+  border: 1px solid #000;
+  height: 100%;
+}
+
+.contact-feature {
+  border: 1px solid #000;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-feature > div {
+  border: 1px solid #000;
+  height: 400px;
+  float: left;
+  width: 50%;
 }
