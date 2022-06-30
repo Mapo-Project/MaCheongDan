@@ -407,3 +407,20 @@ hr.bar {
   float: left;
   width: 50%;
 }
+
+.contact-form h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.send-box label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.send-box label span {
+  color: crimson;
+  font-weight: normal;
+}
