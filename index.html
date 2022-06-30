@@ -24,63 +24,21 @@
     <script defer src="custom.js"></script>
     <link rel="stylesheet" href="allstyle.css" />
     <link rel="stylesheet" href="Mobilestyle.css" />
+    <!-- scss -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <!-- animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax  -->
   <body data-hijacking="on" data-animation="gallery">
     <div class="container">
-      <section class="cd-section visible">
+      <section class="cd-section ">
         <div>
           <div class="content">
-            <!-- svg 활용한 메인이미지 -->
-            <svg
-              width="0"
-              height="0"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <filter id="water">
-                <!-- 전체 필터 기본 하위 영역을 채움 -->
-                <feTurbulence
-                  type="fractalNoise"
-                  baseFrequency=".05 .05"
-                  numOctaves="1"
-                  result="noise1"
-                ></feTurbulence>
-                <!-- 단위 행렬 -->
-                <feColorMatrix
-                  in="noise1"
-                  type="hueRotate"
-                  values="0"
-                  result="noise2"
-                >
-                  <!-- 애니메이션 속성 -->
-                  <animate
-                    attributeName="values"
-                    from="0"
-                    to="350"
-                    dur="1s"
-                    repeatCount="indefinite"
-                  />
-                </feColorMatrix>
-                <feDisplacementMap
-                  xChannelSelector="R"
-                  yChannelSelector="G"
-                  scale="7"
-                  in="SourceGraphic"
-                  in2="noise2"
-                />
-              </filter>
-            </svg>
-            <div id="main">
-              <img
-                src="https://cdn.imweb.me/upload/S202006097c05fcb776478/97a4e01aa8241.jpg"
-              />
-            </div>
-          </div>
-        </div>
+        
         <div class="text_Typing" data-trigger>
           <span class="text_box"></span>
         </div>
+        </div>
+       </div>
       </section>
 
 
@@ -306,14 +264,14 @@
         </div>
       </section>
 
-      <section class="cd-section" id="location">
+      <section class="cd-section visible" id="location">
         <div>
           <div class="content">
             <div class="location-inner">
               <div class="feature">
                 <div class="office">
                   <div class="headquarters">
-                    <b>CREATIVE DESGIN GROUP</b>
+                    <b>기관 정보</b>
                     <h2>Headquarters</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est magni ipsum pariatur velit soluta.</p>
                     <span>
@@ -329,21 +287,24 @@
                 <div class="service">
                   <div class="service-item">
                     <i class="fa fa-leaf"></i>
-                    <h3>Built and natural contexts</h3>
+                    <h3>앱개발 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
                     <p>
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque earum dolore nobis minus ratione dolor!
+                     	
+○ 목 적
+- 앱개발 및 UIUX 디자인 분야 맞춤형 청년인재 양성을 통한 취·창업 활성화
+- 마포구 및 산하기관 관련 앱(app) 디자인 및 개발을 통해 구정발전 도모
                     </p>
                   </div>
                   <div class="service-item">
                     <i class="fa fa-bullseye"></i>
-                    <h3>Landscape design</h3>
+                    <h3>방송콘텐츠 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, delectus tempora dolores voluptas itaque deleniti!
                     </p>
                   </div>
                   <div class="service-item">
                     <i class="fa fa-cube"></i>
-                    <h3>Every building site unique</h3>
+                    <h3>디자인 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id porro, molestias aliquam harum reprehenderit!
                     </p>
