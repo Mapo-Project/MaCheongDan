@@ -320,7 +320,6 @@ hr.bar {
 /* 로컬 섹션 */
 
 .location-inner {
-  background: url(images/background-location.jpg) no-repeat center center;
   height: 100%;
   position: relative;
 }
