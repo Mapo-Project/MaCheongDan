@@ -64,18 +64,6 @@ body {
 }
 
 /*  헤더 */
-#main img {
-  width: 1980px;
-  height: 1280px;
-  position: absolute;
-  top: -5vh;
-  left: -5vw;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -webkit-filter: url("#water");
-  filter: url("#water");
-}
-
 header {
   position: fixed;
   width: 100%;
@@ -528,4 +516,16 @@ hr.bar {
 .opacity-image {
   background: url(images/background-location.jpg) no-repeat center center;
   height: 100%;
+}
+/* 버튼이벤트 */
+.view-button {
+  color: #bbb;
+  back
+  border: 1px solid darkslateblue;borderborder
+  padding: 5px 15px;padding
+  border-radius: 20px;
+  transition: 0.5s;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18px;
 }
