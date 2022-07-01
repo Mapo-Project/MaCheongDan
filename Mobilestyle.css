@@ -1,4 +1,3 @@
-/* 전체메뉴레이아웃 */
 @media (max-width: 768px) {
   .cd-section {
     height: auto;
@@ -7,18 +6,27 @@
   .cd-section > div {
     height: auto;
   }
+
   .content {
-    background-color: #ddd;
     position: static;
     width: 100%;
     height: 100%;
   }
 
-  /* 헤더부분 */
-  .menu {
-    display: block;
+  /* header */
+  header {
+    transition: 0.5s;
+    z-index: 1;
   }
-
+  header.active {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  .menu {
+    display: block; 
+    line-height: 40px;
+    margin-top: 60px;
+  }
   .slogan {
     display: none;
   }
@@ -26,10 +34,14 @@
     background-color: #fff;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -270px;
     width: 250px;
     height: 100vh;
-    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.05);
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+  }
+  .gnb.active {
+    right: 0;
   }
   .menu a {
     text-align: right;
@@ -38,10 +50,8 @@
     color: #000;
     font-size: 18px;
   }
-  .menu {
-    line-height: 40px;
-    margin-top: 60px;
-  }
+
+  /* trigger */
   .trigger {
     display: block;
     width: 24px;
@@ -55,7 +65,7 @@
     height: 1px;
     width: 100%;
     background-color: #000;
-    transition: 0.3s;
+    transition: 0.5s;
   }
   .trigger span:nth-child(1) {
     top: 0;
@@ -67,17 +77,17 @@
   .trigger span:nth-child(3) {
     top: 100%;
   }
-  .trigger.actvie span:nth-child(1) {
-    top: 0;
+  .trigger.active span:nth-child(1) {
+    top: 50%;
     transform: rotate(45deg);
   }
-  .trigger.actvie span:nth-child(2) {
+  .trigger.active span:nth-child(2) {
     top: 50%;
     width: 80%;
     opacity: 0;
   }
-  .trigger.actvie span:nth-child(3) {
-    transform: rotate(-45deg);
+  .trigger.active span:nth-child(3) {
     top: 50%;
+    transform: rotate(-45deg);
   }
 }
