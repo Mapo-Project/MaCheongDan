@@ -1,3 +1,10 @@
+// 모바일 햄버거
+$(function () {
+  $(".trigger").click(function () {
+    $(this).toggleClass("active");
+  });
+});
+
 // 플랜 슬라이더
 $(".history-slider").slick({
   dots: true,
@@ -45,16 +52,16 @@ $(".project-photo").slick({
 
 // 글자타이핑
 
-const content = "안녕하세요 마포 청년 일자리 사업단 입니다.";
-const text = document.querySelector(".text_box");
-let i = 0;
+// const content = "안녕하세요 마포 청년 일자리 사업단 입니다.";
+// const text = document.querySelector(".text_box");
+// let i = 0;
 
-function typing() {
-  let txt = content[i++];
-  text.innerHTML += txt;
-  if (i > content.length) {
-    text.textContent = "";
-    i = 0;
-  }
-}
-setInterval(typing, 200);
+// function typing() {
+//   let txt = content[i++];
+//   text.innerHTML += txt;
+//   if (i > content.length) {
+//     text.textContent = "";
+//     i = 0;
+//   }
+// }
+// setInterval(typing, 200);

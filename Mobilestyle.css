@@ -1,0 +1,83 @@
+/* 전체메뉴레이아웃 */
+@media (max-width: 768px) {
+  .cd-section {
+    height: auto;
+  }
+
+  .cd-section > div {
+    height: auto;
+  }
+  .content {
+    background-color: #ddd;
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* 헤더부분 */
+  .menu {
+    display: block;
+  }
+
+  .slogan {
+    display: none;
+  }
+  .gnb {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.05);
+  }
+  .menu a {
+    text-align: right;
+    display: block;
+    padding-right: 20px;
+    color: #000;
+    font-size: 18px;
+  }
+  .menu {
+    line-height: 40px;
+    margin-top: 60px;
+  }
+  .trigger {
+    display: block;
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .trigger span {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    transition: 0.3s;
+  }
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    top: 50%;
+    width: 80%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+  .trigger.actvie span:nth-child(1) {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .trigger.actvie span:nth-child(2) {
+    top: 50%;
+    width: 80%;
+    opacity: 0;
+  }
+  .trigger.actvie span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 50%;
+  }
+}

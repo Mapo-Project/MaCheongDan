@@ -79,6 +79,8 @@ body {
 header {
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 .gnb-inner {
   width: calc(100% - 40px);
@@ -108,6 +110,11 @@ header {
 .slogan {
   font-size: 20px;
   font-weight: 500;
+  font-style: oblique;
+}
+
+.trigger {
+  display: none;
 }
 /* 섹션 어바웃 */
 .about-inner {
