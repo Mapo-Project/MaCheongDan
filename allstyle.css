@@ -518,14 +518,14 @@ hr.bar {
   height: 100%;
 }
 /* 버튼이벤트 */
-.view-button {
-  color: #bbb;
-  back
-  border: 1px solid darkslateblue;borderborder
-  padding: 5px 15px;padding
-  border-radius: 20px;
-  transition: 0.5s;
+.w-btn-indigo {
+  border: none;
   display: inline-block;
-  margin-top: 30px;
-  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  margin-left: 300px;
 }
