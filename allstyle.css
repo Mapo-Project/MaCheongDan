@@ -92,7 +92,7 @@ header {
 }
 
 .logo img {
-  width: 150px;
+  width: 200px;
   -o-object-fit: cover;
   object-fit: cover;
   margin-top: 10px;
