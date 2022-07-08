@@ -31,6 +31,11 @@
   <link rel="stylesheet" href="Mobilestyle.css" />
   <!-- scss -->
 
+  <!-- Kim-YeonJun Js Script -->
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3c835a0cdeec02c6a2c5230355156b69"></script>
+  <script defer src="./js/location.js"></script>
+  <!-- kakao map api -->
+
 </head>
 <!-- animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax  -->
 
@@ -182,58 +187,62 @@
     </section>
 
 
-
+    <!-- location 지도 섹션 -->
     <section class="cd-section" id="location">
       <div>
         <div class="content">
           <div class="location-inner">
             <div class="feature">
-              <div class="office">
-                <div class="headquarters">
-                  <b>기관 정보</b>
-                  <h2>Headquarters</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus
-                    eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est
-                    magni ipsum pariatur velit soluta.</p>
-                  <span>
-                    Address : Address: 309, New Cavendish St, EC1Y 3WK / Tel : 0800 214 5252</span>
-                </div>
-                <div class="customer">
-                  <b>THE PERFECT WAY</b>
-                  <h2>Customer Service</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus
-                    eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est
-                    magni ipsum pariatur velit soluta.</p>
-                  <span>Address : 11 Fifth Ave - New York, US / Tel : 0800 809 3400</span>
-                </div>
-              </div>
+              <!-- <div class="office"> -->
               <div class="service">
                 <div class="service-item">
-                  <i class="fa fa-leaf"></i>
-                  <h3>앱개발 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
+                  <h3>지하철<i class="fa fa-leaf"></i></h3>
                   <p>
+                    지하철 6호선 <br>
+                    마포구청역 3번출구 <br>
+                    약500m(도보 10분)
+                  </p>
+                </div>
+                <div class="service-item">
+                  <h3>버스<i class="fa fa-bullseye"></i></h3>
+                  <p>
+                    마포 중앙도서관 정류장(14196)<br>
+                    - 6714, 601, 606, 672, 674<br><br>
 
-                    앱개발 및 UIUX 디자인 분야 맞춤형 청년인재 양성을 통한 취창업 활성화
-                    마포구 및 산하기관 관련 앱(app) 디자인 및 개발을 통해 구정발전 도모
+                    마포 중앙도서관 정류장(14197)<br>
+                    - 6714, 601, 606, 672, 674
                   </p>
                 </div>
                 <div class="service-item">
-                  <i class="fa fa-bullseye"></i>
-                  <h3>방송콘텐츠 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
+                  <h3>자가용<i class="fa fa-cube"></i></h3>
                   <p>
-                    방송콘텐츠 제작 분야 맞춤형 청년인재 양성을 통한 취창업 활성화
-                    공공서비스 영역 방송콘텐츠 제작을 통한 구정발전 및 공익 추구
-                  </p>
-                </div>
-                <div class="service-item">
-                  <i class="fa fa-cube"></i>
-                  <h3>디자인 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
-                  <p>
-                    디자인 분야 맞춤형 청년인재 양성을 통한 취창업 활성화
-                    지역사회에서 무료로 활용할 수 있는 공공캐릭터 개발
+                    지번 : 서울특별시 마포구 성산동 81-85<br>
+                    도로명 : 서울특별시 마포구 성산로4길 53 (성산동) <br><br>
+                    
+                    前)마포구청 제3별관<br>
+                    전화 번호 : 02-3153-8555
                   </p>
                 </div>
               </div>
+              <div id="kakaomap"></div>
+              <!-- <div class="headquarters">
+                <b>기관 정보</b>
+                <h2>Headquarters</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus
+                  eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est
+                  magni ipsum pariatur velit soluta.</p>
+                <span>
+                  Address : Address: 309, New Cavendish St, EC1Y 3WK / Tel : 0800 214 5252</span>
+              </div> -->
+              <!-- <div class="customer">
+                <b>THE PERFECT WAY</b>
+                <h2>Customer Service</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus
+                  eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est
+                  magni ipsum pariatur velit soluta.</p>
+                <span>Address : 11 Fifth Ave - New York, US / Tel : 0800 809 3400</span>
+              </div> -->
+            <!-- </div> -->
             </div>
           </div>
         </div>
