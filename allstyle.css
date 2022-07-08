@@ -313,71 +313,102 @@ hr.bar {
 }
 
 /* 로컬 섹션 */
-
 .location-inner {
   height: 100%;
   position: relative;
 }
+
 .location-inner::before {
   position: absolute;
   content: "";
   background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   height: 100%;
+  /* border : 2px solid rgb(255, 0, 0); */
   display: block;
 }
+
 .feature {
-  width: 70%;
+  width: 90%;
+  height: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* border : 2px solid rgb(255, 255, 0); */
   color: #bbb;
-}
-.feature > div {
-  float: left;
-}
-.office {
-  width: 60%;
-  padding-right: 100px;
 }
 
 .service {
-  width: 40%;
+  width: 100%;
+  display: flex;
+  /* border : 2px solid rgb(255, 255, 255); */
+  justify-content: space-around;
 }
+
+.service-item {
+  width: 25%;
+  margin-bottom: 40px;
+  /* border: 1px solid blue; */
+}
+
+.service-item > h3 {
+  display: flex;
+  /* border : 2px solid rgb(255, 255, 255); */
+  border-bottom: 2px solid white;
+  justify-content: space-between;
+}
+
+.service-item .fa {
+  color: #da15c9;
+  font-size: 40px;
+}
+.service-item h3 {
+  color: #fff;
+  font-size: 22px;
+  /* margin: 0; */
+}
+
+#kakaomap {
+  margin-top: 10px;
+  width: 100%;
+  height: 60%;
+  /* border : 12px solid rgb(122, 122, 122); */
+}
+
+/* 구조 변경으로 주석 */
+/* 
+.feature > div {
+  float: left; 
+}
+
+.office {
+  width: 100%;
+  border : 2px solid rgb(0, 255, 255);
+  padding-right: 100px;
+
 .office b {
   font-weight: normal;
 }
+
 .office h2 {
   color: #1db1f0;
   font-weight: 500;
   margin-top: 5px;
 }
+
 .office p {
   font-size: 16px;
   line-height: 1.5em;
 }
+
 .office span {
   color: fff;
 }
 
 .customer {
   margin-top: 40px;
-}
-
-.service-item {
-  margin-bottom: 40px;
-}
-
-.service-item .fa {
-  color: #1db1f0;
-  font-size: 40px;
-}
-.service-item h3 {
-  color: #fff;
-  font-size: 22px;
-  margin: 0;
-}
+} */
 
 /* 섹션 컨택트 */
 .contact-inner {
