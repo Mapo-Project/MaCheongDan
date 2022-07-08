@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="js/featherlight/featherlight.css" /> -->
   <!-- 메인 모바일 스타일 제이쿼리 -->
   <script defer src="custom.js"></script>
+  <!-- main JS -->
+  <script defer src="js/main.js"></script>
   <link rel="stylesheet" href="allstyle.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="Mobilestyle.css" />
   <!-- scss -->
 
@@ -39,8 +42,18 @@
       <div>
         <div class="content">
           <div class="home-inner">
-            <h3 class="welcome-text">마포청년<span>일자리사업단<i class="fa fa-heart"></i></h3></span>
-            <div class="opacity-image"></div>
+            <!-- 메인페이지 동영상 및 타이핑 이펙트 -->
+            <div id="main_video">
+                <video autoplay muted loop id="myVideo">
+                    <source src="images/homepage/feather.mp4" type="video/mp4"/>
+                </video>
+                <!-- 메인페이지 텍스트 -->
+                <div class="type_effect_container">
+                    <h1><span>새로운</span>&nbsp;마포, 더<span>&nbsp;좋은</span>&nbsp;마포<br>
+                    청년 일자리 사업단</h1>
+                </div>
+            </div>
+
             <div class="home-heading">
               <span></span>
               <span></span>
@@ -294,9 +307,9 @@
                 청년에게 희망을 주지않는 청년일자리사업단입니다.
             </div>
             </div>
-            <button class="w-btn-indigo" type="button">
+            <!-- <button class="w-btn-indigo" type="button">
             BUTTON
-            </button>
+            </button> -->
             </div>
             <div class="trigger">
             <span></span>
