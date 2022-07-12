@@ -44,7 +44,7 @@ body {
   position: relative;
 }
 .content {
-  background-color: #ddd;
+  background-color: #fff;
   position: absolute;
   width: calc(100% - 40px);
   height: calc(100% - 80px);
@@ -314,25 +314,38 @@ hr.bar {
 
 /* 로컬 섹션 */
 .location-inner {
+  width: 1280px;
   height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   position: relative;
 }
 
 .location-inner::before {
   position: absolute;
   content: "";
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #F5F5F5;
   width: 100%;
   height: 100%;
   /* border: 2px solid rgb(255, 0, 0); */
   display: block;
+  
+}
+
+.name_location {
+  position: absolute;
+  font-size: 20px;
+  left : 10%;
+  color: #FF2068;
+  font-family: 'MapoPeacefull';
 }
 
 .feature {
-  width: 1280px;
+  width: 900px;
   height: 90%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* border: 2px solid rgb(255, 255, 0); */
@@ -348,31 +361,40 @@ hr.bar {
 
 .service-item {
   width: 25%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   /* border: 1px solid blue; */
 }
 
 .service-item > h3 {
   display: flex;
   /* border : 2px solid rgb(255, 255, 255); */
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
   justify-content: space-between;
 }
 
 .service-item .fa {
-  color: #da15c9;
-  font-size: 40px;
+  color: #000;
+  font-size: 30px;
+  /* line-height: 50px; */
 }
 .service-item h3 {
-  color: #fff;
+  color: #3C3243;
   font-size: 22px;
+  /* line-height: 50px; */
+  /* margin: 0; */
+}
+
+.service-item p {
+  color: #212529;
+  font-size: 12px;
+  /* line-height: 50px; */
   /* margin: 0; */
 }
 
 #kakaomap {
   margin-top: 10px;
   width: 100%;
-  height: 60%;
+  height: 40%;
   /* border : 12px solid rgb(122, 122, 122); */
 }
 
