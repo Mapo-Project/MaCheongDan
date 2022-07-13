@@ -47,17 +47,23 @@
       <div>
         <div class="content">
           <div class="home-inner">
-            <!-- 메인페이지 동영상 및 타이핑 이펙트 -->
-            <div id="main_video">
-                <video autoplay muted loop id="myVideo">
-                    <source src="images/homepage/feather.mp4" type="video/mp4"/>
-                </video>
-                <!-- 메인페이지 텍스트 -->
-                <div class="type_effect_container">
-                    <h1><span>새로운</span>&nbsp;마포, 더<span>&nbsp;좋은</span>&nbsp;마포<br>
-                    청년 일자리 사업단</h1>
-                </div>
-            </div>
+
+            <!-- 메인페이지 동영상 -->
+            <section class="youtube">
+              <div class="youtube__area">
+                <div id="player"></div>
+              </div>
+              <div class="youtube__cover"></div>
+              <div class="inner">
+              </div>
+            </section>
+
+            <!-- 메인페이지 타이핑 이펙트 -->
+            <div class="type_effect_container">
+              <div class="type_effect_text"></div>
+              <div class="type_effect_cursor">|</div>
+            </div> 
+
 
             <div class="home-heading">
               <span></span>
@@ -68,9 +74,7 @@
         </div>
       </div>
     </section>
-    <!-- <div class="text_Typing" data-trigger>
-        <span class="text_box"></span>
-      </div> -->
+    
 
 
     <section class="cd-section" id="awards">
