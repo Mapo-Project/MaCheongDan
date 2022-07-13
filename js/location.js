@@ -7,7 +7,7 @@ let lLon = 126.909335;
 //지도생성 셋팅
 const options = { //지도를 생성할 때 필요한 기본 옵션
     center: new kakao.maps.LatLng(lLat, lLon), //지도의 중심좌표.
-    level: 3 //지도의 레벨(확대, 축소 정도)
+    level: 5 //지도의 레벨(확대, 축소 정도)
 };
 
 //마커이미지 셋팅
