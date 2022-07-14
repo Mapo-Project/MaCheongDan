@@ -32,16 +32,18 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-const video = ["FxgBXQmyIsk", "0Jeob2pKSsU", "s02FZQhzBO8"];
+const video = ["FxgBXQmyIsk", "0Jeob2pKSsU", "s02FZQhzBO8", "ZKYHP3HyTGM"];
 /*
 FxgBXQmyIsk - 마포 시티 투어 영상
 0Jeob2pKSsU - 2022 마포구 관광 홍보영상
 s02FZQhzBO8 - Sense of Passion, 마포구 / 도심 6구 관광 홍보영상
+ZKYHP3HyTGM - 이중에 한명은 시즈니입니다. 
 */
 const randomNumber = Math.floor(Math.random() * video.length);
+
 var section = {
-  start: 30, // 반복 시작 시간(초)
-  end: 50, // 반복 종료 시간(초)
+  start: 163, // 반복 시작 시간(초)
+  end: 183, // 반복 종료 시간(초)
 };
 
 // 3. This function creates an <iframe> (and YouTube player)
@@ -51,7 +53,7 @@ var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player("player", {
     playerVars: { autoplay: 1, controls: 0, mute: 1 },
-    videoId: video[randomNumber], // 영상 고유 주소
+    videoId: "ZKYHP3HyTGM", // 영상 고유 주소
     events: {
       onReady: onPlayerReady,
       onStateChange: onPlayerStateChange,
