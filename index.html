@@ -1,319 +1,671 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마포 청년 일자리 사업단</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>마포 청년 일자리 사업단</title>
-  <link rel="stylesheet" href="js/velocity/velocity.css" />
-  <!-- jquery CDN -->
-  <script defer src="js/jquery-2.1.4.js"></script>
-  <!-- scrollTO -->
-  <script defer src="js/jquery.scrollTo.min.js"></script>
-  <!-- slick.js -->
-  <script defer src="slick/slick.min.js"></script>
-  <link rel="stylesheet" href="slick/slick-theme.css">
-  <link rel="stylesheet" href="slick/slick.css">
-  <!-- velocity & js -->
-  <script defer src="js/velocity/velocity.min.js"></script>
-  <script defer src="js/velocity/velocity.ui.min.js"></script>
-  <script defer src="js/velocity/main.js"></script>
-  <!-- Featherlight css & js -->
-  <!-- <script src="js/featherlight/featherlight.js"></script>
-    <link rel="stylesheet" href="js/featherlight/featherlight.css" /> -->
-  <!-- 메인 모바일 스타일 제이쿼리 -->
-  <script defer src="custom.js"></script>
-  <link rel="stylesheet" href="allstyle.css" />
-  <link rel="stylesheet" href="Mobilestyle.css" />
-  <!-- scss -->
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
 
-</head>
-<!-- animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax  -->
+    <!-- slider library-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
 
-<body data-hijacking="on" data-animation="rotate">
+    <!-- kakao map api -->
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=16c159fd8e6cf9b9dc0f34f5922c2f5a"
+    ></script>
 
-  <div class="container">
+    <!-- main JS -->
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <main class="main content-container">
+      <!-- header -->
+      <header class="header">
+        <div class="header__logo-wrapper">
+          <img
+            class="header__logo-img"
+            src="images/homepage/logo.png"
+            src="logo"
+          />
+          <h1 class="header__logo-text">Mapo Youth Job Foundation</h1>
+        </div>
+        <div class="header__main-text">
+          청년에게 희망을 주는 청년일자리사업단입니다
+        </div>
+      </header>
 
-    <section class="cd-section visible" id="home">
-      <div>
-        <div class="content">
-          <div class="home-inner">
-            <h3 class="welcome-text">마포청년<span>일자리사업단<i class="fa fa-heart"></i></h3></span>
-            <div class="opacity-image"></div>
-            <div class="home-heading">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+      <!-- main page background -->
+      <section class="home-background content-container">
+        <!-- youtube video -->
+        <div class="youtube">
+          <div class="youtube__area">
+            <div id="player"></div>
+          </div>
+          <div class="youtube__cover"></div>
+          <div class="inner"></div>
+        </div>
+
+        <!-- typing effect -->
+        <div class="type_effect_container">
+          <div class="type_effect_text"></div>
+          <div class="type_effect_cursor">|</div>
+        </div>
+
+        <div class="home-background__scroll-down-wrapper">
+          <div class="home-background__scroll-down-text-wrapper">
+            <p class="home-background__scroll-down-text">scroll down</p>
+            <img
+              class="home-background__scroll-down-pointer"
+              src="images/homepage/down_pointer.png"
+              alt="down_pointer"
+            />
           </div>
         </div>
-      </div>
-    </section>
-    <!-- <div class="text_Typing" data-trigger>
-        <span class="text_box"></span>
-      </div> -->
+      </section>
 
+      <!-- mapo slogan -->
+      <section class="mapo-slogan content-container">
+        <div class="mapo-slogan__text-wrapper">
+          <h1 class="mapo-slogan__title">‘새로운 마포, 더 좋은 마포’</h1>
+          <h2 class="mapo-slogan__subtitle">청년! 일속에서 가치를 만나다!</h2>
+          <p class="mapo-slogan__text">
+            마포형 청년일자리사업을 통해 청년들이<br />
+            IT·방송·디자인 등 전문분야에 대한역량을 <br />
+            쌓고 이를 바탕으로 자신의 꿈을 실현할 수 있도록<br />
+            전폭적으로 지원하고 있습니다. 코로나19가 장기화<br />
+            되면서 경기침체와 고용위기로 인해 청년들은 그<br />
+            어느 때보다 어려운 시기를 보내고 있습니다.
+          </p>
+          <h2 class="mapo-slogan__subtitle">버팀목이 돼드리는 따뜻한 도시</h2>
+          <p class="mapo-slogan__text">
+            현재 우리 구는 청년일자리 문제를 구정 핵심 과제로<br />
+            삼고 양질의 청년일자리 창출을 위해 다양한<br />
+            사업을 추진하고 있습니다.
+          </p>
+        </div>
+        <img
+          class="mapo-slogan__img"
+          alt="mapo-slogan"
+          src="/images/homepage/page_01_001.jpg"
+        />
+      </section>
 
-    <section class="cd-section" id="awards">
-      <div>
-        <div class="content">
-          <div class="awards-inner">
-            <div class="about-awards">
-              <div class="about-heading">
-                <h2>2022<br />마포 청년 일자리 사업단</h2>
-                <hr class="bar" />
-                <p>
-                  서울 마포구(구청장 유동균)는 상암동을 중심으로 한 디지털,
-                  미디어, 방송 산업 등이 밀집해 있는 특성을 반영한 디자인·IT
-                  분야에서 '마포형 청년일자리 사업' 참여자를 모집한다고
-                  밝혔다.'마포형 청년일자리 사업'은 "미취업 청년에게 최고의
-                  복지는 일자리 제공이다"라는 청년 일자리 사업에 대한 유동균
-                  마포구청장의 철학을 담은 민선 7기 역점 사업이다.
-                </p>
-                <a class="view-awards" href="#" target="_blank">마청단 신청하기</a>
-              </div>
-            </div>
-            <div class="victory-jump">
-              <img src="images/home_bg8.jpg" />
-            </div>
+      <!-- 2022 First half status -->
+      <section class="first-half-status content-container">
+        <h1 class="first-half-status__title">2022년 상반기 추진 현황</h1>
+        <p class="first-half-status__text">
+          마포 청년 일자리 사업단에서 청년들을 위해 교육능력, 직무능력 향상 및
+          자기 개발을 통해 진행된 과업 추진 현황입니다.
+        </p>
+        <div class="first-half-status__items-container">
+          <div class="first-half-status__items-wrapper">
+            <img
+              class="first-half-status__img"
+              src="images/homepage/page_02_001.jpg"
+            />
+            <h1 class="first-half-status__subtitle">캐릭터 디자인 과업추진</h1>
+            <p class="first-half-status__sub-text">
+              마포구 동주민센터 캐릭터 개발 추진<br />
+              마포동이 모여라! 캐릭터 개발 제작 회의<br />
+              마포구 캐릭터 개발 및 설명회
+            </p>
+          </div>
+          <div class="first-half-status__items-wrapper">
+            <img
+              class="first-half-status__img"
+              src="images/homepage/page_02_002.jpg"
+            />
+            <h1 class="first-half-status__subtitle">방송 컨텐츠 과업추진</h1>
+            <p class="first-half-status__sub-text">
+              MAPO[TV] 와 콜라보 영상제작<br />
+              마포크 자체 유튜브 채널 개설 및<br />
+              홍대에서 만난 인싸들 봄패션
+            </p>
+          </div>
+          <div class="first-half-status__items-wrapper">
+            <img
+              class="first-half-status__img"
+              src="images/homepage/page_02_003.jpg"
+            />
+            <h1 class="first-half-status__subtitle">앱개발 UX/UI 과업추진</h1>
+            <p class="first-half-status__sub-text">
+              마포구 서울시 관련 웹사이트 기획 및<br />
+              UX/UX 측면으로 접근 분석한 러너들을<br />
+              위한 런링루트 추천 사이트
+            </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="cd-section" id="about">
-      <div>
-        <div class="content">
-          <div class="about-inner">
-            <div class="about-items">
-              <div class="item">
-                <img src="images/interview_BcLd.jpg" />
-                <span>
-                  <h3>방송 컨텐츠 팀리더 정희영</h3>
-                  <p>
-                    혹시 실력이 안될까 지원을 망설이고 계신분들이 있다면
-                    고민하시지 말라고 말씀드리고 싶네요. 저도 비전공자인데,
-                    와서 많이 배우고 있습니다. 내년에 또 근무하고 싶을 정도로
-                    추천입니다.
-                  </p>
-                </span>
-              </div>
-              <div class="item">
-                <img src="images/interView_DevFront.jpg" />
-                <span>
-                  <h3>앱개발 & UI/UX 팀 추홍규</h3>
-                  <p>
-                    마포 청년 일자리 사업에 참여하기 전에는 청년들에게 그저
-                    취업을 시켜주기 위해 마포에서 하는 일이라고 생각했어요.
-                    하지만 직접 참여해 보니 청년들에게 취업과 관련되어 일의
-                    노하우를 배우고 자신감까지 키워 줍니다.
-                  </p>
-                </span>
-              </div>
-              <div class="item">
-                <img src="images/interview_DevUIUXLd.jpg" />
-                <span>
-                  <h3>앱개발 & UI/UX 팀 김연준</h3>
-                  <p>
-                    요즘 같은 힘든 코로나19 시대에 미취업 청년들을 위해 서울시
-                    마포구에서 주관하는 취,창업을 위한 관련 직종 직무역량 강화
-                    및 자기개발역량 강화에 도움을 주는 사업입니다.
-                  </p>
-                </span>
-              </div>
-            </div>
+      <!-- app-develop-uiux team -->
+      <section class="develop-uiux content-container">
+        <div class="develop-uiux__title-wrapper">
+          <h1 class="develop-uiux__title">UX/UI 앱개발 팀</h1>
+          <h1 class="develop-uiux__text">
+            기존 마포의 데이터 및 컨텐츠를 바탕으로<br />
+            새로운 컨텐츠를 기획, 디자인한다. 웹,<br />
+            앱으로 구현하여 구민들에게 서비스한다.
+          </h1>
+        </div>
+        <div class="develop-uiux__project-wrapper">
+          <div class="develop-uiux__inner-content-wrapper">
+            <h1 class="develop-uiux__inner-content-title">프로젝트</h1>
+            <p class="develop-uiux__inner-content-text">
+              마포 관련 컨텐츠를 바탕으로 새로운 서비스를기획, 디자인,
+              개발까지<br />
+              개인과업 진행 UX,UI팀이 기획과 디자인을 맡고 개발팀은서비스<br />
+              개발을 맡아 좀 더 규모있는 마포 관련 서비스 팀과업 진행
+            </p>
+            <a href="./pages/develop_uxui.html" target="_blank"
+              ><button class="develop-uiux__inner-content-button">
+                바로가기
+              </button></a
+            >
+          </div>
+          <img
+            class="develop-uiux__project-img"
+            alt="app-project-img"
+            src="images/homepage/page_03_002.jpg"
+          />
+        </div>
+        <div class="develop-uiux__conference-wrapper">
+          <img
+            class="develop-uiux__conference-img"
+            alt="app-conference-img"
+            src="images/homepage/page_03_003.jpg"
+          />
+          <div class="develop-uiux__inner-content-wrapper">
+            <h1 class="develop-uiux__inner-content-title">컨퍼런스</h1>
+            <p class="develop-uiux__inner-content-text">
+              2022 6/17 코엑스 스타트업 NEXTRISE 컨퍼런스 참관<br />
+              스타트업의 현재와 미래에 대한 인사이트 채용 설명회 진행
+            </p>
+            <a href="./pages/nextrise.html" target="_blank"
+              ><button class="develop-uiux__inner-content-button">
+                바로가기
+              </button></a
+            >
           </div>
         </div>
-      </div>
-    </section>
-    <section class="cd-section" id="plan">
-      <div>
-        <div class="content">
-          <div class="plan-inner">
-            <div class="plan-feature">
-              <div class="plan-info">
-                <div class="plan-heading">
-                  <h2>방송팀<br />프로젝트</h2>
-                  <hr class="bar" />
-                  <p>
-                    혹시 실력이 안될까 지원을 망설이고 계신분들이 있다면 고민하시지 말라고 말씀드리고 싶네요.저도 비전공자인데, 와서 많이 배우고 있습니다. 내년에 또 근무하고 싶을 정도로
-                    추천입니다.
-                  </p>
+      </section>
+
+      <!-- character team -->
+      <section class="character content-container">
+        <div class="character__title-wrapper">
+          <h1 class="character__title">캐릭터 팀</h1>
+          <h1 class="character__text">
+            마포구 지자체에 사용될 캐릭터를 제작한다.<br />
+            마포의 특징,슬로건,지향점을 바탕으로<br />
+            캐릭터의 성격, 역할, 디자인을 기획하고 개발한다.
+          </h1>
+        </div>
+        <div class="character__project-wrapper">
+          <div class="character__inner-content-wrapper">
+            <h1 class="character__inner-content-title">마포구 캐릭터 제작</h1>
+            <p class="character__inner-content-text">
+              캐릭터 사진 및 팀원 이름 마포구 각 동 캐릭터 기획, 제작<br />
+              지역의 특색을 살려 캐릭터의 외형, 성격, 스토리를 설정.
+            </p>
+            <a href="./pages/character.html" target="_blank"
+              ><button class="character__inner-content-button">
+                바로가기
+              </button></a
+            >
+          </div>
+          <img
+            class="character__project-img"
+            alt="app-project-img"
+            src="images/homepage/page_04_002.jpg"
+          />
+        </div>
+        <div class="character__conference-wrapper">
+          <img
+            class="character__conference-img"
+            alt="app-conference-img"
+            src="images/homepage/page_04_003.jpg"
+          />
+          <div class="character__inner-content-wrapper">
+            <h1 class="character__inner-content-title">
+              캐릭터 라이선싱 페어 2022
+            </h1>
+            <p class="character__inner-content-text">
+              캐릭터 사진 및 부스 사진 선정된 마포구 캐릭터를<br />
+              7/14~17 2022 캐릭터 라이선싱페어에서 부스 운영 및 홍보.
+            </p>
+            <a href="./pages/character_licensing.html" target="_blank"
+              ><button class="character__inner-content-button">
+                바로가기
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- broadcast team -->
+      <section class="broadcast content-container">
+        <div class="broadcast__title-wrapper">
+          <h1 class="broadcast__title">방송팀</h1>
+          <h1 class="broadcast__text">
+            마포를 중심으로 방송컨텐츠를 기획하고<br />
+            제작한다. 마포크유튜브 채널을 운영하며<br />
+            주기적으로 컨텐츠를 게시한다.<br />
+            사업단 행사가 있을때 촬영을 맡는다.
+          </h1>
+        </div>
+        <div class="broadcast__project-wrapper">
+          <div class="broadcast__inner-content-wrapper">
+            <h1 class="broadcast__inner-content-title">사업단 활동 촬영</h1>
+            <p class="broadcast__inner-content-text">
+              마포청년일자리사업단 활동 촬영<br />
+              경의선 책길 걷기, 청년생각 발표, 마포 시티투어, 각종 발표 등
+            </p>
+            <a href="./pages/event_shooting.html" target="_blank"
+              ><button class="broadcast__inner-content-button">
+                바로가기
+              </button></a
+            >
+          </div>
+          <img
+            class="broadcast__project-img"
+            alt="app-project-img"
+            src="images/homepage/page_05_002.jpg"
+          />
+        </div>
+        <div class="broadcast__conference-wrapper">
+          <img
+            class="broadcast__conference-img"
+            alt="app-conference-img"
+            src="images/homepage/page_05_003.jpg"
+          />
+          <div class="broadcast__inner-content-wrapper">
+            <h1 class="broadcast__inner-content-title">유튜브 채널운영</h1>
+            <p class="broadcast__inner-content-text">
+              유튜브 영상 사진 및 영상 제목 ‘마포크’ 채널 운영. 마포 가볼만한
+              곳,<br />
+              홍대 버스킹, 인터뷰, 예능컨텐츠 등의 영상 게시. shorts도 제작
+            </p>
+            <a href="./pages/mapo_creator.html" target="_blank"
+              ><button class="broadcast__inner-content-button">
+                바로가기
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- chungnyun think -->
+      <section class="chungnyun-think content-container">
+        <h1 class="chungnyun-think__title">청년생각 기획안 발표회</h1>
+        <div class="chungnyun-think__content-wrapper">
+          <div class="chungnyun-think__inner-content-wrapper">
+            <img
+              class="chungnyun-think__inner-img"
+              src="/images/homepage/page_06_001.jpg"
+              alt="chungnyun-think-01"
+            />
+            <h1 class="chungnyun-think__inner-title">마포 청년생각 발표회</h1>
+            <p class="chungnyun-think__inner-text">
+              마포형 청년일자리사업<br />
+              시작하기 에 앞서 마포 역사<br />
+              전통 이해 비전 정책방향 중점<br />
+              추진사업 마포알기 학습<br />
+              아이디어 각자 공유 발표함
+            </p>
+          </div>
+          <div class="chungnyun-think__inner-content-wrapper">
+            <img
+              class="chungnyun-think__inner-img"
+              src="/images/homepage/page_06_002.jpg"
+              alt="chungnyun-think-02"
+            />
+            <h1 class="chungnyun-think__inner-title">발표 내용</h1>
+            <p class="chungnyun-think__inner-text">
+              자기소개, 2주간 학습한<br />
+              마포구청에 대한 느낀점 소회<br />
+              및 본인분야 캐릭터 방송<br />
+              UX/UI디자인 앱개발<br />
+              청년생각 아이디어 발표
+            </p>
+          </div>
+          <div class="chungnyun-think__inner-content-wrapper">
+            <img
+              class="chungnyun-think__inner-img"
+              src="/images/homepage/page_06_003.jpg"
+              alt="chungnyun-think-03"
+            />
+            <h1 class="chungnyun-think__inner-title">세부추진계획</h1>
+            <p class="chungnyun-think__inner-text">
+              청년 일속에서 가치를 만나다<br />
+              1부 캐릭터팀 발표<br />
+              2부 앱개발 UX/UI 방송팀 발표<br />
+              마지막으로 응원격려말씀<br />
+              오상철 지원과장님
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gyeongui walk -->
+      <section class="Gyeongui-walk content-container">
+        <div class="Gyeongui-walk__content-wrapper">
+          <div class="Gyeongui-walk__title-wrapper">
+            <h1 class="Gyeongui-walk__title">경의선걷기</h1>
+            <h2 class="Gyeongui-walk__subtitle">
+              마포알기 경의선숲길 청년걷기 행사 및 간담회
+            </h2>
+            <p class="Gyeongui-walk__text">
+              2022년 제4기 마포형 청년 일자리 사업 참여자들이 마포알기<br />
+              경의선숲길 청년 걷기 행사 및 간담회를 추진을 통하여, 일터에서<br />
+              벗어나 아이디어를 찾고, 생활 속에서 삶의 여유를 가질 수 있게<br />
+              청년들에게 충전의 시간을 마련해준 행사입니다.
+            </p>
+          </div>
+
+          <iframe
+            class="Gyeongui-walk__main-video"
+            src="https://www.youtube.com/embed/tYXViELP9mQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <section id="Gyeongui-walk__slider">
+          <div class="container">
+            <div class="subcontainer">
+              <div class="slider-wrapper">
+                <div class="controller">
+                  <div id="Gyeongui-walk__controls">
+                    <button
+                      class="Gyeongui-walk__previous Gyeongui-walk__img-left-button"
+                    >
+                      <img src="images/homepage/left_pointer.png" />
+                    </button>
+                    <button
+                      class="Gyeongui-walk__next Gyeongui-walk__img-right-button"
+                    >
+                      <img src="images/homepage/right_pointer.png" />
+                    </button>
+                  </div>
                 </div>
-                <div class="plan-photo">
-                  <img src="images/interview_BcLd.jpg" />
-                </div>
-              </div>
-              <div class="history-info">
-                <h2>히스토리</h2>
-                <hr class="bar">
-                <div class="history-slider">
+                <div class="Gyeongui-walk__slider">
                   <div>
-                    <img src="images/방송콘텐츠/IMG_2092.JPG">
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-1"></div>
+                    </div>
                   </div>
                   <div>
-                    <img src="images/방송콘텐츠/IMG_2094.JPG">
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-2"></div>
+                    </div>
                   </div>
                   <div>
-                    <img src="images/방송콘텐츠/IMG_2095.JPG">
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-3"></div>
+                    </div>
                   </div>
                   <div>
-                    <img src="images/방송콘텐츠/IMG_2098.JPG">
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-4"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-5"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-6"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-7"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Gyeongui-walk__slider-img-8"></div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-    </section>
+        </section>
+      </section>
 
-
-
-    <section class="cd-section" id="location">
-      <div>
-        <div class="content">
-          <div class="location-inner">
-            <div class="feature">
-              <div class="office">
-                <div class="headquarters">
-                  <b>기관 정보</b>
-                  <h2>Headquarters</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus
-                    eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est
-                    magni ipsum pariatur velit soluta.</p>
-                  <span>
-                    Address : Address: 309, New Cavendish St, EC1Y 3WK / Tel : 0800 214 5252</span>
-                </div>
-                <div class="customer">
-                  <b>THE PERFECT WAY</b>
-                  <h2>Customer Service</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo accusantium neque delectus
-                    eaque excepturi consectetur, velit, unde voluptatem sapiente, cum animi. Ducimus, corrupti. Est
-                    magni ipsum pariatur velit soluta.</p>
-                  <span>Address : 11 Fifth Ave - New York, US / Tel : 0800 809 3400</span>
-                </div>
-              </div>
-              <div class="service">
-                <div class="service-item">
-                  <i class="fa fa-leaf"></i>
-                  <h3>앱개발 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
-                  <p>
-
-                    앱개발 및 UIUX 디자인 분야 맞춤형 청년인재 양성을 통한 취창업 활성화
-                    마포구 및 산하기관 관련 앱(app) 디자인 및 개발을 통해 구정발전 도모
-                  </p>
-                </div>
-                <div class="service-item">
-                  <i class="fa fa-bullseye"></i>
-                  <h3>방송콘텐츠 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
-                  <p>
-                    방송콘텐츠 제작 분야 맞춤형 청년인재 양성을 통한 취창업 활성화
-                    공공서비스 영역 방송콘텐츠 제작을 통한 구정발전 및 공익 추구
-                  </p>
-                </div>
-                <div class="service-item">
-                  <i class="fa fa-cube"></i>
-                  <h3>디자인 분야 청년인재 양성을 위한 마포형 청년일자리사업</h3>
-                  <p>
-                    디자인 분야 맞춤형 청년인재 양성을 통한 취창업 활성화
-                    지역사회에서 무료로 활용할 수 있는 공공캐릭터 개발
-                  </p>
-                </div>
-              </div>
-            </div>
+      <!-- Mapocity-tour -->
+      <section class="Mapocity-tour content-container">
+        <div class="Mapocity-tour__content-wrapper">
+          <div class="Mapocity-tour__title-wrapper">
+            <h1 class="Mapocity-tour__title">마포시티투어</h1>
+            <h2 class="Mapocity-tour__subtitle">
+              ‘일상 속에서 작은 여행을 꿈꾸다’
+            </h2>
+            <p class="Mapocity-tour__text">
+              마포구청 일자리 지원과 분들께서 코로나19로 지친 일상 속에서<br />
+              마포형 청년 일자리 사업 참여자에게 마포시티투어를 통해 작은<br />
+              여행을 선물해 준 행사입니다.마포시티투어는 도심 속 마포가<br />
+              가진 다양한 매력의 관광지를 해설사와 함께 여행하는 테마형<br />
+              가이드 투어입니다.
+            </p>
           </div>
+          <img
+            class="Mapocity-tour__main-img"
+            src="images/homepage/page_08_005.jpg"
+            alt="마포시티투어"
+          />
         </div>
-      </div>
-    </section>
 
-    <section class="cd-section" id="contact">
-      <div>
-        <div class="content">
-          <div class="contact-inner">
-            <div class="contact-feature">
-              <div class="contact-form">
-                <h3><b>Contact</b> Us</h3>
-                <p>Feel free to ask for details, dont’save any questions.</p>
-                <form class="send-box">
-                  <label>Email <span>*</span></label>
-                  <input type="email">
-                  <label>Subject <span>*</span></label>
-                  <input type="text">
-                  <label>Message<span>*</span></label>
-                  <textarea cols="30" rows="10"></textarea>
-                  <button>send Message</button>
-                </form>
-              </div>
-              <div class="contact-info">
-                <h4>Our <b>Office</b></h4>
-                <ul>
-                  <li>Address : Address: 309, New Cavendish St, EC1Y 3WK</li>
-                  <li>Phone : 0800 214 5252</li>
-                  <li>Email : designworks@designworks.com</li>
-                </ul>
-                <h4>Business <b>Hours</b></h4>
-                <ul>
-                  <li><i class="fa fa-clock-o"></i>Monday - Friday : 9am to 5pm</li>
-                  <li><i class="fa fa-clock-o"></i>Saturday : 9am to 2pm</li>
-                  <li><i class="fa fa-clock-o"></i>Sunday : Closed</li>
-                </ul>
-                <h4>Get in <b>Touch</b></h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nihil quod fugiat repudiandae
-                  corporis
-                  quis necessitatibus sed, quas impedit accusantium distinctio eveniet voluptates quisquam explicabo
-                  consequuntur iste veniam possimus iure ut inventore accusamus nulla. Nisi iusto aliquid dolorem quasi
-                  architecto.
-                </p>
+        <section id="Mapocity-tour__slider">
+          <div class="container">
+            <div class="subcontainer">
+              <div class="slider-wrapper">
+                <div class="controller">
+                  <div id="Mapocity-tour__controls">
+                    <button
+                      class="Mapocity-tour__previous Mapocity-tour__img-left-button"
+                    >
+                      <img src="images/homepage/left_pointer.png" />
+                    </button>
+                    <button
+                      class="Mapocity-tour__next Mapocity-tour__img-right-button"
+                    >
+                      <img src="images/homepage/right_pointer.png" />
+                    </button>
+                  </div>
+                </div>
+                <div class="Mapocity-tour__slider">
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-1"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-2"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-3"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-4"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-5"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-6"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-7"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide">
+                      <div class="slide-img Mapocity-tour__slider-img-8"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+      </section>
 
-
-
-    <!-- 헤더영역 -->
-    <header>
-      <div class="gnb-inner">
-        <div class="logo">
-          <a href="#none"><img src="images/Mapo Job Foundation-logo.png" /></a>
-        </div>
-        <div class="gnb">
-          <div class="menu">
-            <a href="#home">홈</a>
-            <a href="#awards">마청단이란</a>
-            <a href="#about">프로젝트</a>
-            <a href="#plan">계획 & 역사</a>
-            <a href="#location">수상</a>
-            <a href="#contact">찾아오는길</a>
+      <!-- way-to-come -->
+      <section class="way-to-come content-container">
+        <h1 class="way-to-come__title">오시는길</h1>
+        <div id="kakaomap"></div>
+        <div class="way-to-come__info-wrapper-first-line">
+          <div class="way-to-come__info-wrapper">
+            <div class="way-to-come__info-img-wrapper">
+              <img
+                class="way-to-come__info-img"
+                src="images/homepage/train.png"
+                alt="train"
+              />
+            </div>
+            <p class="way-to-come__info-text">
+              마포 중앙도서관 정류장(14196) 하차 200m
+            </p>
           </div>
-          <div class="slogan">
-            청년에게 희망을 주는 청년일자리사업단입니다.
+          <div class="way-to-come__info-wrapper">
+            <div class="way-to-come__info-img-wrapper">
+              <img
+                class="way-to-come__info-img"
+                src="images/homepage/train.png"
+                alt="train"
+              />
+            </div>
+            <p class="way-to-come__info-text">
+              지하철 6호선 마포구청역 3번출구 500m(도보 10분)
+            </p>
           </div>
         </div>
-        <button class="w-btn-indigo" type="button">
-        BUTTON
-        </button>
-      </div>
-      <div class="trigger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-  </div>
-  </header>
-  </div>
+        <div class="way-to-come__info-wrapper-second-line">
+          <div class="way-to-come__info-wrapper">
+            <div class="way-to-come__info-img-wrapper">
+              <img
+                class="way-to-come__info-img"
+                src="images/homepage/location.png"
+                alt="location"
+              />
+            </div>
+            <p class="way-to-come__info-text">
+              03965 서울특별시 마포구 성산로4길 53 (성산동)
+            </p>
+          </div>
+          <div class="way-to-come__info-wrapper">
+            <div class="way-to-come__info-img-wrapper">
+              <img
+                class="way-to-come__info-img"
+                src="images/homepage/phone.png"
+                alt="Phone"
+              />
+            </div>
+            <p class="way-to-come__info-text">02-3153-8555</p>
+          </div>
+        </div>
+      </section>
 
-  <!-- 위 아래 버튼 -->
-  <nav>
-    <ul class="cd-vertical-nav">
-      <li><a href="#0" class="cd-prev inactive">Next</a></li>
-      <li><a href="#0" class="cd-next">Prev</a></li>
-    </ul>
-  </nav>
-</body>
+      <!-- email -->
+      <section class="email content-container">
+        <h1 class="email__title">이메일</h1>
+        <p class="email__text">
+          마청단은 여러분을 환영합니다 이메일을 보내주세요
+        </p>
+        <form
+          class="email__form"
+          method="post"
+          action="https://script.google.com/macros/s/AKfycbwJsC2ypmajod7LXFIw4i4dr4IZ3SgTcb1b17_Y/exec"
+        >
+          <label class="email__input-name-label">
+            <span class="email__input-name-placeholder"
+              >이름<span>*</span></span
+            >
+            <input
+              type="text"
+              class="email__input-name"
+              id="usr"
+              name="username"
+            />
+          </label>
+          <label class="email__input-email-label">
+            <span class="email__input-email-placeholder"
+              >메일<span>*</span></span
+            >
+            <input
+              type="email"
+              class="email__input-email"
+              id="email"
+              name="email"
+            />
+          </label>
 
+          <label class="email__input-message-label">
+            <span class="email__input-message-placeholder"
+              >메세지<span>*</span></span
+            >
+            <input
+              type="text"
+              class="email__input-message"
+              id="comment"
+              name="message"
+            />
+          </label>
+
+          <button class="email__button-submit">메일전송</button>
+        </form>
+      </section>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__logo-wrapper">
+          <img
+            class="footer__logo-img"
+            src="images/homepage/logo_white.png"
+            src="logo_white"
+          />
+          <h1 class="footer__logo-text">Mapo Youth Job Foundation</h1>
+        </div>
+        <div class="footer__main-text">
+          03965 서울특별시 마포구 성산로4길 53 (성산동) , TEL. 02-3153-8555
+          등재된 모든 사진원고에 대한 저작권은<br />
+          마포청년사업단에 있습니다. 저작권자의 허락없이는 상업적인 목적으로
+          무단 사용 할 수 없습니다.
+        </div>
+      </footer>
+
+      <!-- background blocks -->
+      <div class="background-block__01"></div>
+      <div class="background-block__02"></div>
+      <div class="background-block__03"></div>
+      <div class="background-block__04"></div>
+      <div class="background-block__05"></div>
+      <div class="background-block__06"></div>
+    </main>
+  </body>
 </html>
