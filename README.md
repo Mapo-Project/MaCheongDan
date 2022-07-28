@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="./readmeimg/mapo.jpg">
+  <img src="./images/readme/mapo.jpg">
   <br>
 </p>
 
@@ -70,12 +70,12 @@ MIT &copy; [NoHack](mailto:changwoon2@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
-[js]: /readmeimg/javascript.svg
-[ts]: /readmeimg/typescript.svg
-[react]: /readmeimg/react.svg
-[node]: /readmeimg/node.svg
-[css]: /readmeimg/css.svg
-[html]: /readmeimg/html.svg
-[notion]: /readmeimg/notion.svg
-[figma]: /readmeimg/figma.svg
-[react-native]: /readmeimg/react-native.svg
+[js]: /images/readme/javascript.svg
+[ts]: /images/readme/typescript.svg
+[react]: /images/readme/react.svg
+[node]: /images/readme/node.svg
+[css]: /images/readme/css.svg
+[html]: /images/readme/html.svg
+[notion]: /images/readme/notion.svg
+[figma]: /images/readme/figma.svg
+[react-native]: /images/readme/react-native.svg
