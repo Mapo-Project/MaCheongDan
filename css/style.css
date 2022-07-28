@@ -957,8 +957,10 @@
 
   color: #212529;
 }
-.Mapocity-tour__main-img {
+.Mapocity-tour__main-video {
   width: 698px;
+  height: 392.625px;
+  margin-bottom: 50px;
 }
 .Mapocity-tour__slider-img-1 {
   background-image: url(./../images/homepage/page_08_001.jpg);
@@ -1456,7 +1458,7 @@
   z-index: 1;
   position: absolute;
   right: 0px;
-  top: 10643px;
+  top: 10543px;
   width: 417px;
   height: 1210px;
   background-repeat: no-repeat;
