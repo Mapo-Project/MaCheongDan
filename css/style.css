@@ -318,7 +318,7 @@
   align-items: center;
 }
 .develop-uiux__title-wrapper {
-  background-image: url(/images/homepage/page_03_001.jpg);
+  background-image: url(./../images/homepage/page_03_001.jpg);
   width: 1440px;
   height: 285px;
   display: flex;
@@ -442,7 +442,7 @@
   align-items: center;
 }
 .character__title-wrapper {
-  background-image: url(/images/homepage/page_04_001.jpg);
+  background-image: url(./../images/homepage/page_04_001.jpg);
   width: 1440px;
   height: 285px;
   display: flex;
@@ -566,7 +566,7 @@
   align-items: center;
 }
 .broadcast__title-wrapper {
-  background-image: url(/images/homepage/page_05_001.jpg);
+  background-image: url(./../images/homepage/page_05_001.jpg);
   width: 1440px;
   height: 285px;
   display: flex;
@@ -830,28 +830,28 @@
   transition: 0.5s;
 }
 .Gyeongui-walk__slider-img-1 {
-  background-image: url(/images/homepage/page_07_001.jpg);
+  background-image: url(./../images/homepage/page_07_001.jpg);
 }
 .Gyeongui-walk__slider-img-2 {
-  background-image: url(/images/homepage/page_07_002.jpg);
+  background-image: url(./../images/homepage/page_07_002.jpg);
 }
 .Gyeongui-walk__slider-img-3 {
-  background-image: url(/images/homepage/page_07_003.jpg);
+  background-image: url(./../images/homepage/page_07_003.jpg);
 }
 .Gyeongui-walk__slider-img-4 {
-  background-image: url(/images/homepage/page_07_004.jpg);
+  background-image: url(./../images/homepage/page_07_004.jpg);
 }
 .Gyeongui-walk__slider-img-5 {
-  background-image: url(/images/homepage/page_07_006.jpg);
+  background-image: url(./../images/homepage/page_07_006.jpg);
 }
 .Gyeongui-walk__slider-img-6 {
-  background-image: url(/images/homepage/page_07_007.jpg);
+  background-image: url(./../images/homepage/page_07_007.jpg);
 }
 .Gyeongui-walk__slider-img-7 {
-  background-image: url(/images/homepage/page_07_008.jpg);
+  background-image: url(./../images/homepage/page_07_008.jpg);
 }
 .Gyeongui-walk__slider-img-8 {
-  background-image: url(/images/homepage/page_07_009.jpg);
+  background-image: url(./../images/homepage/page_07_009.jpg);
 }
 
 @media (max-width: 1920px) {
@@ -961,28 +961,28 @@
   width: 698px;
 }
 .Mapocity-tour__slider-img-1 {
-  background-image: url(/images/homepage/page_08_001.jpg);
+  background-image: url(./../images/homepage/page_08_001.jpg);
 }
 .Mapocity-tour__slider-img-2 {
-  background-image: url(/images/homepage/page_08_002.jpg);
+  background-image: url(./../images/homepage/page_08_002.jpg);
 }
 .Mapocity-tour__slider-img-3 {
-  background-image: url(/images/homepage/page_08_003.jpg);
+  background-image: url(./../images/homepage/page_08_003.jpg);
 }
 .Mapocity-tour__slider-img-4 {
-  background-image: url(/images/homepage/page_08_004.jpg);
+  background-image: url(./../images/homepage/page_08_004.jpg);
 }
 .Mapocity-tour__slider-img-5 {
-  background-image: url(/images/homepage/page_08_006.jpg);
+  background-image: url(./../images/homepage/page_08_006.jpg);
 }
 .Mapocity-tour__slider-img-6 {
-  background-image: url(/images/homepage/page_08_007.jpg);
+  background-image: url(./../images/homepage/page_08_007.jpg);
 }
 .Mapocity-tour__slider-img-7 {
-  background-image: url(/images/homepage/page_08_008.jpg);
+  background-image: url(./../images/homepage/page_08_008.jpg);
 }
 .Mapocity-tour__slider-img-8 {
-  background-image: url(/images/homepage/page_08_009.jpg);
+  background-image: url(./../images/homepage/page_08_009.jpg);
 }
 .Mapocity-tour__img-left-button,
 .Mapocity-tour__img-right-button {
@@ -1410,7 +1410,7 @@
   width: 1126px;
   height: 1408px;
   background-repeat: no-repeat;
-  background-image: url(/images/homepage/background_block_01.png);
+  background-image: url(./../images/homepage/background_block_01.png);
 }
 .background-block__02 {
   z-index: -1;
@@ -1420,7 +1420,7 @@
   width: 1126px;
   height: 1408px;
   background-repeat: no-repeat;
-  background-image: url(/images/homepage/background_block_02.jpg);
+  background-image: url(./../images/homepage/background_block_02.jpg);
 }
 .background-block__03 {
   z-index: -1;
@@ -1430,7 +1430,7 @@
   width: 303px;
   height: 653px;
   background-repeat: no-repeat;
-  background-image: url(/images/homepage/background_block_03.jpg);
+  background-image: url(./../images/homepage/background_block_03.jpg);
 }
 .background-block__04 {
   z-index: -1;
@@ -1440,7 +1440,7 @@
   width: 326px;
   height: 653px;
   background-repeat: no-repeat;
-  background-image: url(/images/homepage/background_block_04.jpg);
+  background-image: url(./../images/homepage/background_block_04.jpg);
 }
 .background-block__05 {
   z-index: 1;
@@ -1450,7 +1450,7 @@
   width: 344px;
   height: 851px;
   background-repeat: no-repeat;
-  background-image: url(/images/homepage/background_block_05.png);
+  background-image: url(./../images/homepage/background_block_05.png);
 }
 .background-block__06 {
   z-index: 1;
@@ -1460,5 +1460,5 @@
   width: 417px;
   height: 1210px;
   background-repeat: no-repeat;
-  background-image: url(/images/homepage/background_block_06.png);
+  background-image: url(./../images/homepage/background_block_06.png);
 }
