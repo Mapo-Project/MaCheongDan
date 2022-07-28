@@ -12,7 +12,7 @@ header {
   background: black;
 }
 header .logo {
-  background-image: url(/images/character_licensing/logo.png);
+  background-image: url(./../images/character_licensing/logo.png);
   width: 146px;
   height: 60px;
   margin-left: 240px;
@@ -31,7 +31,7 @@ header .exit_button {
 .home__banner {
   width: 100%;
   height: 564px;
-  background: url(/images/character_licensing/banner.jpg);
+  background: url(./../images/character_licensing/banner.jpg);
 }
 
 .home__subtitle {
@@ -184,12 +184,12 @@ header .exit_button {
   width: 401px;
   height: 420px;
   border-radius: 20px;
-  background-image: url(/images/character_licensing/madoong.jpg);
+  background-image: url(./../images/character_licensing/madoong.jpg);
 }
 .subvisual {
   margin-top: 200px;
   margin-bottom: 200px;
-  background-image: url(/images/character_licensing/subvisual.jpg);
+  background-image: url(./../images/character_licensing/subvisual.jpg);
   width: 100%;
   height: 312px;
 }
