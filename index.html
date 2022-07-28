@@ -598,44 +598,25 @@
         <p class="email__text">
           마청단은 여러분을 환영합니다 이메일을 보내주세요
         </p>
-        <form
-          class="email__form"
-          method="post"
-          action="https://script.google.com/macros/s/AKfycbwJsC2ypmajod7LXFIw4i4dr4IZ3SgTcb1b17_Y/exec"
-        >
+        <form class="email__form" method="post">
           <label class="email__input-name-label">
             <span class="email__input-name-placeholder"
               >이름<span>*</span></span
             >
-            <input
-              type="text"
-              class="email__input-name"
-              id="usr"
-              name="username"
-            />
+            <input type="text" class="email__input-name" />
           </label>
           <label class="email__input-email-label">
             <span class="email__input-email-placeholder"
               >메일<span>*</span></span
             >
-            <input
-              type="email"
-              class="email__input-email"
-              id="email"
-              name="email"
-            />
+            <input type="email" class="email__input-email" />
           </label>
 
           <label class="email__input-message-label">
             <span class="email__input-message-placeholder"
               >메세지<span>*</span></span
             >
-            <input
-              type="text"
-              class="email__input-message"
-              id="comment"
-              name="message"
-            />
+            <input type="text" class="email__input-message" />
           </label>
 
           <button class="email__button-submit">메일전송</button>
