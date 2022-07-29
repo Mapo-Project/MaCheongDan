@@ -18,6 +18,8 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- kakao map api -->
     <script
       type="text/javascript"
@@ -602,28 +604,39 @@
         <p class="email__text">
           마청단은 여러분을 환영합니다 이메일을 보내주세요
         </p>
-        <form class="email__form" method="post">
+        <form
+          class="gform"
+          method="post"
+          data-email="superpowerkdg@gmail.com"
+          action="https://script.google.com/macros/s/AKfycbx-z106W_7YzRCxYKV9hohnIS_kdyLhIO_kqJD27nqwh2hjnUASPKe-xG4xXZZk-Eft/exec"
+        >
           <label class="email__input-name-label">
             <span class="email__input-name-placeholder"
               >이름<span>*</span></span
             >
-            <input type="text" class="email__input-name" />
+            <input type="text" class="email__input-name" name="name" />
           </label>
           <label class="email__input-email-label">
             <span class="email__input-email-placeholder"
               >메일<span>*</span></span
             >
-            <input type="email" class="email__input-email" />
+            <input type="email" class="email__input-email" name="email" />
           </label>
 
           <label class="email__input-message-label">
             <span class="email__input-message-placeholder"
               >메세지<span>*</span></span
             >
-            <input type="text" class="email__input-message" />
+            <input type="text" class="email__input-message" name="message" />
           </label>
 
           <button class="email__button-submit">메일전송</button>
+          <!-- <div style="display: none" class="thankyou_message">
+
+            <h2>
+              <em>Thanks</em> for contacting us! We will get back to you soon!
+            </h2>
+          </div> -->
         </form>
       </section>
       <!-- footer -->
@@ -652,5 +665,10 @@
       <div class="background-block__05"></div>
       <div class="background-block__06"></div>
     </main>
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="./js/form-submission-handler.js"
+    ></script>
   </body>
 </html>
