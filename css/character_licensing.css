@@ -103,8 +103,10 @@ header .exit_button {
   color: #000000;
 }
 .character-video__main-video {
-  width: 1440px;
-  height: 810px;
+  display: block;
+  margin: auto;
+  width: 1381px;
+  height: 800px;
   margin-bottom: 50px;
 }
 .character-video__border {
@@ -350,10 +352,11 @@ header .exit_button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .MapoBuddies__card-img {
-  margin-top: 25px;
-  width: 401.03px;
-  margin-left: 29.5px;
+  display: block;
   margin-bottom: 15px;
+  margin-top: 25px;
+  margin: auto;
+  height: 220px;
 }
 .MapoBuddies__card-title {
   font-family: "Noto Sans KR";
@@ -376,6 +379,9 @@ header .exit_button {
 }
 .green-text {
   color: #1cd762;
+}
+.blue-text {
+  color: #006be1;
 }
 .MapoBuddies__card-borderline {
   background-image: linear-gradient(
@@ -407,9 +413,11 @@ header .exit_button {
   width: 900px;
   height: 371px;
   background-image: url(./../images/character_licensing/buddies_05.jpg);
+  background-size: cover;
   margin-left: 29px;
   margin-top: 59px;
 }
+
 .MapoBuddies__action-img-1 {
   margin-right: 30px;
   margin-bottom: 50px;
