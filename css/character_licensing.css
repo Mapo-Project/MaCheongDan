@@ -400,7 +400,7 @@ header .exit_button {
 .MapoBuddies__card-maintext {
   font-family: "MaruBuri";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 180%;
   /* or 29px */
@@ -408,6 +408,9 @@ header .exit_button {
   letter-spacing: -0.015em;
 
   margin-left: 29px;
+}
+.MapoBuddies__card-maintext b {
+  font-weight: 600;
 }
 .MapoBuddies__card-end-img {
   width: 900px;
@@ -500,7 +503,7 @@ header .exit_button {
 .MapoFriends__card-maintext {
   font-family: "MaruBuri";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 180%;
   /* or 29px */

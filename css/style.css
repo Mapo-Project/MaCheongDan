@@ -782,14 +782,14 @@
 
   color: #3c3243;
 
-  margin: 50px 0;
+  margin: 30px 0;
 }
 .Gyeongui-walk__title-wrapper .Gyeongui-walk__text {
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 240%;
+  line-height: 180%;
   /* or 29px */
 
   letter-spacing: -0.015em;
@@ -943,14 +943,14 @@
 
   color: #3c3243;
 
-  margin: 50px 0;
+  margin: 30px 0;
 }
 .Mapocity-tour__title-wrapper .Mapocity-tour__text {
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 240%;
+  line-height: 180%;
   /* or 29px */
 
   letter-spacing: -0.015em;
