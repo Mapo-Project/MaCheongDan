@@ -1,3 +1,7 @@
+import "./../css/reset.css";
+import "./../css/style.css";
+import "./form-submission-handler";
+
 // typing effect
 const typingEffectText = `새로운 마포 더 좋은 마포 청년 일자리 사업단`;
 
@@ -276,7 +280,6 @@ const emailPlaceholder = document.querySelector(
   ".email__input-email-placeholder"
 );
 const emailInput = document.querySelector(".email__input-email");
-
 const messagePlaceholder = document.querySelector(
   ".email__input-message-placeholder"
 );
