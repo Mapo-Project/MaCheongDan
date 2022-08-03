@@ -77,6 +77,14 @@ function restartVideoSection() {
   player.seekTo(section.start);
 } // home page Youtube API 자동재생 끝
 
+// scroll down
+document
+  .querySelector(".home-background__scroll-down-wrapper")
+  .addEventListener("click", () => {
+    document.querySelector("#mapo-slogan").scrollIntoView({
+      behavior: "smooth",
+    });
+  });
 // 경의선 걷기, 마포시티투어 사진 슬라이더
 let GyeonguiWalkSlider = tns({
   container: ".Gyeongui-walk__slider",

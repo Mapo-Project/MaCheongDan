@@ -1,8 +1,3 @@
-/* scroll smooth */
-html {
-  scroll-behavior: smooth;
-}
-
 /* main container */
 .main {
   position: relative;
@@ -154,6 +149,8 @@ html {
 
   background: #ff2068;
   border-radius: 50%;
+
+  cursor: pointer;
 }
 .home-background__scroll-down-text-wrapper {
   position: relative;
