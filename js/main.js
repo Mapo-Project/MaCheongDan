@@ -77,6 +77,53 @@ function restartVideoSection() {
   player.seekTo(section.start);
 } // home page Youtube API 자동재생 끝
 
+// scroll down
+
+document
+  .querySelector(".home-background__scroll-down-wrapper")
+  .addEventListener("click", () => {
+    document.querySelector("#mapo-slogan").scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+
+let menus = document.querySelectorAll(".nav__menu-list");
+menus[0].addEventListener("click", () => {
+  document.querySelector("#home").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+menus[1].addEventListener("click", () => {
+  document.querySelector("#develop-uiux").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+menus[2].addEventListener("click", () => {
+  document.querySelector("#character").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+menus[3].addEventListener("click", () => {
+  document.querySelector("#broadcast").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+
+let currentHeight = window.innerHeight;
+const nav = document.querySelector(".nav.content-container");
+
+// scrolltop event 출력
+window.onscroll = () => {
+  if (window.scrollY > currentHeight - 60.0) {
+    nav.classList.add("__visible");
+  } else {
+    nav.classList.remove("__visible");
+  }
+};
+
+window.onresize = () => {
+  currentHeight = window.innerHeight;
+};
 // 경의선 걷기, 마포시티투어 사진 슬라이더
 let GyeonguiWalkSlider = tns({
   container: ".Gyeongui-walk__slider",

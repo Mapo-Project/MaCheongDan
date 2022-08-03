@@ -32,7 +32,7 @@
   <body>
     <main class="main content-container">
       <!-- header -->
-      <header class="header">
+      <header class="header" id="home">
         <div class="header__logo-wrapper">
           <img
             class="header__logo-img"
@@ -63,19 +63,39 @@
           <div class="type_effect_cursor">|</div>
         </div>
 
-        <a href="#mapo-slogan">
-          <div class="home-background__scroll-down-wrapper">
-            <div class="home-background__scroll-down-text-wrapper">
-              <p class="home-background__scroll-down-text">scroll down</p>
-              <img
-                class="home-background__scroll-down-pointer"
-                src="./images/homepage/down_pointer.png"
-                alt="down_pointer"
-              />
-            </div>
+        <div class="home-background__scroll-down-wrapper">
+          <div class="home-background__scroll-down-text-wrapper">
+            <p class="home-background__scroll-down-text">scroll down</p>
+            <img
+              class="home-background__scroll-down-pointer"
+              src="./images/homepage/down_pointer.png"
+              alt="down_pointer"
+            />
           </div>
-        </a>
+        </div>
       </section>
+
+      <!-- nav -->
+      <nav class="nav content-container">
+        <div class="nav__logo-wrapper">
+          <div class="nav__logo-wrapper">
+            <img
+              class="nav__logo-img"
+              src="./images/homepage/logo.png"
+              src="logo"
+            />
+            <h1 class="nav__logo-text">Mapo Youth Job Foundation</h1>
+          </div>
+        </div>
+        <div class="nav__menu-wrapper">
+          <ul>
+            <li class="nav__menu-list">Home</li>
+            <li class="nav__menu-list">UI/UX 개발</li>
+            <li class="nav__menu-list">캐릭터</li>
+            <li class="nav__menu-list">방송컨텐츠</li>
+          </ul>
+        </div>
+      </nav>
 
       <!-- mapo slogan -->
       <section class="mapo-slogan content-container" id="mapo-slogan">
@@ -151,7 +171,7 @@
       </section>
 
       <!-- app-develop-uiux team -->
-      <section class="develop-uiux content-container">
+      <section class="develop-uiux content-container" id="develop-uiux">
         <div class="develop-uiux__title-wrapper">
           <h1 class="develop-uiux__title">UI/UX 앱개발 팀</h1>
           <h1 class="develop-uiux__text">
@@ -205,7 +225,7 @@
       </section>
 
       <!-- character team -->
-      <section class="character content-container">
+      <section class="character content-container" id="character">
         <div class="character__title-wrapper">
           <h1 class="character__title">캐릭터 팀</h1>
           <h1 class="character__text">
@@ -259,7 +279,7 @@
       </section>
 
       <!-- broadcast team -->
-      <section class="broadcast content-container">
+      <section class="broadcast content-container" id="broadcast">
         <div class="broadcast__title-wrapper">
           <h1 class="broadcast__title">방송팀</h1>
           <h1 class="broadcast__text">
