@@ -23,7 +23,7 @@ const typingEffect = () => {
     text.innerHTML = "";
   }
 };
-setInterval(typingEffect, 500); // typing effect 끝
+setInterval(typingEffect, 250); // typing effect 끝
 
 // home page Youtube API 자동재생
 var tag = document.createElement("script");

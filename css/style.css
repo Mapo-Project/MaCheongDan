@@ -1,3 +1,8 @@
+/* scroll smooth */
+html {
+  scroll-behavior: smooth;
+}
+
 /* main container */
 .main {
   position: relative;
@@ -12,7 +17,7 @@
 }
 .header__logo-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-left: 260px;
 }
 .header__logo-text {
@@ -186,7 +191,7 @@
 .mapo-slogan.content-container {
   display: flex;
   gap: 125px;
-  margin-top: 200px;
+  padding-top: 200px;
   justify-content: center;
 }
 .mapo-slogan__text-wrapper {
@@ -419,6 +424,17 @@
   border: none;
   cursor: pointer;
 }
+.inner-content-button:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(48, 20, 223, 0.9),
+    rgba(25, 239, 213, 0.9)
+  );
+
+  color: #fff;
+  transition: 0.2s;
+}
+
 .develop-uiux__inner-content-button::before {
   content: "";
   position: absolute;
@@ -662,11 +678,12 @@
 
   padding: 14px 40px 12px 40px;
 
-  background-color: #fff;
+  background: #fff;
   border-radius: 45px;
   border: none;
   cursor: pointer;
 }
+
 .broadcast__inner-content-button::before {
   content: "";
   position: absolute;
@@ -1360,7 +1377,31 @@
   margin: auto;
   cursor: pointer;
 }
+.email__submited-text {
+  font-family: "MaruBuri";
+  display: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: -0.015em;
+
+  margin-top: 80px;
+}
+.email__submited-text h1 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.email__submited-text p {
+  margin-bottom: 50px;
+}
+.email__submited-img {
+  width: 700px;
+  border-radius: 50px;
+  opacity: 0.9;
+}
 /* footer */
+
 .footer {
   height: 90px;
   display: flex;
@@ -1371,7 +1412,7 @@
 }
 .footer__logo-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-left: 260px;
 }
 .footer__logo-text {
