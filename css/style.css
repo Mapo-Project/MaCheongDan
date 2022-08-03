@@ -12,7 +12,7 @@
 }
 .header__logo-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-left: 260px;
 }
 .header__logo-text {
@@ -149,6 +149,8 @@
 
   background: #ff2068;
   border-radius: 50%;
+
+  cursor: pointer;
 }
 .home-background__scroll-down-text-wrapper {
   position: relative;
@@ -182,11 +184,81 @@
   left: 43px;
 }
 
+/* nav */
+.nav.content-container {
+  width: 100%;
+  height: 60px;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  padding: 10px 10px;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.45);
+}
+.nav.content-container.__visible {
+  opacity: 1;
+  pointer-events: all;
+  background-color: #fff;
+  transition: 0.35s;
+}
+
+.nav__logo-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+.nav__logo-text {
+  font-family: "MaruBuri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+
+  letter-spacing: -0.015em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+.nav__menu-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.nav__menu-wrapper ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  font-size: 18px;
+  margin-right: 250px;
+}
+
+.nav__menu-list {
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+
+  font-family: "MaruBuri";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
 /* mapo slogan */
 .mapo-slogan.content-container {
   display: flex;
   gap: 125px;
-  margin-top: 200px;
+  padding-top: 200px;
   justify-content: center;
 }
 .mapo-slogan__text-wrapper {
@@ -241,6 +313,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 .first-half-status__title {
   font-family: "MaruBuri";
@@ -312,10 +385,11 @@
 
 /* app-develop-uiux team */
 .develop-uiux.content-container {
-  margin-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 .develop-uiux__title-wrapper {
   background-image: url(./../images/homepage/page_03_001.jpg);
@@ -419,6 +493,17 @@
   border: none;
   cursor: pointer;
 }
+.inner-content-button:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(48, 20, 223, 0.9),
+    rgba(25, 239, 213, 0.9)
+  );
+
+  color: #fff;
+  transition: 0.2s;
+}
+
 .develop-uiux__inner-content-button::before {
   content: "";
   position: absolute;
@@ -436,10 +521,11 @@
 
 /* character team */
 .character.content-container {
-  margin-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 .character__title-wrapper {
   background-image: url(./../images/homepage/page_04_001.jpg);
@@ -560,7 +646,7 @@
 
 /* broadcast team */
 .broadcast.content-container {
-  margin-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -662,11 +748,12 @@
 
   padding: 14px 40px 12px 40px;
 
-  background-color: #fff;
+  background: #fff;
   border-radius: 45px;
   border: none;
   cursor: pointer;
 }
+
 .broadcast__inner-content-button::before {
   content: "";
   position: absolute;
@@ -1360,7 +1447,31 @@
   margin: auto;
   cursor: pointer;
 }
+.email__submited-text {
+  font-family: "MaruBuri";
+  display: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: -0.015em;
+
+  margin-top: 80px;
+}
+.email__submited-text h1 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.email__submited-text p {
+  margin-bottom: 50px;
+}
+.email__submited-img {
+  width: 700px;
+  border-radius: 50px;
+  opacity: 0.9;
+}
 /* footer */
+
 .footer {
   height: 90px;
   display: flex;
@@ -1371,7 +1482,7 @@
 }
 .footer__logo-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-left: 260px;
 }
 .footer__logo-text {

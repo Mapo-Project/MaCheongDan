@@ -32,7 +32,7 @@
   <body>
     <main class="main content-container">
       <!-- header -->
-      <header class="header">
+      <header class="header" id="home">
         <div class="header__logo-wrapper">
           <img
             class="header__logo-img"
@@ -75,8 +75,30 @@
         </div>
       </section>
 
+      <!-- nav -->
+      <nav class="nav content-container">
+        <div class="nav__logo-wrapper">
+          <div class="nav__logo-wrapper">
+            <img
+              class="nav__logo-img"
+              src="./images/homepage/logo.png"
+              src="logo"
+            />
+            <h1 class="nav__logo-text">Mapo Youth Job Foundation</h1>
+          </div>
+        </div>
+        <div class="nav__menu-wrapper">
+          <ul>
+            <li class="nav__menu-list">Home</li>
+            <li class="nav__menu-list">UI/UX 개발</li>
+            <li class="nav__menu-list">캐릭터</li>
+            <li class="nav__menu-list">방송컨텐츠</li>
+          </ul>
+        </div>
+      </nav>
+
       <!-- mapo slogan -->
-      <section class="mapo-slogan content-container">
+      <section class="mapo-slogan content-container" id="mapo-slogan">
         <div class="mapo-slogan__text-wrapper">
           <h1 class="mapo-slogan__title">‘새로운 마포, 더 좋은 마포’</h1>
           <h2 class="mapo-slogan__subtitle">청년! 일속에서 가치를 만나다!</h2>
@@ -141,15 +163,15 @@
             />
             <h1 class="first-half-status__subtitle">앱개발 UI/UX 과업추진</h1>
             <p class="first-half-status__sub-text">
-              마포구 서울시 관련 웹사이트 기획<br />
-              개발 & UI/UX 개인과업 발표회
+              마포구 서울시 관련 웹사이트 개발<br />
+              개발 & UI/UX 과업 발표회
             </p>
           </div>
         </div>
       </section>
 
       <!-- app-develop-uiux team -->
-      <section class="develop-uiux content-container">
+      <section class="develop-uiux content-container" id="develop-uiux">
         <div class="develop-uiux__title-wrapper">
           <h1 class="develop-uiux__title">UI/UX 앱개발 팀</h1>
           <h1 class="develop-uiux__text">
@@ -166,7 +188,9 @@
               기존 공공 서비스 앱 UI/UX 리뉴얼
             </p>
             <a href="./pages/develop_uxui.html" target="_blank"
-              ><button class="develop-uiux__inner-content-button">
+              ><button
+                class="develop-uiux__inner-content-button inner-content-button"
+              >
                 바로가기
               </button></a
             >
@@ -190,7 +214,9 @@
               스타트업의 현재와 미래에 대한 최신 트렌드와 인사이트
             </p>
             <a href="./pages/nextrise.html" target="_blank"
-              ><button class="develop-uiux__inner-content-button">
+              ><button
+                class="develop-uiux__inner-content-button inner-content-button"
+              >
                 바로가기
               </button></a
             >
@@ -199,7 +225,7 @@
       </section>
 
       <!-- character team -->
-      <section class="character content-container">
+      <section class="character content-container" id="character">
         <div class="character__title-wrapper">
           <h1 class="character__title">캐릭터 팀</h1>
           <h1 class="character__text">
@@ -216,7 +242,9 @@
               마포구 각 동 캐릭터 기획, 제작
             </p>
             <a href="./pages/character.html" target="_blank"
-              ><button class="character__inner-content-button">
+              ><button
+                class="character__inner-content-button inner-content-button"
+              >
                 바로가기
               </button></a
             >
@@ -240,7 +268,9 @@
               운영 및 캐릭터 굿즈 전시
             </p>
             <a href="./pages/character_licensing.html" target="_blank"
-              ><button class="character__inner-content-button">
+              ><button
+                class="character__inner-content-button inner-content-button"
+              >
                 바로가기
               </button></a
             >
@@ -249,7 +279,7 @@
       </section>
 
       <!-- broadcast team -->
-      <section class="broadcast content-container">
+      <section class="broadcast content-container" id="broadcast">
         <div class="broadcast__title-wrapper">
           <h1 class="broadcast__title">방송팀</h1>
           <h1 class="broadcast__text">
@@ -266,7 +296,9 @@
               경의선 책길 걷기, 청년생각 발표, 마포 시티투어, 각종 발표 등
             </p>
             <a href="./pages/event_shooting.html" target="_blank"
-              ><button class="broadcast__inner-content-button">
+              ><button
+                class="broadcast__inner-content-button inner-content-button"
+              >
                 바로가기
               </button></a
             >
@@ -291,7 +323,9 @@
               홍대 버스킹, 인터뷰, 예능컨텐츠 등의 영상 게시. shorts도 제작
             </p>
             <a href="./pages/mapo_creator.html" target="_blank"
-              ><button class="broadcast__inner-content-button">
+              ><button
+                class="broadcast__inner-content-button inner-content-button"
+              >
                 바로가기
               </button></a
             >
@@ -589,38 +623,64 @@
 
       <!-- email -->
       <section class="email content-container">
-        <h1 class="email__title">이메일</h1>
-        <p class="email__text">
-          마청단은 여러분을 환영합니다 이메일을 보내주세요
-        </p>
-        <form
-          class="gform"
-          method="post"
-          data-email="superpowerkdg@gmail.com"
-          action="https://script.google.com/macros/s/AKfycbx-z106W_7YzRCxYKV9hohnIS_kdyLhIO_kqJD27nqwh2hjnUASPKe-xG4xXZZk-Eft/exec"
-        >
-          <label class="email__input-name-label">
-            <span class="email__input-name-placeholder"
-              >이름<span>*</span></span
-            >
-            <input type="text" class="email__input-name" name="name" />
-          </label>
-          <label class="email__input-email-label">
-            <span class="email__input-email-placeholder"
-              >메일<span>*</span></span
-            >
-            <input type="email" class="email__input-email" name="email" />
-          </label>
+        <div class="email__wrapper">
+          <h1 class="email__title">이메일</h1>
+          <p class="email__text">
+            마청단은 여러분을 환영합니다 이메일을 보내주세요
+          </p>
+          <form
+            class="gform"
+            method="post"
+            data-email="superpowerkdg@gmail.com"
+            action="https://script.google.com/macros/s/AKfycbx-z106W_7YzRCxYKV9hohnIS_kdyLhIO_kqJD27nqwh2hjnUASPKe-xG4xXZZk-Eft/exec"
+          >
+            <label class="email__input-name-label">
+              <span class="email__input-name-placeholder"
+                >이름<span>*</span></span
+              >
+              <input
+                type="text"
+                class="email__input-name"
+                name="name"
+                required
+              />
+            </label>
+            <label class="email__input-email-label">
+              <span class="email__input-email-placeholder"
+                >메일<span>*</span></span
+              >
+              <input
+                type="email"
+                class="email__input-email"
+                name="email"
+                required
+              />
+            </label>
 
-          <label class="email__input-message-label">
-            <span class="email__input-message-placeholder"
-              >메세지<span>*</span></span
-            >
-            <input type="text" class="email__input-message" name="message" />
-          </label>
+            <label class="email__input-message-label">
+              <span class="email__input-message-placeholder"
+                >메세지<span>*</span></span
+              >
+              <input
+                type="text"
+                class="email__input-message"
+                name="message"
+                required
+              />
+            </label>
 
-          <button class="email__button-submit">메일전송</button>
-        </form>
+            <button class="email__button-submit">메일전송</button>
+          </form>
+        </div>
+        <div class="email__submited-text">
+          <h1 class="email__title">이메일이 제출되었습니다 !</h1>
+          <p class="email__text">연락드리겠습니다</p>
+
+          <img
+            class="email__submited-img"
+            src="./images/homepage/email_submit_img.png"
+          />
+        </div>
       </section>
       <!-- footer -->
       <footer class="footer">
