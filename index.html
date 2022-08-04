@@ -30,21 +30,53 @@
     <script defer src="js/main.js"></script>
   </head>
   <body>
-    <main class="main content-container">
-      <!-- header -->
-      <header class="header" id="home">
-        <div class="header__logo-wrapper">
+    <main class="main content-container" id="home">
+      <!-- nav -->
+      <nav class="nav content-container">
+        <div class="nav__logo-wrapper">
           <img
-            class="header__logo-img"
+            class="nav__logo-img"
             src="./images/homepage/logo.png"
             src="logo"
           />
-          <h1 class="header__logo-text">Mapo Youth Job Foundation</h1>
+          <h1 class="nav__logo-text">Mapo Youth Job Foundation</h1>
         </div>
-        <div class="header__main-text">
-          청년에게 희망을 주는 청년일자리사업단입니다
+
+        <div class="nav__menu-wrapper">
+          <ul>
+            <li class="nav__dropdown-list">
+              <h1 class="nav__dropdown-btn introduce">Business</h1>
+              <div class="nav__dropdown-content introduce">
+                <h2 class="nav__dropdown-subtitle">사업단 소개</h2>
+                <h2 class="nav__dropdown-subtitle">상반기 추진현황</h2>
+              </div>
+            </li>
+            <li class="nav__dropdown-list">
+              <h1 class="nav__dropdown-btn team">Team</h1>
+              <div class="nav__dropdown-content team">
+                <h2 class="nav__dropdown-subtitle">UI/UX 개발</h2>
+                <h2 class="nav__dropdown-subtitle">캐릭터</h2>
+                <h2 class="nav__dropdown-subtitle">방송컨텐츠</h2>
+              </div>
+            </li>
+            <li class="nav__dropdown-list">
+              <h1 class="nav__dropdown-btn ceremony">Event</h1>
+              <div class="nav__dropdown-content ceremony">
+                <h2 class="nav__dropdown-subtitle">청년생각 발표</h2>
+                <h2 class="nav__dropdown-subtitle">경의선 걷기</h2>
+                <h2 class="nav__dropdown-subtitle">마포시티투어</h2>
+              </div>
+            </li>
+            <li class="nav__dropdown-list">
+              <h1 class="nav__dropdown-btn QnA">Contact us</h1>
+              <div class="nav__dropdown-content QnA">
+                <h2 class="nav__dropdown-subtitle">오시는길</h2>
+                <h2 class="nav__dropdown-subtitle">이메일</h2>
+              </div>
+            </li>
+          </ul>
         </div>
-      </header>
+      </nav>
 
       <!-- main page background -->
       <section class="home-background content-container">
@@ -75,28 +107,6 @@
         </div>
       </section>
 
-      <!-- nav -->
-      <nav class="nav content-container">
-        <div class="nav__logo-wrapper">
-          <div class="nav__logo-wrapper">
-            <img
-              class="nav__logo-img"
-              src="./images/homepage/logo.png"
-              src="logo"
-            />
-            <h1 class="nav__logo-text">Mapo Youth Job Foundation</h1>
-          </div>
-        </div>
-        <div class="nav__menu-wrapper">
-          <ul>
-            <li class="nav__menu-list">Home</li>
-            <li class="nav__menu-list">UI/UX 개발</li>
-            <li class="nav__menu-list">캐릭터</li>
-            <li class="nav__menu-list">방송컨텐츠</li>
-          </ul>
-        </div>
-      </nav>
-
       <!-- mapo slogan -->
       <section class="mapo-slogan content-container" id="mapo-slogan">
         <div class="mapo-slogan__text-wrapper">
@@ -125,7 +135,10 @@
       </section>
 
       <!-- 2022 First half status -->
-      <section class="first-half-status content-container">
+      <section
+        class="first-half-status content-container"
+        id="first-half-status"
+      >
         <h1 class="first-half-status__title">2022년 상반기 추진 현황</h1>
         <p class="first-half-status__text">
           마포 청년 일자리 사업단에서 청년들을 위해 교육능력, 직무능력 향상 및
@@ -135,7 +148,7 @@
           <div class="first-half-status__items-wrapper">
             <img
               class="first-half-status__img"
-              src="./images/homepage/page_02_001.jpg"
+              src="./images/homepage/page_02_002.jpg"
             />
             <h1 class="first-half-status__subtitle">캐릭터 디자인 과업추진</h1>
             <p class="first-half-status__sub-text">
@@ -147,7 +160,7 @@
           <div class="first-half-status__items-wrapper">
             <img
               class="first-half-status__img"
-              src="./images/homepage/page_02_002.jpg"
+              src="./images/homepage/page_02_001.jpg"
             />
             <h1 class="first-half-status__subtitle">방송 컨텐츠 과업추진</h1>
             <p class="first-half-status__sub-text">
@@ -334,7 +347,7 @@
       </section>
 
       <!-- chungnyun think -->
-      <section class="chungnyun-think content-container">
+      <section class="chungnyun-think content-container" id="chungnyun-think">
         <h1 class="chungnyun-think__title">청년생각 기획안 발표회</h1>
         <div class="chungnyun-think__content-wrapper">
           <div class="chungnyun-think__inner-content-wrapper">
@@ -386,7 +399,7 @@
       </section>
 
       <!-- Gyeongui walk -->
-      <section class="Gyeongui-walk content-container">
+      <section class="Gyeongui-walk content-container" id="Gyeongui-walk">
         <div class="Gyeongui-walk__content-wrapper">
           <div class="Gyeongui-walk__title-wrapper">
             <h1 class="Gyeongui-walk__title">경의선걷기</h1>
@@ -474,7 +487,7 @@
       </section>
 
       <!-- Mapocity-tour -->
-      <section class="Mapocity-tour content-container">
+      <section class="Mapocity-tour content-container" id="Mapocity-tour">
         <div class="Mapocity-tour__content-wrapper">
           <div class="Mapocity-tour__title-wrapper">
             <h1 class="Mapocity-tour__title">마포시티투어</h1>
@@ -566,7 +579,7 @@
       </section>
 
       <!-- way-to-come -->
-      <section class="way-to-come content-container">
+      <section class="way-to-come content-container" id="way-to-come">
         <h1 class="way-to-come__title">오시는길</h1>
         <div id="kakaomap"></div>
         <div class="way-to-come__info-wrapper-first-line">
@@ -621,8 +634,8 @@
         </div>
       </section>
 
-      <!-- email -->
-      <section class="email content-container">
+      <!-- email(contact-us) -->
+      <section class="email content-container" id="contact-us">
         <div class="email__wrapper">
           <h1 class="email__title">이메일</h1>
           <p class="email__text">

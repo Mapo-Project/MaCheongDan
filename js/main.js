@@ -87,43 +87,73 @@ document
     });
   });
 
-let menus = document.querySelectorAll(".nav__menu-list");
-menus[0].addEventListener("click", () => {
+const home = document.querySelector(".nav__logo-wrapper");
+home.addEventListener("click", () => {
   document.querySelector("#home").scrollIntoView({
     behavior: "smooth",
   });
 });
-menus[1].addEventListener("click", () => {
+const introduce = document.querySelectorAll(
+  ".nav__dropdown-content.introduce > h2"
+);
+introduce[0].addEventListener("click", () => {
+  document.querySelector("#mapo-slogan").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+introduce[1].addEventListener("click", () => {
+  document.querySelector("#first-half-status").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+const team = document.querySelectorAll(".nav__dropdown-content.team > h2");
+team[0].addEventListener("click", () => {
   document.querySelector("#develop-uiux").scrollIntoView({
     behavior: "smooth",
   });
 });
-menus[2].addEventListener("click", () => {
+team[1].addEventListener("click", () => {
   document.querySelector("#character").scrollIntoView({
     behavior: "smooth",
   });
 });
-menus[3].addEventListener("click", () => {
+team[2].addEventListener("click", () => {
   document.querySelector("#broadcast").scrollIntoView({
     behavior: "smooth",
   });
 });
 
-let currentHeight = window.innerHeight;
-const nav = document.querySelector(".nav.content-container");
+const ceremony = document.querySelectorAll(
+  ".nav__dropdown-content.ceremony > h2"
+);
+ceremony[0].addEventListener("click", () => {
+  document.querySelector("#chungnyun-think").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+ceremony[1].addEventListener("click", () => {
+  document.querySelector("#Gyeongui-walk").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+ceremony[2].addEventListener("click", () => {
+  document.querySelector("#Mapocity-tour").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+const QnA = document.querySelectorAll(".nav__dropdown-content.QnA > h2");
 
-// scrolltop event 출력
-window.onscroll = () => {
-  if (window.scrollY > currentHeight - 60.0) {
-    nav.classList.add("__visible");
-  } else {
-    nav.classList.remove("__visible");
-  }
-};
+QnA[0].addEventListener("click", () => {
+  document.querySelector("#way-to-come").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+QnA[1].addEventListener("click", () => {
+  document.querySelector("#contact-us").scrollIntoView({
+    behavior: "smooth",
+  });
+});
 
-window.onresize = () => {
-  currentHeight = window.innerHeight;
-};
 // 경의선 걷기, 마포시티투어 사진 슬라이더
 let GyeonguiWalkSlider = tns({
   container: ".Gyeongui-walk__slider",
@@ -246,9 +276,7 @@ const emailPlaceholder = document.querySelector(
   ".email__input-email-placeholder"
 );
 const emailInput = document.querySelector(".email__input-email");
-function hideName() {
-  namePlaceholder.style.display = "none";
-}
+
 const messagePlaceholder = document.querySelector(
   ".email__input-message-placeholder"
 );
@@ -261,16 +289,6 @@ function visibleName() {
     namePlaceholder.style.display = "inline-block";
   } else {
     hideName();
-  }
-}
-function hideEmail() {
-  emailPlaceholder.style.display = "none";
-}
-function visibleEmail() {
-  if (!emailInput.value) {
-    emailPlaceholder.style.display = "inline-block";
-  } else {
-    hideEmail();
   }
 }
 function hideEmail() {
