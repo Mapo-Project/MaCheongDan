@@ -276,9 +276,7 @@ const emailPlaceholder = document.querySelector(
   ".email__input-email-placeholder"
 );
 const emailInput = document.querySelector(".email__input-email");
-function hideName() {
-  namePlaceholder.style.display = "none";
-}
+
 const messagePlaceholder = document.querySelector(
   ".email__input-message-placeholder"
 );
@@ -291,16 +289,6 @@ function visibleName() {
     namePlaceholder.style.display = "inline-block";
   } else {
     hideName();
-  }
-}
-function hideEmail() {
-  emailPlaceholder.style.display = "none";
-}
-function visibleEmail() {
-  if (!emailInput.value) {
-    emailPlaceholder.style.display = "inline-block";
-  } else {
-    hideEmail();
   }
 }
 function hideEmail() {
