@@ -10,7 +10,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin');
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: {
 		main: './js/main.js',
 		character_licensing: './js/character_licensing.js',
@@ -27,7 +27,7 @@ module.exports = {
 		assetModuleFilename: 'asset/[name].[hash][ext]',
 	},
 	// 디버깅 쉽게 해줌
-	devtool: 'eval',
+	devtool: 'hidden-source-map',
 
 	module: {
 		rules: [
