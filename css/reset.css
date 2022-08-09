@@ -1,55 +1,70 @@
 /* Noto sans Kr font */
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  src: url(./../fonts/NotoSansKR-Black.otf) format("opentype");
-  font-weight: 900;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	src: url(./../fonts/noto-sans-kr-v27-korean-900.woff2) format('woff2'),
+		url(./../fonts/noto-sans-kr-v27-korean-900.woff) format('woff');
+	font-weight: 900;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  src: url(./../fonts/NotoSansKR-Bold.otf) format("opentype");
-  font-weight: 700;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	src: url(./../fonts/noto-sans-kr-v27-korean-700.woff2) format('woff2'),
+		url(./../fonts/noto-sans-kr-v27-korean-700.woff) format('woff');
+	font-weight: 700;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  src: url(./../fonts/NotoSansKR-Medium.otf) format("opentype");
-  font-weight: 500;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	src: url(./../fonts/noto-sans-kr-v27-korean-500.woff2) format('woff2'),
+		url(./../fonts/noto-sans-kr-v27-korean-500.woff) format('woff');
+	font-weight: 500;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  src: url(./../fonts/NotoSansKR-Regular.otf) format("opentype");
-  font-weight: 400;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	src: url(./../fonts/noto-sans-kr-v27-korean-regular.woff2) format('woff2'),
+		url(./../fonts/noto-sans-kr-v27-korean-regular.woff) format('woff');
+	font-weight: 400;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  src: url(./../fonts/NotoSansKR-Light.otf) format("opentype");
-  font-weight: 300;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	src: url(./../fonts/noto-sans-kr-v27-korean-300.woff2) format('woff2'),
+		url(./../fonts/noto-sans-kr-v27-korean-300.woff) format('woff');
+	font-weight: 300;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  src: url(./../fonts/NotoSansKR-Thin.otf) format("opentype");
-  font-weight: 100;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	src: url(./../fonts/noto-sans-kr-v27-korean-100.woff2) format('woff2'),
+		url(./../fonts/noto-sans-kr-v27-korean-100.woff) format('woff');
+	font-weight: 100;
+	font-display: swap;
 }
 
 /* MaruBuri font */
 @font-face {
-  font-family: "MaruBuri";
-  src: url(./../fonts/MaruBuri-Bold.woff2) format("woff2");
-  font-weight: bold;
+	font-family: 'MaruBuri';
+	src: url(./../fonts/MaruBuri-Bold.woff2) format('woff2');
+	font-weight: bold;
+	font-display: swap;
 }
 @font-face {
-  font-family: "MaruBuri";
-  src: url(./../fonts/MaruBuri-Regular.woff2) format("woff2");
+	font-family: 'MaruBuri';
+	src: url(./../fonts/MaruBuri-Regular.woff2) format('woff2');
+	font-display: swap;
 }
 @font-face {
-  font-family: "MaruBuri";
-  src: url(./../fonts/MaruBuri-ExtraLight.woff2) format("woff2");
-  font-weight: 100;
+	font-family: 'MaruBuri';
+	src: url(./../fonts/MaruBuri-ExtraLight.woff2) format('woff2');
+	font-weight: 100;
+	font-display: swap;
 }
 
 /* reset css */
@@ -134,12 +149,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -153,32 +168,32 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol,
 ul {
-  /* list-style: none; */
+	/* list-style: none; */
 }
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 /* reset css */
