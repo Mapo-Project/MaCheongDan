@@ -22,7 +22,7 @@ module.exports = {
 	},
 	output: {
 		filename: '[name].[hash].js',
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'docs'),
 		clean: true, // 안쓰는 빌드파일 삭제
 		assetModuleFilename: 'asset/[name].[hash][ext]',
 	},
