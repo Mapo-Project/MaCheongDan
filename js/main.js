@@ -164,6 +164,18 @@ let GyeonguiWalkSlider = tns({
 		1920: {
 			items: 4,
 		},
+		1600: {
+			items: 4,
+		},
+		1200: {
+			items: 3,
+		},
+		800: {
+			items: 2,
+		},
+		400: {
+			items: 1,
+		},
 	},
 });
 let MapocityTourSlider2 = tns({
@@ -179,6 +191,18 @@ let MapocityTourSlider2 = tns({
 		// 반응형
 		1920: {
 			items: 4,
+		},
+		1600: {
+			items: 4,
+		},
+		1200: {
+			items: 3,
+		},
+		800: {
+			items: 2,
+		},
+		400: {
+			items: 1,
 		},
 	},
 });
