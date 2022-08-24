@@ -1,760 +1,760 @@
 .container {
-  position: relative;
+	position: relative;
 }
 /* header */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-  width: 100%;
-  height: 80px;
-  background: black;
+	width: 100%;
+	height: 80px;
+	background: black;
 }
 header .logo {
-  background-image: url(./../images/character_licensing/logo.png);
-  width: 146px;
-  height: 60px;
-  margin-left: 240px;
+	background-image: url(./../images/character_licensing/logo.png);
+	width: 146px;
+	height: 60px;
+	margin-left: 240px;
 }
 header .exit_button {
-  width: 48px;
-  margin-right: 388px;
+	width: 48px;
+	margin-right: 388px;
 }
 
 /* home */
 .home.content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .home__banner {
-  width: 100%;
-  height: 564px;
-  background: url(./../images/character_licensing/banner.jpg);
+	width: 100%;
+	height: 564px;
+	background: url(./../images/character_licensing/banner.jpg);
 }
 
 .home__subtitle {
-  margin-top: 100px;
-  margin-bottom: 30px;
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 160%;
-  /* or 38px */
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 160%;
+	/* or 38px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
+	color: #212529;
 }
 .home__title {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 160%;
-  /* or 51px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 160%;
+	/* or 51px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #113a71;
+	color: #113a71;
 }
 .home__text-wrapper {
-  margin-top: 50px;
-  margin-bottom: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1440px;
-  height: 184px;
-  background: #eaeaea;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1440px;
+	height: 184px;
+	background: #eaeaea;
 }
 .home__text {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 180%;
-  /* or 29px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	/* or 29px */
 
-  text-align: center;
-  letter-spacing: -0.015em;
+	text-align: center;
+	letter-spacing: -0.015em;
 
-  color: #212529;
+	color: #212529;
 }
 
 /* character video */
 .character-video.content-container {
-  width: 1440px;
-  margin: auto;
+	width: 1440px;
+	margin: auto;
 }
 .character-video__title {
-  margin-bottom: 50px;
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 160%;
-  /* or 51px */
+	margin-bottom: 50px;
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 160%;
+	/* or 51px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #000000;
+	color: #000000;
 }
 .character-video__main-video {
-  display: block;
-  margin: auto;
-  width: 1381px;
-  height: 800px;
-  margin-bottom: 50px;
+	display: block;
+	margin: auto;
+	width: 1381px;
+	height: 800px;
+	margin-bottom: 50px;
 }
 .character-video__border {
-  border: 1px solid #96c6eb;
-  width: 1440px;
-  margin-bottom: 50px;
+	border-bottom: 1px solid #96c6eb;
+	width: 1440px;
+	margin-bottom: 50px;
 }
 .character-video__horizon-cards-wrapper {
-  display: flex;
-  gap: 70px;
-  flex-direction: column;
+	display: flex;
+	gap: 70px;
+	flex-direction: column;
 }
 
 .character-video__vertical-cards-wrapper {
-  display: flex;
-  gap: 30px;
+	display: flex;
+	gap: 30px;
 }
 .character-video__card-wrapper {
-  flex-direction: column;
-  width: 460px;
-  height: 490px;
-  border: 1px solid #dfdede;
-  border-radius: 20px;
+	flex-direction: column;
+	width: 460px;
+	height: 490px;
+	border: 1px solid #dfdede;
+	border-radius: 20px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .character-video__card-video {
-  margin-top: 25px;
-  width: 401.03px;
-  height: 225.579375px;
-  margin-left: 29px;
+	margin-top: 25px;
+	width: 401.03px;
+	height: 225.579375px;
+	margin-left: 29px;
 }
 .character-video__card-title {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 160%;
-  /* identical to box height, or 32px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+	/* identical to box height, or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
-  margin-top: 15px;
-  margin-left: 29px;
+	color: #212529;
+	margin-top: 15px;
+	margin-left: 29px;
 }
 .character-video__card-borderline {
-  background-image: linear-gradient(
-    to right,
-    #ff2068 50%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: bottom;
-  background-size: 16px 1px;
-  background-repeat: repeat-x;
-  padding-bottom: 14px;
-  margin-bottom: 11px;
-  width: 200.51px;
-  margin-left: 29.5px;
+	background-image: linear-gradient(
+		to right,
+		#ff2068 50%,
+		rgba(255, 255, 255, 0) 0%
+	);
+	background-position: bottom;
+	background-size: 16px 1px;
+	background-repeat: repeat-x;
+	padding-bottom: 14px;
+	margin-bottom: 11px;
+	width: 200.51px;
+	margin-left: 29.5px;
 }
 .character-video__card-maintext {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 180%;
-  /* or 32px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	/* or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
-  margin-left: 29px;
+	color: #212529;
+	margin-left: 29px;
 }
 .character-video__madoong {
-  margin-top: 35px;
-  margin-left: 30px;
-  width: 401px;
-  height: 420px;
-  border-radius: 20px;
-  background-image: url(./../images/character_licensing/madoong.jpg);
+	margin-top: 35px;
+	margin-left: 30px;
+	width: 401px;
+	height: 420px;
+	border-radius: 20px;
+	background-image: url(./../images/character_licensing/madoong.jpg);
 }
 .subvisual {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  background-image: url(./../images/character_licensing/subvisual.jpg);
-  width: 100%;
-  height: 312px;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	background-image: url(./../images/character_licensing/subvisual.jpg);
+	width: 100%;
+	height: 312px;
 }
 /* Mapos(마롱이) */
 .Mapos.content-container {
-  margin-bottom: 200px;
-  width: 1440px;
-  margin: auto;
+	margin-bottom: 200px;
+	width: 1440px;
+	margin: auto;
 }
 .Mapos__border {
-  width: 100%;
-  border: 1px solid #96c6eb;
-  margin-top: 20px;
-  margin-bottom: 50px;
+	width: 100%;
+	border-bottom: 1px solid #96c6eb;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .Mapos__horizen-cards-wrapper {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 70px;
+	display: flex;
+	gap: 30px;
+	margin-bottom: 70px;
 }
 .Mapos__card-wrapper {
-  flex-direction: column;
-  width: 460px;
-  height: 490px;
-  border: 1px solid #dfdede;
-  border-radius: 20px;
+	flex-direction: column;
+	width: 460px;
+	height: 490px;
+	border: 1px solid #dfdede;
+	border-radius: 20px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .Mapos__card-img {
-  margin-top: 25px;
-  width: 401.03px;
-  margin-left: 29.5px;
-  margin-bottom: 15px;
+	margin-top: 25px;
+	width: 401.03px;
+	margin-left: 29.5px;
+	margin-bottom: 15px;
 }
 .Mapos__card-title {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  /* identical to box height, or 180% */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+	/* identical to box height, or 180% */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #00a8ec;
-  margin-left: 29.5px;
+	color: #00a8ec;
+	margin-left: 29.5px;
 }
 .Mapos__card-borderline {
-  background-image: linear-gradient(
-    to right,
-    #ff2068 50%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: bottom;
-  background-size: 16px 1px;
-  background-repeat: repeat-x;
-  padding-bottom: 14px;
-  margin-bottom: 11px;
-  width: 200.51px;
-  margin-left: 29.5px;
+	background-image: linear-gradient(
+		to right,
+		#ff2068 50%,
+		rgba(255, 255, 255, 0) 0%
+	);
+	background-position: bottom;
+	background-size: 16px 1px;
+	background-repeat: repeat-x;
+	padding-bottom: 14px;
+	margin-bottom: 11px;
+	width: 200.51px;
+	margin-left: 29.5px;
 }
 .Mapos__card-maintext {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 180%;
-  /* or 32px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	/* or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
-  margin-left: 29px;
+	color: #212529;
+	margin-left: 29px;
 }
 .emphasize {
-  color: #ff2068;
+	color: #ff2068;
 }
 .Mapos__card-end-img {
-  margin-top: 35px;
-  margin-left: 30px;
-  width: 401px;
-  height: 420px;
-  background-image: url(./../images/character_licensing/marong_03.jpg);
+	margin-top: 35px;
+	margin-left: 30px;
+	width: 401px;
+	height: 420px;
+	background-image: url(./../images/character_licensing/marong_03.jpg);
 }
 .Mapos__subtitle {
-  margin-bottom: 70px;
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 160%;
-  /* or 51px */
+	margin-bottom: 70px;
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 160%;
+	/* or 51px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #00a8ec;
+	color: #00a8ec;
 }
 .Mapos__action-wrapper {
-  margin-left: 79px;
-  display: flex;
-  gap: 196px;
-  margin-bottom: 141px;
+	margin-left: 79px;
+	display: flex;
+	gap: 196px;
+	margin-bottom: 141px;
 }
 .Mapos__action-text {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 160%;
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 160%;
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
+	color: #212529;
 }
 .first-text {
-  margin-bottom: 74px;
+	margin-bottom: 74px;
 }
 .second-text {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 .third-text {
-  margin-bottom: 74px;
+	margin-bottom: 74px;
 }
 .Mapos__emblem-wrapper {
-  margin-left: 80px;
-  display: flex;
-  gap: 190px;
-  margin-bottom: 200px;
+	margin-left: 80px;
+	display: flex;
+	gap: 190px;
+	margin-bottom: 200px;
 }
 
 /* MapoBuddies(마포버디즈) */
 .MapoBuddies.content-container {
-  margin-bottom: 200px;
-  width: 1440px;
-  margin: auto;
+	margin-bottom: 200px;
+	width: 1440px;
+	margin: auto;
 }
 .MapoBuddies__border {
-  width: 100%;
-  border: 1px solid #96c6eb;
-  margin-top: 20px;
-  margin-bottom: 50px;
+	width: 100%;
+	border-bottom: 1px solid #96c6eb;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .MapoBuddies__cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 70px;
 }
 .MapoBuddies__card-wrapper {
-  box-sizing: border-box;
-  flex-direction: column;
-  width: 460px;
-  height: 490px;
-  border: 1px solid #dfdede;
-  border-radius: 20px;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 460px;
+	height: 490px;
+	border: 1px solid #dfdede;
+	border-radius: 20px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .MapoBuddies__card-img {
-  display: block;
-  margin-bottom: 15px;
-  margin-top: 25px;
-  margin: auto;
-  height: 220px;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	margin: auto;
+	height: 220px;
 }
 .MapoBuddies__card-title {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 160%;
-  /* identical to box height, or 32px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 160%;
+	/* identical to box height, or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
-  margin-left: 29.5px;
+	color: #212529;
+	margin-left: 29.5px;
 }
 .red-text {
-  color: #ed0102;
+	color: #ed0102;
 }
 .yellow-text {
-  color: #feb926;
+	color: #feb926;
 }
 .green-text {
-  color: #1cd762;
+	color: #1cd762;
 }
 .blue-text {
-  color: #006be1;
+	color: #006be1;
 }
 .MapoBuddies__card-borderline {
-  background-image: linear-gradient(
-    to right,
-    #ff2068 50%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: bottom;
-  background-size: 16px 1px;
-  background-repeat: repeat-x;
-  padding-bottom: 14px;
-  margin-bottom: 11px;
-  width: 200.51px;
-  margin-left: 29.5px;
+	background-image: linear-gradient(
+		to right,
+		#ff2068 50%,
+		rgba(255, 255, 255, 0) 0%
+	);
+	background-position: bottom;
+	background-size: 16px 1px;
+	background-repeat: repeat-x;
+	padding-bottom: 14px;
+	margin-bottom: 11px;
+	width: 200.51px;
+	margin-left: 29.5px;
 }
 .MapoBuddies__card-maintext {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 180%;
-  /* or 29px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	/* or 29px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  margin-left: 29px;
+	margin-left: 29px;
 }
 .MapoBuddies__card-maintext b {
-  font-weight: 600;
+	font-weight: 600;
 }
 .MapoBuddies__card-end-img {
-  width: 900px;
-  height: 371px;
-  background-image: url(./../images/character_licensing/buddies_05.jpg);
-  background-size: cover;
-  margin-left: 29px;
-  margin-top: 59px;
+	width: 900px;
+	height: 371px;
+	background-image: url(./../images/character_licensing/buddies_05.jpg);
+	background-size: cover;
+	margin-left: 29px;
+	margin-top: 59px;
 }
 
 .MapoBuddies__action-img-1 {
-  margin-right: 30px;
-  margin-bottom: 50px;
+	margin-right: 30px;
+	margin-bottom: 50px;
 }
 .MapoBuddies__action-img-2 {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 .MapoBuddies__action-img-3 {
-  margin-right: 30px;
+	margin-right: 30px;
 }
 .MapoBuddies__end-img {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  width: 100%;
-  height: 535px;
-  background-image: url(./../images/character_licensing/buddies_10.jpg);
+	margin-top: 200px;
+	margin-bottom: 200px;
+	width: 100%;
+	height: 535px;
+	background-image: url(./../images/character_licensing/buddies_10.jpg);
 }
 /* MapoFriends(마포프렌즈) */
 .MapoFriends.content-container {
-  margin-bottom: 200px;
-  width: 1440px;
-  margin: auto;
+	margin-bottom: 200px;
+	width: 1440px;
+	margin: auto;
 }
 .MapoFriends__border {
-  width: 100%;
-  border: 1px solid #96c6eb;
-  margin-top: 20px;
-  margin-bottom: 50px;
+	width: 100%;
+	border-bottom: 1px solid #96c6eb;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .MapoFriends__cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 70px;
 }
 .MapoFriends__card-wrapper {
-  box-sizing: border-box;
-  flex-direction: column;
-  width: 460px;
-  height: 490px;
-  border: 1px solid #dfdede;
-  border-radius: 20px;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 460px;
+	height: 490px;
+	border: 1px solid #dfdede;
+	border-radius: 20px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .MapoFriends__card-img {
-  margin-top: 25px;
-  width: 401.03px;
-  margin-left: 29.5px;
-  margin-bottom: 15px;
+	margin-top: 25px;
+	width: 401.03px;
+	margin-left: 29.5px;
+	margin-bottom: 15px;
 }
 .MapoFriends__card-title {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 160%;
-  /* identical to box height, or 32px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+	/* identical to box height, or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #303641;
-  margin-left: 29.5px;
+	color: #303641;
+	margin-left: 29.5px;
 }
 
 .MapoFriends__card-borderline {
-  background-image: linear-gradient(
-    to right,
-    #ff2068 50%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: bottom;
-  background-size: 16px 1px;
-  background-repeat: repeat-x;
-  padding-bottom: 14px;
-  margin-bottom: 11px;
-  width: 200.51px;
-  margin-left: 29.5px;
+	background-image: linear-gradient(
+		to right,
+		#ff2068 50%,
+		rgba(255, 255, 255, 0) 0%
+	);
+	background-position: bottom;
+	background-size: 16px 1px;
+	background-repeat: repeat-x;
+	padding-bottom: 14px;
+	margin-bottom: 11px;
+	width: 200.51px;
+	margin-left: 29.5px;
 }
 .MapoFriends__card-maintext {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 180%;
-  /* or 29px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	/* or 29px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  margin-left: 29px;
+	margin-left: 29px;
 }
 .MapoFriends__subtitle {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 160%;
-  /* or 51px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 160%;
+	/* or 51px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #00a8ec;
+	color: #00a8ec;
 }
 .MapoFriends__emoticon-wrapper {
-  margin-top: 70px;
-  margin-left: 80px;
-  margin-bottom: 200px;
-  display: flex;
-  gap: 190px;
-  align-items: center;
+	margin-top: 70px;
+	margin-left: 80px;
+	margin-bottom: 200px;
+	display: flex;
+	gap: 190px;
+	align-items: center;
 }
 
 /* MVP(mapo-gu's Varied Pleasure) */
 .MVP.content-container {
-  margin-bottom: 200px;
-  width: 1440px;
-  margin: auto;
+	margin-bottom: 200px;
+	width: 1440px;
+	margin: auto;
 }
 .MVP__border {
-  width: 100%;
-  border: 1px solid #96c6eb;
-  margin-top: 20px;
-  margin-bottom: 50px;
+	width: 100%;
+	border-bottom: 1px solid #96c6eb;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .MVP__cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 70px;
 }
 .MVP__card-wrapper {
-  position: relative;
-  box-sizing: border-box;
-  flex-direction: column;
-  width: 460px;
-  height: 490px;
-  border: 1px solid #dfdede;
-  border-radius: 20px;
+	position: relative;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 460px;
+	height: 490px;
+	border: 1px solid #dfdede;
+	border-radius: 20px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .MVP__card-img {
-  margin-top: 25px;
-  width: 401.03px;
-  margin-left: 29.5px;
-  margin-bottom: 15px;
+	margin-top: 25px;
+	width: 401.03px;
+	margin-left: 29.5px;
+	margin-bottom: 15px;
 }
 .MVP__card-title {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 180%;
-  /* identical to box height, or 32px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 180%;
+	/* identical to box height, or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
+	color: #212529;
 
-  margin-left: 29.5px;
+	margin-left: 29.5px;
 }
 
 .MVP__card-borderline {
-  background-image: linear-gradient(
-    to right,
-    #ff2068 50%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: bottom;
-  background-size: 16px 1px;
-  background-repeat: repeat-x;
-  padding-bottom: 14px;
-  margin-bottom: 11px;
-  width: 200.51px;
-  margin-left: 29.5px;
+	background-image: linear-gradient(
+		to right,
+		#ff2068 50%,
+		rgba(255, 255, 255, 0) 0%
+	);
+	background-position: bottom;
+	background-size: 16px 1px;
+	background-repeat: repeat-x;
+	padding-bottom: 14px;
+	margin-bottom: 11px;
+	width: 200.51px;
+	margin-left: 29.5px;
 }
 .MVP__card-maintext {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  /* or 29px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	/* or 29px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #212529;
-  margin-left: 29px;
+	color: #212529;
+	margin-left: 29px;
 }
 .MVP__card-subtext {
-  position: absolute;
-  right: 10px;
-  bottom: 81px;
+	position: absolute;
+	right: 10px;
+	bottom: 81px;
 
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* identical to box height, or 32px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 160%;
+	/* identical to box height, or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #ff226c;
-  z-index: 1;
+	color: #ff226c;
+	z-index: 1;
 }
 .MVP__card-text-img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 50%;
 }
 .MVP__subtitle {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  text-align: center;
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 160%;
-  /* or 51px */
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 160%;
+	/* or 51px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #000000;
+	color: #000000;
 }
 .MVP__main-character-img {
-  display: block;
-  margin: auto;
+	display: block;
+	margin: auto;
 }
 /* 마푸 */
 .Mapoo.content-container {
-  margin-bottom: 200px;
-  width: 1440px;
-  margin: auto;
+	margin-bottom: 200px;
+	width: 1440px;
+	margin: auto;
 }
 .Mapoo__logo {
-  margin-top: 200px;
+	margin-top: 200px;
 }
 .Mapoo__border {
-  width: 100%;
-  border: 1px solid #96c6eb;
-  margin-top: 20px;
-  margin-bottom: 50px;
+	width: 100%;
+	border-bottom: 1px solid #96c6eb;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .Mapoo__cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 70px;
 }
 .Mapoo__card-wrapper {
-  box-sizing: border-box;
-  flex-direction: column;
-  width: 460px;
-  height: 490px;
-  border: 1px solid #dfdede;
-  border-radius: 20px;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 460px;
+	height: 490px;
+	border: 1px solid #dfdede;
+	border-radius: 20px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .Mapoo__card-img {
-  margin-top: 25px;
-  width: 401.03px;
-  margin-left: 29.5px;
-  margin-bottom: 15px;
+	margin-top: 25px;
+	width: 401.03px;
+	margin-left: 29.5px;
+	margin-bottom: 15px;
 }
 .Mapoo__card-title {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 160%;
-  /* identical to box height, or 32px */
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+	/* identical to box height, or 32px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  color: #00a8e9;
-  margin-left: 29.5px;
+	color: #00a8e9;
+	margin-left: 29.5px;
 }
 
 .Mapoo__card-borderline {
-  background-image: linear-gradient(
-    to right,
-    #ff2068 50%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: bottom;
-  background-size: 16px 1px;
-  background-repeat: repeat-x;
-  padding-bottom: 14px;
-  margin-bottom: 11px;
-  width: 200.51px;
-  margin-left: 29.5px;
+	background-image: linear-gradient(
+		to right,
+		#ff2068 50%,
+		rgba(255, 255, 255, 0) 0%
+	);
+	background-position: bottom;
+	background-size: 16px 1px;
+	background-repeat: repeat-x;
+	padding-bottom: 14px;
+	margin-bottom: 11px;
+	width: 200.51px;
+	margin-left: 29.5px;
 }
 .Mapoo__card-maintext {
-  font-family: "MaruBuri";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  /* or 29px */
+	font-family: 'MaruBuri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	/* or 29px */
 
-  letter-spacing: -0.015em;
+	letter-spacing: -0.015em;
 
-  margin-left: 29px;
+	margin-left: 29px;
 }
 .popu-text {
-  color: #ff9100;
+	color: #ff9100;
 }
 .Mapoo__card-end-img {
-  width: 401px;
-  height: 420px;
-  border-radius: 20px;
-  background-image: url(./../images/character_licensing/mapoo_03.jpg);
-  margin-top: 35px;
+	width: 401px;
+	height: 420px;
+	border-radius: 20px;
+	background-image: url(./../images/character_licensing/mapoo_03.jpg);
+	margin-top: 35px;
 }
 .Mapoo_end-img {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
 
-  width: 1440px;
-  height: 857px;
-  background-size: cover;
-  background-image: url(./../images/character_licensing/mapoo_04.jpg);
+	width: 1440px;
+	height: 857px;
+	background-size: cover;
+	background-image: url(./../images/character_licensing/mapoo_04.jpg);
 }
 /* footer */
 .footer {
-  position: absolute;
-  width: 100%;
+	position: absolute;
+	width: 100%;
 
-  height: 216px;
-  left: 0px;
-  background-image: url(./../images/character_licensing/footer.jpg);
+	height: 216px;
+	left: 0px;
+	background-image: url(./../images/character_licensing/footer.jpg);
 }

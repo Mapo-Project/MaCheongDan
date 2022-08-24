@@ -1,5 +1,6 @@
 import './../css/reset.css';
 import './../css/style.css';
+import './../css/main.min.moblie.css';
 import './form-submission-handler';
 
 // typing effect

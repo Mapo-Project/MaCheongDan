@@ -60,9 +60,10 @@
 }
 .develop-uxui__card-link {
 	display: block;
+	text-align: center;
 	margin-top: 25px;
-	width: 401.03px;
-	margin-left: 29.5px;
+	/* width: 401.03px; */
+	/* margin-left: 29.5px; */
 }
 .no-link {
 	margin-top: 25px;
@@ -116,6 +117,7 @@
 	justify-content: center;
 	gap: 30px;
 	padding-bottom: 70px;
+	flex-wrap: wrap;
 }
 
 .develop-uxui__headtext-uxui {
