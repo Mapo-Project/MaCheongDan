@@ -1,0 +1,682 @@
+#first-half-status__text_moblie {
+	display: none;
+}
+
+.project-img_moblie {
+	display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.main {
+		position: static;
+		width: 100vw;
+	}
+
+	.background-block__01,
+	.background-block__02,
+	.background-block__03,
+	.background-block__04,
+	.background-block__05,
+	.background-block__06 {
+		display: none;
+	}
+
+	.home-background {
+		padding-top: initial;
+		width: 100vw;
+		height: 66vh;
+	}
+
+	.home-background,
+	.main {
+		position: static;
+		width: 100vw;
+	}
+
+	.youtube {
+		background-color: transparent;
+	}
+
+	.youtube .youtube__area {
+		background-color: transparent;
+	}
+
+	.nav__logo-text {
+		font-size: 1.125em;
+	}
+
+	.nav__logo-wrapper {
+		margin-left: 2.5rem;
+		align-items: center;
+		gap: 0.625rem;
+	}
+
+	.nav.content-container {
+		align-items: center;
+		display: flex;
+		padding: initial;
+		width: 100vw;
+		z-index: 100;
+		top: initial;
+		left: initial;
+	}
+
+	.nav__menu-wrapper {
+		display: none;
+	}
+
+	#player {
+		position: static;
+		height: 50vh;
+		width: 100vw;
+	}
+
+	.youtube .youtube__area:before {
+		display: none;
+	}
+
+	.youtube .inner {
+		display: none;
+		height: initial;
+	}
+
+	.youtube .youtube__cover {
+		background-color: transparent;
+		display: none;
+	}
+
+	.type_effect_container {
+		font-size: 2em;
+		width: 80vw;
+		z-index: 100;
+		left: 50%;
+		top: 30%;
+	}
+
+	.home-background__scroll-down-wrapper {
+		position: absolute;
+		left: 9.375rem;
+		top: 19.375rem;
+		height: 5.625rem;
+		width: 5.625rem;
+		transform: translate(0, 0);
+	}
+
+	.home-background__scroll-down-text-wrapper {
+		height: 5.625rem;
+		width: 5.625rem;
+	}
+
+	.home-background__scroll-down-text {
+		font-size: 0.875em;
+		left: 0.5rem;
+	}
+
+	.home-background__scroll-down-pointer {
+		left: 2.5rem;
+		top: 3.75rem;
+	}
+
+	.mapo-slogan.content-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4.375rem;
+		padding-top: 4.375rem;
+		margin-bottom: initial;
+	}
+
+	.mapo-slogan__text-wrapper .mapo-slogan__title {
+		font-size: 1.375em;
+		text-align: center;
+	}
+
+	.mapo-slogan__text-wrapper .mapo-slogan__subtitle {
+		font-size: 1.125em;
+		text-align: center;
+	}
+
+	.mapo-slogan__text-wrapper .mapo-slogan__text {
+		font-size: 1em;
+	}
+
+	.mapo-slogan__img {
+		position: static;
+		width: 24rem;
+		height: 18.75rem;
+		object-fit: contain;
+	}
+
+	.first-half-status__title {
+		font-size: 1.375em;
+	}
+
+	.first-half-status__items-container {
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 4.375rem;
+	}
+
+	.first-half-status__items-wrapper {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.first-half-status__items-wrapper .first-half-status__subtitle {
+		font-size: 1.375em;
+	}
+
+	.first-half-status__items-wrapper .first-half-status__sub-text {
+		font-size: 1em;
+	}
+
+	.first-half-status.content-container {
+		padding-top: 6.25rem;
+		margin-bottom: 4.375rem;
+	}
+
+	.slide-img {
+		width: 24rem;
+		height: 15.625rem;
+	}
+
+	.first-half-status__text {
+		width: 80%;
+		font-size: 1em;
+		text-align: center;
+		margin-bottom: 3.125rem;
+		margin-top: 3.125rem;
+	}
+
+	.first-half-status__items-wrapper .first-half-status__subtitle {
+		margin-bottom: 1.875rem;
+		margin-top: 4.375rem;
+		font-size: 1.375em;
+	}
+
+	.first-half-status__items-wrapper .first-half-status__sub-text {
+		font-size: 1.125em;
+	}
+
+	.first-half-status__img {
+		width: 24rem;
+		height: 24rem;
+		object-fit: contain;
+	}
+
+	.develop-uiux.content-container {
+		padding-top: 4.375rem;
+		margin-bottom: 4.375rem;
+	}
+
+	.develop-uiux__title-wrapper {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 17.813rem;
+		width: 24rem;
+	}
+
+	.develop-uiux__title-wrapper .develop-uiux__title {
+		font-size: 1.375em;
+	}
+
+	.develop-uiux__title-wrapper .develop-uiux__text {
+		font-size: 1em;
+	}
+
+	.develop-uiux__project-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-top: 4.375rem;
+		gap: initial;
+	}
+
+	.develop-uiux__conference-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-top: initial;
+		gap: initial;
+	}
+
+	.develop-uiux__project-img,
+	.develop-uiux__conference-img {
+		width: 24rem;
+		height: 24rem;
+		object-fit: contain;
+	}
+
+	.develop-uiux__inner-content-wrapper {
+		width: initial;
+		align-items: center;
+	}
+
+	.develop-uiux__inner-content-title {
+		font-size: 1.375em;
+		margin-top: initial;
+	}
+
+	.develop-uiux__inner-content-text {
+		font-size: 1em;
+	}
+
+	.develop-uiux__inner-content-text,
+	.develop-uiux__inner-content-title {
+		margin-left: initial;
+		margin-bottom: 1.875rem;
+	}
+
+	.develop-uiux__inner-content-button {
+		margin-left: initial;
+	}
+
+	.character.content-container {
+		padding-top: 4.375rem;
+		margin-bottom: 4.375rem;
+	}
+
+	.character__title-wrapper {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 17.813rem;
+		width: 24rem;
+	}
+
+	.character__title-wrapper .character__title {
+		font-size: 1.375em;
+	}
+
+	.character__title-wrapper .character__text {
+		font-size: 1em;
+	}
+
+	.character__project-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-top: 4.375rem;
+		gap: initial;
+	}
+
+	.character__conference-wrapper {
+		flex-wrap: wrap;
+		margin-top: inherit;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.character__inner-content-wrapper {
+		width: initial;
+		align-items: center;
+	}
+
+	.character__inner-content-title {
+		font-size: 1.375em;
+		margin-top: inherit;
+	}
+
+	.character__inner-content-text {
+		font-size: 1em;
+	}
+
+	.character__inner-content-title {
+		font-size: 1.375em;
+	}
+
+	.character__inner-content-text,
+	.character__inner-content-title {
+		margin-left: initial;
+	}
+
+	.character__inner-content-button {
+		margin-left: initial;
+	}
+
+	.character__project-img,
+	.character__conference-img {
+		width: 24rem;
+		height: 24rem;
+		object-fit: contain;
+	}
+
+	.broadcast__inner-content-text,
+	.broadcast__inner-content-title {
+		margin-left: initial;
+	}
+
+	.broadcast.content-container {
+		padding-top: inherit;
+	}
+
+	.broadcast__title-wrapper {
+		width: 24rem;
+		height: 17.813rem;
+		object-fit: cover;
+	}
+
+	.broadcast__title-wrapper .broadcast__title {
+		font-size: 1.375em;
+	}
+
+	.broadcast__title-wrapper .broadcast__text {
+		font-size: 1em;
+	}
+
+	.broadcast__project-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.broadcast__conference-wrapper {
+		flex-wrap: wrap;
+		margin-top: inherit;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.broadcast__inner-content-wrapper {
+		width: initial;
+		align-items: center;
+	}
+
+	.broadcast__inner-content-title {
+		font-size: 1.375em;
+		margin-top: inherit;
+	}
+
+	.broadcast__inner-content-text {
+		font-size: 1em;
+	}
+
+	.broadcast__project-img,
+	.broadcast__conference-img {
+		width: 24rem;
+		height: 24rem;
+		object-fit: contain;
+		margin-left: initial;
+	}
+
+	.broadcast__inner-content-button {
+		margin-left: initial;
+	}
+
+	.chungnyun-think.content-container {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 3.125rem;
+		padding-top: 12.5rem;
+	}
+
+	.chungnyun-think__title {
+		font-size: 1.375em;
+		margin-bottom: 6.25rem;
+	}
+
+	.chungnyun-think__content-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.chungnyun-think__inner-content-wrapper {
+		flex-wrap: wrap;
+		margin-bottom: 4.375rem;
+	}
+
+	.chungnyun-think__inner-content-wrapper .chungnyun-think__inner-title {
+		font-size: 1.375em;
+	}
+
+	.chungnyun-think__inner-content-wrapper .chungnyun-think__inner-text {
+		font-size: 1.125em;
+	}
+
+	.chungnyun-think__inner-img {
+		width: 24rem;
+		height: 13.75rem;
+		object-fit: contain;
+	}
+
+	/* 경의선걷기 */
+	.Gyeongui-walk.content-container {
+		padding-top: inherit;
+	}
+
+	.Gyeongui-walk__content-wrapper {
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Gyeongui-walk__title-wrapper {
+		flex-wrap: wrap;
+		display: flex;
+		margin-left: initial;
+		margin-right: initial;
+		align-items: center;
+	}
+
+	.Gyeongui-walk__title-wrapper .Gyeongui-walk__title {
+		font-size: 1.375em;
+	}
+
+	.Gyeongui-walk__title-wrapper .Gyeongui-walk__subtitle {
+		font-size: 1.125em;
+	}
+
+	.Gyeongui-walk__title-wrapper .Gyeongui-walk__text {
+		font-size: 1em;
+	}
+
+	.Gyeongui-walk__main-video {
+		height: 24rem;
+		margin-bottom: 3.125rem;
+		width: 24rem;
+	}
+
+	.subcontainer {
+		width: 24rem;
+		height: 24rem;
+	}
+
+	.Gyeongui-walk__img-left-button,
+	.Gyeongui-walk__img-right-button {
+		display: none;
+	}
+
+	.Mapocity-tour__img-left-button,
+	.Mapocity-tour__img-right-button {
+		display: none;
+	}
+
+	.Mapocity-tour.content-container {
+		padding-top: inherit;
+	}
+
+	.Mapocity-tour__content-wrapper {
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Mapocity-tour__title-wrapper {
+		flex-wrap: wrap;
+		display: flex;
+		align-items: center;
+		margin-left: initial;
+		margin-right: initial;
+		margin-bottom: 4.375rem;
+	}
+
+	.Mapocity-tour__title-wrapper .Mapocity-tour__title {
+		font-size: 1.375em;
+	}
+
+	.Mapocity-tour__title-wrapper .Mapocity-tour__subtitle {
+		font-size: 1.125em;
+	}
+
+	.Mapocity-tour__title-wrapper .Mapocity-tour__text {
+		font-size: 1em;
+	}
+
+	.Mapocity-tour__main-video {
+		height: 24rem;
+		margin-bottom: 3.125rem;
+		width: 24rem;
+	}
+
+	.way-to-come.content-container {
+		display: flex;
+		flex-direction: column;
+		padding-top: initial;
+	}
+
+	.way-to-come__title {
+		font-size: 1.375em;
+		margin-top: 6.25rem;
+		text-align: center;
+		margin-left: inherit;
+	}
+
+	.way-to-come__info-wrapper {
+		align-items: center;
+		display: inline-flex;
+		gap: 3.125rem;
+		flex-direction: column;
+	}
+
+	.way-to-come__info-img-wrapper {
+		align-items: center;
+		background: #dee2e6;
+		border-radius: 50%;
+		display: flex;
+		height: 3.375rem;
+		justify-content: center;
+		width: 3.375rem;
+	}
+
+	.way-to-come__info-wrapper-first-line {
+		display: flex;
+		gap: 3.125rem;
+		margin-left: initial;
+		margin-top: 3.125rem;
+		flex-direction: column;
+	}
+
+	.way-to-come__info-wrapper-second-line {
+		display: flex;
+		gap: 3.125rem;
+		margin-left: initial;
+		margin-top: 3.125rem;
+		flex-direction: column;
+	}
+
+	#kakaomap {
+		height: 24rem;
+		margin: auto;
+		width: 24rem;
+		margin-bottom: 3.125rem;
+	}
+
+	.email.content-container {
+		align-items: inherit;
+		height: initial;
+		margin-top: 7.188rem;
+	}
+
+	.email__title {
+		font-size: 1.375em;
+		margin-bottom: 2.5rem;
+		margin-top: 2.5rem;
+	}
+
+	.email__text {
+		font-size: 1.125em;
+		margin-bottom: 2.5rem;
+	}
+
+	.email__input-email,
+	.email__input-name {
+		width: 22.438rem;
+		padding-left: inherit;
+		margin-left: initial;
+	}
+
+	.email__input-email-placeholder,
+	.email__input-name-placeholder {
+		left: 1.25rem;
+		top: 1.25rem;
+	}
+
+	.gform {
+		text-align: inherit;
+		display: inline-flex;
+		flex-direction: column;
+		margin-bottom: 2.5rem;
+	}
+
+	.email__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.email__input-message-placeholder {
+		left: 1.25rem;
+		top: 0.625rem;
+	}
+
+	.email__input-message {
+		height: 4.688rem;
+		margin-bottom: 2.5rem;
+		padding-bottom: 5rem;
+		padding-left: inherit;
+		padding-right: initial;
+		margin-left: initial;
+		width: 22.438rem;
+	}
+
+	.email__input-name {
+		margin-right: initial;
+	}
+
+	.footer {
+		height: 15rem;
+		flex-direction: column;
+		width: 100vw;
+		justify-content: initial;
+	}
+
+	.footer__logo-wrapper {
+		margin-left: -3.125rem;
+		margin-bottom: 0.625rem;
+		margin-top: 0.625rem;
+	}
+
+	.footer__logo-text {
+		justify-content: center;
+		margin-top: 0.313rem;
+	}
+
+	.footer__main-text {
+		margin-right: inherit;
+		width: 20.313rem;
+	}
+
+	#first-half-status__text_pc {
+		display: none;
+	}
+
+	#first-half-status__text_moblie {
+		display: block;
+	}
+
+	.project-img_pc {
+		display: none;
+	}
+
+	.project-img_moblie {
+		display: block;
+	}
+}

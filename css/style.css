@@ -106,9 +106,9 @@
 	position: absolute;
 	width: 110px;
 	height: 103px;
-	left: 898px;
-	top: 753px;
-
+	left: 50%;
+	top: 73%;
+	transform: translate(-50%, -50%);
 	background: #ff2068;
 	border-radius: 50%;
 
