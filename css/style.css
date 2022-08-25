@@ -1,3 +1,7 @@
+html {
+	font-size: 18px;
+}
+
 /* main container */
 .main {
 	position: relative;
@@ -9,7 +13,7 @@
 	padding-top: 60px;
 	position: relative;
 	width: 100%;
-	height: 960px;
+	height: calc(100vw * 9 / 16 - 50px);
 }
 /* home page Youtube API 자동재생 */
 .youtube {
@@ -20,6 +24,7 @@
 }
 .youtube .youtube__area {
 	width: 100%;
+
 	background-color: #000;
 	position: absolute;
 	left: 50%;
@@ -56,16 +61,15 @@
 .type_effect_container {
 	position: absolute;
 	z-index: 1;
-	top: 458px;
+	top: 43%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'MaruBuri';
-	width: 550px;
+	width: 500px;
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 50px;
 	line-height: 180%;
-	font-size: 50px;
+	font-size: 2.5rem;
 	text-align: center;
 	letter-spacing: -0.015em;
 
@@ -106,9 +110,9 @@
 	position: absolute;
 	width: 110px;
 	height: 103px;
-	left: 898px;
-	top: 753px;
-
+	left: 50%;
+	top: 72%;
+	transform: translateX(-50%);
 	background: #ff2068;
 	border-radius: 50%;
 
@@ -165,7 +169,7 @@
 .nav__logo-wrapper {
 	display: flex;
 	gap: 10px;
-	margin-left: 220px;
+	margin-left: 11vw;
 
 	cursor: pointer;
 }
@@ -173,7 +177,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 160%;
 
 	letter-spacing: -0.015em;
@@ -192,8 +196,8 @@
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
-	font-size: 18px;
-	margin-right: 240px;
+	font-size: 1rem;
+	margin-right: 12vw;
 }
 
 .nav__dropdown-list {
@@ -201,14 +205,14 @@
 	cursor: pointer;
 	list-style: none;
 	text-align: center;
-	width: 200px;
-	padding: 20px 0;
+	min-width: 10vw;
+	padding: 20px 0px;
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
 	letter-spacing: -0.015em;
 	overflow: hidden;
-	transition: 0.3s;
+	/* transition: 0.3s; */
 }
 .nav__dropdown-list:hover {
 	background-color: #f9f9f9;
@@ -218,7 +222,7 @@
 	display: none;
 	position: absolute;
 	transform: translate(0, 20px);
-	min-width: 200px;
+	min-width: 10vw;
 	background-color: #f9f9f9;
 }
 .nav__dropdown-subtitle {
@@ -237,13 +241,15 @@
 .nav__dropdown-list:hover .nav__dropdown-content {
 	display: block;
 }
+
 /* mapo slogan */
 .mapo-slogan.content-container {
 	display: flex;
-	gap: 125px;
-	padding-top: 200px;
+	gap: 6.5vw;
+	align-items: flex-start;
+	padding-top: 10vw;
 	justify-content: center;
-	margin-bottom: 200px;
+	margin-bottom: 10vw;
 }
 .mapo-slogan__text-wrapper {
 	display: flex;
@@ -253,7 +259,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* identical to box height, or 112% */
 
@@ -265,13 +271,13 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 36px;
 	/* identical to box height, or 150% */
 
 	letter-spacing: -0.015em;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;
 	/* Grey / 800 */
 
 	color: #424242;
@@ -280,7 +286,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -290,20 +296,22 @@
 
 	color: #424242;
 }
-
+.mapo-slogan__img {
+	width: 49vw;
+}
 /* 2022 First half status */
 .first-half-status.content-container {
-	padding-top: 100px;
+	padding-top: 5.2vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 5.2vw;
 }
 .first-half-status__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* identical to box height, or 112% */
 
@@ -312,12 +320,12 @@
 	color: #ff2068;
 }
 .first-half-status__text {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 2.6vw;
+	margin-bottom: 2.6vw;
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 160%;
 	/* or 38px */
 
@@ -336,13 +344,16 @@
 	flex-direction: column;
 	align-items: center;
 }
+.first-half-status__img {
+	width: 24vw;
+}
 .first-half-status__items-wrapper .first-half-status__subtitle {
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 2.6vw;
+	margin-bottom: 1.5vw;
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 36px;
 	/* identical to box height, or 150% */
 
@@ -356,7 +367,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 160%;
 	/* or 29px */
 
@@ -369,15 +380,17 @@
 
 /* app-develop-uiux team */
 .develop-uiux.content-container {
-	padding-top: 100px;
+	padding-top: 5.2vw;
 	display: flex;
+
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 5.2vw;
 }
 .develop-uiux__title-wrapper {
 	background-image: url(./../images/homepage/page_03_001.jpg);
-	width: 1440px;
+	width: 100%;
+	max-width: 1440px;
 	height: 285px;
 	display: flex;
 	flex-direction: column;
@@ -387,7 +400,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* or 112% */
 
@@ -402,7 +415,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -413,7 +426,7 @@
 .develop-uiux__project-wrapper {
 	display: flex;
 	gap: 31px;
-	margin-top: 100px;
+	margin-top: 5.2vw;
 }
 .develop-uiux__conference-wrapper {
 	display: flex;
@@ -425,17 +438,21 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 705px;
+	max-width: 705px;
+	width: 37vw;
 }
-
+.develop-uiux__project-img,
+.develop-uiux__conference-img {
+	width: 37vw;
+}
 .develop-uiux__inner-content-title {
-	margin-top: 86px;
-	margin-bottom: 30px;
+	margin-top: 4.4vw;
+	margin-bottom: 1.5vw;
 
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 36px;
 	/* identical to box height, or 150% */
 
@@ -450,7 +467,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -464,8 +481,8 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1rem;
+	line-height: 1.34rem;
 
 	color: #212529;
 	margin-left: 83px;
@@ -505,15 +522,16 @@
 
 /* character team */
 .character.content-container {
-	padding-top: 100px;
+	padding-top: 5.2vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 5.2vw;
 }
 .character__title-wrapper {
 	background-image: url(./../images/homepage/page_04_001.jpg);
-	width: 1440px;
+	width: 100%;
+	max-width: 1440px;
 	height: 285px;
 	display: flex;
 	flex-direction: column;
@@ -523,7 +541,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* or 112% */
 
@@ -538,7 +556,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -549,7 +567,7 @@
 .character__project-wrapper {
 	display: flex;
 	gap: 31px;
-	margin-top: 100px;
+	margin-top: 5.2vw;
 }
 .character__conference-wrapper {
 	display: flex;
@@ -561,17 +579,21 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 705px;
+	max-width: 705px;
+	width: 37vw;
 }
-
+.character__project-img,
+.character__conference-img {
+	width: 37vw;
+}
 .character__inner-content-title {
-	margin-top: 86px;
-	margin-bottom: 30px;
+	margin-top: 4.4vw;
+	margin-bottom: 1.5vw;
 
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 36px;
 	/* identical to box height, or 150% */
 
@@ -586,7 +608,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -600,8 +622,8 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1rem;
+	line-height: 1.34rem;
 
 	color: #212529;
 	margin-left: 83px;
@@ -630,14 +652,15 @@
 
 /* broadcast team */
 .broadcast.content-container {
-	padding-top: 100px;
+	padding-top: 5.2vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .broadcast__title-wrapper {
 	background-image: url(./../images/homepage/page_05_001.jpg);
-	width: 1440px;
+	width: 100%;
+	max-width: 1440px;
 	height: 285px;
 	display: flex;
 	flex-direction: column;
@@ -647,7 +670,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* or 112% */
 
@@ -662,7 +685,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -673,7 +696,7 @@
 .broadcast__project-wrapper {
 	display: flex;
 	gap: 31px;
-	margin-top: 100px;
+	margin-top: 5.2vw;
 }
 .broadcast__conference-wrapper {
 	display: flex;
@@ -685,17 +708,21 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 705px;
+	max-width: 705px;
+	width: 37vw;
 }
-
+.broadcast__project-img,
+.broadcast__conference-img {
+	width: 37vw;
+}
 .broadcast__inner-content-title {
-	margin-top: 86px;
-	margin-bottom: 30px;
+	margin-top: 4.4vw;
+	margin-bottom: 1.5vw;
 
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 36px;
 	/* identical to box height, or 150% */
 
@@ -710,7 +737,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -724,8 +751,8 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1rem;
+	line-height: 1.34rem;
 
 	color: #212529;
 	margin-left: 83px;
@@ -754,7 +781,7 @@
 }
 /* chungnyun think */
 .chungnyun-think.content-container {
-	padding-top: 200px;
+	padding-top: 10vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -766,7 +793,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* identical to box height, or 112% */
 
@@ -784,11 +811,14 @@
 	align-items: center;
 	background-color: #e9ecef;
 }
+.chungnyun-think__inner-img {
+	width: 24vw;
+}
 .chungnyun-think__inner-content-wrapper .chungnyun-think__inner-title {
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 36px;
 	/* identical to box height, or 150% */
 
@@ -803,7 +833,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 160%;
 	/* or 29px */
 
@@ -824,18 +854,22 @@
 }
 .Gyeongui-walk__content-wrapper {
 	display: flex;
+	justify-content: space-between;
+	width: 75vw;
 }
 .Gyeongui-walk__title-wrapper {
 	display: flex;
 	flex-direction: column;
-	margin-left: 122px;
-	margin-right: 130px;
+	margin-left: 6.25vw;
+	margin-right: 5.2vw;
+	min-width: 480px;
 }
+
 .Gyeongui-walk__title-wrapper .Gyeongui-walk__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* identical to box height, or 112% */
 
@@ -847,7 +881,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 160%;
 	/* or 38px */
 
@@ -855,13 +889,13 @@
 
 	color: #3c3243;
 
-	margin: 30px 0;
+	margin: 1.5vw 0;
 }
 .Gyeongui-walk__title-wrapper .Gyeongui-walk__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -871,8 +905,8 @@
 }
 
 .Gyeongui-walk__main-video {
-	width: 698px;
-	height: 392.625px;
+	width: 36vw;
+	height: 20.25vw;
 	margin-bottom: 50px;
 }
 /* slider */
@@ -927,12 +961,6 @@
 	background-image: url(./../images/homepage/page_07_009.jpg);
 }
 
-@media (max-width: 1920px) {
-	.container {
-		width: 100%;
-	}
-}
-
 .Gyeongui-walk__img-left-button,
 .Gyeongui-walk__img-right-button {
 	background-color: black;
@@ -985,18 +1013,22 @@
 }
 .Mapocity-tour__content-wrapper {
 	display: flex;
+	justify-content: space-between;
+	width: 75vw;
 }
 .Mapocity-tour__title-wrapper {
 	display: flex;
 	flex-direction: column;
-	margin-left: 122px;
-	margin-right: 146px;
+	margin-left: 6.25vw;
+	margin-right: 5.2vw;
+	min-width: 480px;
 }
+
 .Mapocity-tour__title-wrapper .Mapocity-tour__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* identical to box height, or 112% */
 
@@ -1008,7 +1040,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 160%;
 	/* or 38px */
 
@@ -1016,13 +1048,13 @@
 
 	color: #3c3243;
 
-	margin: 30px 0;
+	margin: 1.5vw 0;
 }
 .Mapocity-tour__title-wrapper .Mapocity-tour__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 180%;
 	/* or 29px */
 
@@ -1031,8 +1063,8 @@
 	color: #212529;
 }
 .Mapocity-tour__main-video {
-	width: 698px;
-	height: 392.625px;
+	min-width: 36vw;
+	height: 20.25vw;
 	margin-bottom: 50px;
 }
 .Mapocity-tour__slider-img-1 {
@@ -1101,7 +1133,7 @@
 
 /* way-to-come */
 .way-to-come.content-container {
-	padding-top: 200px;
+	padding-top: 10vw;
 	display: flex;
 	flex-direction: column;
 }
@@ -1109,7 +1141,7 @@
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 36px;
 	/* or 112% */
 
@@ -1122,7 +1154,7 @@
 }
 /* kakaomap */
 #kakaomap {
-	width: 1438px;
+	width: 75vw;
 	height: 361px;
 	margin: auto;
 	position: relative;
@@ -1150,8 +1182,8 @@
 }
 .icon-area {
 	position: relative;
-	width: 24px;
-	height: 24px;
+	width: 1.34rem;
+	height: 1.34rem;
 	border: 1px solid transparent;
 	border-radius: 50%;
 	background: #0475f4;
@@ -1163,8 +1195,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	fill: #fff;
-	width: 24px;
-	height: 24px;
+	width: 1.34rem;
+	height: 1.34rem;
 	display: inline-block;
 }
 
@@ -1270,20 +1302,22 @@
 .way-to-come__info-wrapper-first-line {
 	display: flex;
 	gap: 101px;
-	margin-left: 467px;
+	width: 950px;
+	margin: auto;
 	margin-top: 50px;
 }
 .way-to-come__info-wrapper-second-line {
 	gap: 65px;
+	width: 950px;
 	display: flex;
-	margin-left: 467px;
+	margin: auto;
 	margin-top: 40px;
 }
 .way-to-come__info-wrapper .way-to-come__info-text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 30px;
 	/* or 167% */
 
@@ -1294,7 +1328,7 @@
 
 /* email */
 .email.content-container {
-	margin-top: 200px;
+	margin-top: 10vw;
 	display: flex;
 	flex-direction: column;
 	background: #d3d3d3;
@@ -1303,11 +1337,11 @@
 }
 .email__title {
 	margin-top: 80px;
-	margin-bottom: 32px;
+	margin-bottom: 1.8rem;
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 1.8rem;
 	line-height: 43px;
 	text-align: center;
 
@@ -1319,7 +1353,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 1.34rem;
 	line-height: 35px;
 	text-align: center;
 	letter-spacing: 0.05em;
@@ -1342,7 +1376,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 26px;
 	/* identical to box height */
 
@@ -1368,7 +1402,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 26px;
 }
 
@@ -1385,7 +1419,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 26px;
 }
 .email__input-message-placeholder {
@@ -1397,7 +1431,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 26px;
 	/* identical to box height */
 
@@ -1465,19 +1499,21 @@
 	align-items: center;
 	background-color: #5e5e5e;
 	width: 100%;
+	gap: 50px;
 }
 .footer__logo-wrapper {
 	display: flex;
 	gap: 10px;
-	margin-left: 260px;
+	margin-left: 11vw;
 }
 .footer__logo-text {
 	font-family: 'MaruBuri';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 160%;
 
+	min-width: 206px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -1490,16 +1526,17 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 180%;
 
 	text-align: left;
 	letter-spacing: -0.015em;
 
 	color: #fff;
-	margin-right: 290px;
+	margin-right: 13vw;
 
 	width: 758px;
 }
+
 /* background blocks */
 .background-block__01 {
 	z-index: -1;
@@ -1541,23 +1578,42 @@
 	background-repeat: no-repeat;
 	background-image: url(./../images/homepage/background_block_04.jpg);
 }
-.background-block__05 {
-	z-index: 1;
-	position: absolute;
-	left: 0px;
-	top: 10817px;
-	width: 344px;
-	height: 851px;
-	background-repeat: no-repeat;
-	background-image: url(./../images/homepage/background_block_05.png);
+
+@media (max-width: 1920px) {
+	.container {
+		width: 100%;
+	}
 }
-.background-block__06 {
-	z-index: 1;
-	position: absolute;
-	right: 0px;
-	top: 10543px;
-	width: 417px;
-	height: 1210px;
-	background-repeat: no-repeat;
-	background-image: url(./../images/homepage/background_block_06.png);
+@media screen and (max-width: 1800px) {
+	.type_effect_container {
+		top: 47%;
+	}
+	.home-background__scroll-down-wrapper {
+		top: 77%;
+	}
+}
+@media screen and (max-width: 1500px) {
+	html {
+		font-size: 16px;
+	}
+	.footer__logo-text {
+		font-size: 1rem;
+	}
+	.footer__main-text {
+		font-size: 14px;
+		margin-right: 7vw;
+	}
+	.type_effect_container {
+		width: 450px;
+	}
+	.Gyeongui-walk__title-wrapper {
+		min-width: 430px;
+		margin-left: 2vw;
+		margin-right: 3vw;
+	}
+	.Mapocity-tour__title-wrapper {
+		min-width: 430px;
+		margin-left: 2vw;
+		margin-right: 3vw;
+	}
 }

@@ -11,6 +11,7 @@ const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin');
 
 module.exports = {
 	mode: 'production',
+	// mode: 'development',
 	entry: {
 		main: './js/main.js',
 		character_licensing: './js/character_licensing.js',
@@ -20,6 +21,14 @@ module.exports = {
 		nextrise: './js/nextrise.js',
 		mapo_creator: './js/mapo_creator.js',
 	},
+	// devserver
+	devServer: {
+		static: {
+			directory: path.join(__dirname, 'docs'),
+		},
+		compress: true,
+		port: 9000,
+	},
 	output: {
 		filename: '[name].[hash].js',
 		path: path.resolve(__dirname, 'docs'),
@@ -28,6 +37,7 @@ module.exports = {
 	},
 	// 디버깅 쉽게 해줌
 	devtool: 'hidden-source-map',
+	// devtool: 'eval',
 
 	module: {
 		rules: [
