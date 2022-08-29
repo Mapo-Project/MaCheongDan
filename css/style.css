@@ -15,6 +15,7 @@ html {
 	width: 100%;
 	height: calc(100vw * 9 / 16 - 50px);
 }
+
 /* home page Youtube API 자동재생 */
 .youtube {
 	position: relative;
@@ -22,6 +23,7 @@ html {
 	background-color: #333;
 	overflow: hidden;
 }
+
 .youtube .youtube__area {
 	width: 100%;
 
@@ -31,6 +33,7 @@ html {
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
+
 .youtube .youtube__area::before {
 	content: '';
 	display: block;
@@ -38,6 +41,7 @@ html {
 	height: 0;
 	padding-top: 56.25%;
 }
+
 .youtube .youtube__cover {
 	background-color: rgba(0, 0, 0, 0.1);
 	position: absolute;
@@ -46,6 +50,7 @@ html {
 	width: 100%;
 	height: 100%;
 }
+
 #player {
 	width: 100%;
 	height: 100%;
@@ -53,9 +58,12 @@ html {
 	top: 0;
 	left: 0;
 }
+
 .youtube .inner {
 	height: 100%;
-} /* home page Youtube API 끝*/
+}
+
+/* home page Youtube API 끝*/
 
 /* home page typing Effect */
 .type_effect_container {
@@ -94,16 +102,20 @@ html {
 	-webkit-animation: cursor 0.5s infinite;
 	animation: cursor 0.5s infinite;
 }
+
 @-webkit-keyframes cursor {
 	50% {
 		opacity: 0;
 	}
 }
+
 @keyframes cursor {
 	50% {
 		opacity: 0;
 	}
-} /* home page typing Effect 끝*/
+}
+
+/* home page typing Effect 끝*/
 
 /* scroll-button */
 .home-background__scroll-down-wrapper {
@@ -118,6 +130,7 @@ html {
 
 	cursor: pointer;
 }
+
 .home-background__scroll-down-text-wrapper {
 	position: relative;
 	width: 110px;
@@ -128,6 +141,7 @@ html {
 	background: #e9cfb4;
 	border-radius: 50%;
 }
+
 .home-background__scroll-down-text {
 	position: absolute;
 	top: 20px;
@@ -144,6 +158,7 @@ html {
 
 	color: #000000;
 }
+
 .home-background__scroll-down-pointer {
 	position: absolute;
 	top: 66px;
@@ -173,6 +188,7 @@ html {
 
 	cursor: pointer;
 }
+
 .nav__logo-text {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -187,6 +203,7 @@ html {
 	justify-content: center;
 	color: #000000;
 }
+
 .nav__menu-wrapper {
 	display: flex;
 	flex-grow: 1;
@@ -214,10 +231,12 @@ html {
 	overflow: hidden;
 	/* transition: 0.3s; */
 }
+
 .nav__dropdown-list:hover {
 	background-color: #f9f9f9;
 	color: #ff2068;
 }
+
 .nav__dropdown-content {
 	display: none;
 	position: absolute;
@@ -225,6 +244,7 @@ html {
 	min-width: 10vw;
 	background-color: #f9f9f9;
 }
+
 .nav__dropdown-subtitle {
 	color: #000;
 	padding: 15px 0;
@@ -235,9 +255,11 @@ html {
 	font-size: 16px;
 	letter-spacing: -0.015em;
 }
+
 .nav__dropdown-subtitle:hover {
 	background-color: #ececec;
 }
+
 .nav__dropdown-list:hover .nav__dropdown-content {
 	display: block;
 }
@@ -251,10 +273,12 @@ html {
 	justify-content: center;
 	margin-bottom: 10vw;
 }
+
 .mapo-slogan__text-wrapper {
 	display: flex;
 	flex-direction: column;
 }
+
 .mapo-slogan__text-wrapper .mapo-slogan__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -267,6 +291,7 @@ html {
 
 	color: #ff2068;
 }
+
 .mapo-slogan__text-wrapper .mapo-slogan__subtitle {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -282,6 +307,7 @@ html {
 
 	color: #424242;
 }
+
 .mapo-slogan__text-wrapper .mapo-slogan__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -296,9 +322,11 @@ html {
 
 	color: #424242;
 }
+
 .mapo-slogan__img {
 	width: 49vw;
 }
+
 /* 2022 First half status */
 .first-half-status.content-container {
 	padding-top: 5.2vw;
@@ -307,6 +335,7 @@ html {
 	align-items: center;
 	margin-bottom: 5.2vw;
 }
+
 .first-half-status__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -319,6 +348,7 @@ html {
 
 	color: #ff2068;
 }
+
 .first-half-status__text {
 	margin-top: 2.6vw;
 	margin-bottom: 2.6vw;
@@ -335,18 +365,22 @@ html {
 
 	color: #424242;
 }
+
 .first-half-status__items-container {
 	display: flex;
 	gap: 30px;
 }
+
 .first-half-status__items-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 .first-half-status__img {
 	width: 24vw;
 }
+
 .first-half-status__items-wrapper .first-half-status__subtitle {
 	margin-top: 2.6vw;
 	margin-bottom: 1.5vw;
@@ -363,6 +397,7 @@ html {
 
 	color: #424242;
 }
+
 .first-half-status__items-wrapper .first-half-status__sub-text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -387,6 +422,7 @@ html {
 	align-items: center;
 	margin-bottom: 5.2vw;
 }
+
 .develop-uiux__title-wrapper {
 	background-image: url(./../images/homepage/page_03_001.jpg);
 	width: 100%;
@@ -396,6 +432,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 }
+
 .develop-uiux__title-wrapper .develop-uiux__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -411,6 +448,7 @@ html {
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+
 .develop-uiux__title-wrapper .develop-uiux__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -423,11 +461,13 @@ html {
 
 	color: #ffffff;
 }
+
 .develop-uiux__project-wrapper {
 	display: flex;
 	gap: 31px;
 	margin-top: 5.2vw;
 }
+
 .develop-uiux__conference-wrapper {
 	display: flex;
 	gap: 31px;
@@ -441,10 +481,12 @@ html {
 	max-width: 705px;
 	width: 37vw;
 }
+
 .develop-uiux__project-img,
 .develop-uiux__conference-img {
 	width: 37vw;
 }
+
 .develop-uiux__inner-content-title {
 	margin-top: 4.4vw;
 	margin-bottom: 1.5vw;
@@ -462,6 +504,7 @@ html {
 
 	margin-left: 83px;
 }
+
 .develop-uiux__inner-content-text {
 	margin-bottom: 30px;
 	font-family: 'Noto Sans KR';
@@ -476,6 +519,7 @@ html {
 	color: #212529;
 	margin-left: 83px;
 }
+
 .develop-uiux__inner-content-button {
 	position: relative;
 	font-family: 'MaruBuri';
@@ -494,12 +538,11 @@ html {
 	border: none;
 	cursor: pointer;
 }
+
 .inner-content-button:hover {
-	background: linear-gradient(
-		180deg,
-		rgba(48, 20, 223, 0.9),
-		rgba(25, 239, 213, 0.9)
-	);
+	background: linear-gradient(180deg,
+			rgba(48, 20, 223, 0.9),
+			rgba(25, 239, 213, 0.9));
 
 	color: #fff;
 	transition: 0.2s;
@@ -528,6 +571,7 @@ html {
 	align-items: center;
 	margin-bottom: 5.2vw;
 }
+
 .character__title-wrapper {
 	background-image: url(./../images/homepage/page_04_001.jpg);
 	width: 100%;
@@ -537,6 +581,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 }
+
 .character__title-wrapper .character__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -552,6 +597,7 @@ html {
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+
 .character__title-wrapper .character__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -564,11 +610,13 @@ html {
 
 	color: #ffffff;
 }
+
 .character__project-wrapper {
 	display: flex;
 	gap: 31px;
 	margin-top: 5.2vw;
 }
+
 .character__conference-wrapper {
 	display: flex;
 	gap: 31px;
@@ -582,10 +630,12 @@ html {
 	max-width: 705px;
 	width: 37vw;
 }
+
 .character__project-img,
 .character__conference-img {
 	width: 37vw;
 }
+
 .character__inner-content-title {
 	margin-top: 4.4vw;
 	margin-bottom: 1.5vw;
@@ -603,6 +653,7 @@ html {
 
 	margin-left: 83px;
 }
+
 .character__inner-content-text {
 	margin-bottom: 30px;
 	font-family: 'Noto Sans KR';
@@ -617,6 +668,7 @@ html {
 	color: #212529;
 	margin-left: 83px;
 }
+
 .character__inner-content-button {
 	position: relative;
 	font-family: 'MaruBuri';
@@ -635,6 +687,7 @@ html {
 	border: none;
 	cursor: pointer;
 }
+
 .character__inner-content-button::before {
 	content: '';
 	position: absolute;
@@ -657,6 +710,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 }
+
 .broadcast__title-wrapper {
 	background-image: url(./../images/homepage/page_05_001.jpg);
 	width: 100%;
@@ -666,6 +720,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 }
+
 .broadcast__title-wrapper .broadcast__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -681,6 +736,7 @@ html {
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+
 .broadcast__title-wrapper .broadcast__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -693,11 +749,13 @@ html {
 
 	color: #ffffff;
 }
+
 .broadcast__project-wrapper {
 	display: flex;
 	gap: 31px;
 	margin-top: 5.2vw;
 }
+
 .broadcast__conference-wrapper {
 	display: flex;
 	gap: 31px;
@@ -711,10 +769,12 @@ html {
 	max-width: 705px;
 	width: 37vw;
 }
+
 .broadcast__project-img,
 .broadcast__conference-img {
 	width: 37vw;
 }
+
 .broadcast__inner-content-title {
 	margin-top: 4.4vw;
 	margin-bottom: 1.5vw;
@@ -732,6 +792,7 @@ html {
 
 	margin-left: 83px;
 }
+
 .broadcast__inner-content-text {
 	margin-bottom: 30px;
 	font-family: 'Noto Sans KR';
@@ -746,6 +807,7 @@ html {
 	color: #212529;
 	margin-left: 83px;
 }
+
 .broadcast__inner-content-button {
 	position: relative;
 	font-family: 'MaruBuri';
@@ -779,6 +841,7 @@ html {
 	-webkit-mask-composite: destination-out;
 	mask-composite: exclude;
 }
+
 /* chungnyun think */
 .chungnyun-think.content-container {
 	padding-top: 10vw;
@@ -787,6 +850,7 @@ html {
 	align-items: center;
 	margin-bottom: 50px;
 }
+
 .chungnyun-think__title {
 	margin-bottom: 50px;
 
@@ -801,19 +865,23 @@ html {
 
 	color: #ff2068;
 }
+
 .chungnyun-think__content-wrapper {
 	display: flex;
 	gap: 30px;
 }
+
 .chungnyun-think__inner-content-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-color: #e9ecef;
 }
+
 .chungnyun-think__inner-img {
 	width: 24vw;
 }
+
 .chungnyun-think__inner-content-wrapper .chungnyun-think__inner-title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -829,6 +897,7 @@ html {
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+
 .chungnyun-think__inner-content-wrapper .chungnyun-think__inner-text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -843,6 +912,7 @@ html {
 	color: #212529;
 	margin-bottom: 81px;
 }
+
 /* Gyeongui walk */
 .Gyeongui-walk.content-container {
 	padding-top: 150px;
@@ -852,11 +922,13 @@ html {
 	gap: 60px;
 	margin-bottom: 50px;
 }
+
 .Gyeongui-walk__content-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 75vw;
 }
+
 .Gyeongui-walk__title-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -877,6 +949,7 @@ html {
 
 	color: #ff2068;
 }
+
 .Gyeongui-walk__title-wrapper .Gyeongui-walk__subtitle {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -891,6 +964,7 @@ html {
 
 	margin: 1.5vw 0;
 }
+
 .Gyeongui-walk__title-wrapper .Gyeongui-walk__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -909,6 +983,7 @@ html {
 	height: 20.25vw;
 	margin-bottom: 50px;
 }
+
 /* slider */
 #Gyeongui-walk__slider,
 #Mapocity-tour__slider {
@@ -917,15 +992,18 @@ html {
 	display: flex;
 	justify-content: center;
 }
+
 .container {
 	width: 100%;
 	margin: auto;
 }
+
 .subcontainer {
 	width: 75%;
 	margin: auto;
 	position: relative;
 }
+
 .slide-img {
 	width: 100%;
 	height: 250px;
@@ -936,27 +1014,35 @@ html {
 	align-items: center;
 	transition: 0.5s;
 }
+
 .Gyeongui-walk__slider-img-1 {
 	background-image: url(./../images/homepage/page_07_001.jpg);
 }
+
 .Gyeongui-walk__slider-img-2 {
 	background-image: url(./../images/homepage/page_07_002.jpg);
 }
+
 .Gyeongui-walk__slider-img-3 {
 	background-image: url(./../images/homepage/page_07_003.jpg);
 }
+
 .Gyeongui-walk__slider-img-4 {
 	background-image: url(./../images/homepage/page_07_004.jpg);
 }
+
 .Gyeongui-walk__slider-img-5 {
 	background-image: url(./../images/homepage/page_07_006.jpg);
 }
+
 .Gyeongui-walk__slider-img-6 {
 	background-image: url(./../images/homepage/page_07_007.jpg);
 }
+
 .Gyeongui-walk__slider-img-7 {
 	background-image: url(./../images/homepage/page_07_008.jpg);
 }
+
 .Gyeongui-walk__slider-img-8 {
 	background-image: url(./../images/homepage/page_07_009.jpg);
 }
@@ -972,6 +1058,7 @@ html {
 	cursor: pointer;
 	border: none;
 }
+
 .Gyeongui-walk__img-right-button::before,
 .Gyeongui-walk__img-left-button::before {
 	content: '';
@@ -995,6 +1082,7 @@ html {
 	transform: translate(0, -50%);
 	z-index: 1;
 }
+
 .Gyeongui-walk__img-right-button {
 	position: absolute;
 	top: 50%;
@@ -1011,11 +1099,13 @@ html {
 	align-items: center;
 	gap: 60px;
 }
+
 .Mapocity-tour__content-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 75vw;
 }
+
 .Mapocity-tour__title-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -1036,6 +1126,7 @@ html {
 
 	color: #ff2068;
 }
+
 .Mapocity-tour__title-wrapper .Mapocity-tour__subtitle {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -1050,6 +1141,7 @@ html {
 
 	margin: 1.5vw 0;
 }
+
 .Mapocity-tour__title-wrapper .Mapocity-tour__text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -1062,35 +1154,45 @@ html {
 
 	color: #212529;
 }
+
 .Mapocity-tour__main-video {
 	min-width: 36vw;
 	height: 20.25vw;
 	margin-bottom: 50px;
 }
+
 .Mapocity-tour__slider-img-1 {
 	background-image: url(./../images/homepage/page_08_001.jpg);
 }
+
 .Mapocity-tour__slider-img-2 {
 	background-image: url(./../images/homepage/page_08_002.jpg);
 }
+
 .Mapocity-tour__slider-img-3 {
 	background-image: url(./../images/homepage/page_08_003.jpg);
 }
+
 .Mapocity-tour__slider-img-4 {
 	background-image: url(./../images/homepage/page_08_004.jpg);
 }
+
 .Mapocity-tour__slider-img-5 {
 	background-image: url(./../images/homepage/page_08_006.jpg);
 }
+
 .Mapocity-tour__slider-img-6 {
 	background-image: url(./../images/homepage/page_08_007.jpg);
 }
+
 .Mapocity-tour__slider-img-7 {
 	background-image: url(./../images/homepage/page_08_008.jpg);
 }
+
 .Mapocity-tour__slider-img-8 {
 	background-image: url(./../images/homepage/page_08_009.jpg);
 }
+
 .Mapocity-tour__img-left-button,
 .Mapocity-tour__img-right-button {
 	background-color: black;
@@ -1102,6 +1204,7 @@ html {
 	cursor: pointer;
 	border: none;
 }
+
 .Mapocity-tour__img-right-button::before,
 .Mapocity-tour__img-left-button::before {
 	content: '';
@@ -1124,6 +1227,7 @@ html {
 	left: -80px;
 	transform: translate(0, -50%);
 }
+
 .Mapocity-tour__img-right-button {
 	position: absolute;
 	top: 50%;
@@ -1137,6 +1241,7 @@ html {
 	display: flex;
 	flex-direction: column;
 }
+
 .way-to-come__title {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -1152,6 +1257,7 @@ html {
 	margin-left: 235px;
 	margin-bottom: 50px;
 }
+
 /* kakaomap */
 #kakaomap {
 	width: 75vw;
@@ -1159,9 +1265,11 @@ html {
 	margin: auto;
 	position: relative;
 }
+
 .overlay-block {
 	position: relative;
 }
+
 .overlay-container {
 	border-radius: 30px;
 	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 17%);
@@ -1170,6 +1278,7 @@ html {
 	display: inline-block;
 	cursor: pointer;
 }
+
 .overlay-wrapper {
 	display: flex;
 	align-items: center;
@@ -1180,6 +1289,7 @@ html {
 	border-radius: 30px;
 	background: #fff;
 }
+
 .icon-area {
 	position: relative;
 	width: 1.34rem;
@@ -1189,6 +1299,7 @@ html {
 	background: #0475f4;
 	box-sizing: border-box;
 }
+
 .icon-place {
 	position: absolute;
 	top: 50%;
@@ -1204,10 +1315,12 @@ html {
 	position: relative;
 	margin: 0 5px 0 10px;
 }
+
 .maintext-place {
 	color: #000;
 	line-height: 1.6rem;
 }
+
 .maintext {
 	display: block;
 	white-space: nowrap;
@@ -1232,6 +1345,7 @@ html {
 	margin-top: -2px;
 	z-index: 11;
 }
+
 .overlay-pointer::after {
 	width: 0;
 	height: 0;
@@ -1245,6 +1359,7 @@ html {
 	transform: translateX(-50%);
 	content: '';
 }
+
 .overlay-pointer::before {
 	opacity: 0.1;
 	position: absolute;
@@ -1256,6 +1371,7 @@ html {
 	filter: blur(1px);
 	content: '';
 }
+
 .show-kakaomap {
 	position: absolute;
 	top: 20px;
@@ -1272,6 +1388,7 @@ html {
 	cursor: pointer;
 	z-index: 11;
 }
+
 .show-kakaomap-marker {
 	fill: rgba(51, 51, 51, 1);
 	width: 15px;
@@ -1290,6 +1407,7 @@ html {
 	gap: 20px;
 	align-items: center;
 }
+
 .way-to-come__info-img-wrapper {
 	width: 54px;
 	height: 54px;
@@ -1299,6 +1417,7 @@ html {
 	justify-content: center;
 	align-items: center;
 }
+
 .way-to-come__info-wrapper-first-line {
 	display: flex;
 	gap: 101px;
@@ -1306,6 +1425,7 @@ html {
 	margin: auto;
 	margin-top: 50px;
 }
+
 .way-to-come__info-wrapper-second-line {
 	gap: 65px;
 	width: 950px;
@@ -1313,6 +1433,7 @@ html {
 	margin: auto;
 	margin-top: 40px;
 }
+
 .way-to-come__info-wrapper .way-to-come__info-text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -1335,6 +1456,7 @@ html {
 	height: 800px;
 	align-items: center;
 }
+
 .email__title {
 	margin-top: 80px;
 	margin-bottom: 1.8rem;
@@ -1360,13 +1482,16 @@ html {
 
 	color: #404040;
 }
+
 .gform {
 	text-align: center;
 }
+
 .email__input-name-label,
 .email__input-email-label {
 	position: relative;
 }
+
 .email__input-name-placeholder,
 .email__input-email-placeholder {
 	position: absolute;
@@ -1382,16 +1507,19 @@ html {
 
 	color: #353535;
 }
-.email__input-name-placeholder > span,
-.email__input-email-placeholder > span {
+
+.email__input-name-placeholder>span,
+.email__input-email-placeholder>span {
 	color: #ff4444;
 	position: relative;
 	top: 3px;
 	left: 2px;
 }
+
 .email__input-name {
 	margin-right: 31px;
 }
+
 .email__input-name,
 .email__input-email {
 	padding-left: 25px;
@@ -1409,6 +1537,7 @@ html {
 .email__input-message-label {
 	position: relative;
 }
+
 .email__input-message {
 	width: 915px;
 	height: 75px;
@@ -1422,6 +1551,7 @@ html {
 	font-size: 1rem;
 	line-height: 26px;
 }
+
 .email__input-message-placeholder {
 	position: absolute;
 	top: 120px;
@@ -1437,12 +1567,14 @@ html {
 
 	color: #353535;
 }
-.email__input-message-placeholder > span {
+
+.email__input-message-placeholder>span {
 	color: #ff4444;
 	position: relative;
 	top: 3px;
 	left: 2px;
 }
+
 .email__button-submit {
 	display: block;
 	padding: 20px 80px;
@@ -1467,6 +1599,7 @@ html {
 	margin: auto;
 	cursor: pointer;
 }
+
 .email__submited-text {
 	font-family: 'MaruBuri';
 	display: none;
@@ -1478,18 +1611,22 @@ html {
 
 	margin-top: 80px;
 }
+
 .email__submited-text h1 {
 	margin-bottom: 20px;
 	margin-top: 0;
 }
+
 .email__submited-text p {
 	margin-bottom: 50px;
 }
+
 .email__submited-img {
 	width: 700px;
 	border-radius: 50px;
 	opacity: 0.9;
 }
+
 /* footer */
 
 .footer {
@@ -1501,11 +1638,13 @@ html {
 	width: 100%;
 	gap: 50px;
 }
+
 .footer__logo-wrapper {
 	display: flex;
 	gap: 10px;
 	margin-left: 11vw;
 }
+
 .footer__logo-text {
 	font-family: 'MaruBuri';
 	font-style: normal;
@@ -1521,6 +1660,7 @@ html {
 
 	color: #fff;
 }
+
 .footer__main-text {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -1548,6 +1688,7 @@ html {
 	background-repeat: no-repeat;
 	background-image: url(./../images/homepage/background_block_01.png);
 }
+
 .background-block__02 {
 	z-index: -1;
 	position: absolute;
@@ -1558,6 +1699,7 @@ html {
 	background-repeat: no-repeat;
 	background-image: url(./../images/homepage/background_block_02.jpg);
 }
+
 .background-block__03 {
 	z-index: -1;
 	position: absolute;
@@ -1568,6 +1710,7 @@ html {
 	background-repeat: no-repeat;
 	background-image: url(./../images/homepage/background_block_03.jpg);
 }
+
 .background-block__04 {
 	z-index: -1;
 	position: absolute;
@@ -1584,33 +1727,41 @@ html {
 		width: 100%;
 	}
 }
+
 @media screen and (max-width: 1800px) {
 	.type_effect_container {
 		top: 47%;
 	}
+
 	.home-background__scroll-down-wrapper {
 		top: 77%;
 	}
 }
+
 @media screen and (max-width: 1500px) {
 	html {
 		font-size: 16px;
 	}
+
 	.footer__logo-text {
 		font-size: 1rem;
 	}
+
 	.footer__main-text {
 		font-size: 14px;
 		margin-right: 7vw;
 	}
+
 	.type_effect_container {
 		width: 450px;
 	}
+
 	.Gyeongui-walk__title-wrapper {
 		min-width: 430px;
 		margin-left: 2vw;
 		margin-right: 3vw;
 	}
+
 	.Mapocity-tour__title-wrapper {
 		min-width: 430px;
 		margin-left: 2vw;

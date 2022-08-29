@@ -2,7 +2,68 @@
 	display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+	.develop-uxui__title {
+		font-size: 1.500em;
+		padding-top: 1rem;
+	}
+
+	.develop-uxui__button--closing {
+		height: 1.5rem;
+		width: 1.5rem;
+		top: 1.75rem;
+	}
+
+	.develop-uxui__headtext-develop {
+		font-size: 1.500em;
+	}
+
+	.develop-uxui__card-link,
+	.no-link {
+		width: none;
+	}
+
+	.develop-uxui__develop-content-wrapper-uxui {
+		flex-wrap: wrap;
+	}
+
+	.develop-uxui__develop-content-wrapper-develop {
+		gap: 4.375rem;
+	}
+
+	.develop-uxui__card-wrapper .develop-uxui__card-borderline {
+		margin-left: 1.563rem;
+	}
+
+	.develop-uxui__card-wrapper .develop-uxui__card-title {
+		font-size: 1.250em;
+		margin-left: 1.563rem;
+	}
+
+	.develop-uxui__card-wrapper .develop-uxui__card-maintext {
+		font-size: 1.125em;
+		margin-left: 1.563rem;
+	}
+
+	.develop-uxui__headtext-uxui {
+		font-size: 1.500em;
+	}
+
+	.develop-uxui__card-img {
+		height: 14.25rem;
+		object-fit: contain;
+	}
+
+	#develop-uxui__card-maintext_pc {
+		display: none;
+	}
+
+	#develop-uxui__card-maintext_moblie {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 	.develop-uxui__title {
 		font-size: 1.25em;
 		padding-top: 1rem;

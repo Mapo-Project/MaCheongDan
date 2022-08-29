@@ -2,7 +2,421 @@
 	display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+	.container {
+		position: static;
+	}
+
+	header {
+		height: 3.75rem;
+	}
+
+	header .logo {
+		height: 2.063rem;
+		margin-left: 0.938rem;
+		width: 5rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	header .exit_button {
+		margin-right: 0;
+		width: 3rem;
+		display: inline-block;
+	}
+
+	.exit_button img {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	.home__banner {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 12.5rem;
+	}
+
+	.home__subtitle {
+		margin-top: 4.375rem;
+		font-size: 1.250em;
+	}
+
+	.home__title {
+		font-size: 1.875em;
+	}
+
+	.home__text-wrapper {
+		width: 35rem;
+		height: 13.688rem;
+	}
+
+	.home__text {
+		font-size: initial
+	}
+
+	.character-video__title {
+		font-size: 1.500em;
+		text-align: center;
+	}
+
+	.character-video__main-video {
+		width: 35rem;
+		height: initial;
+	}
+
+	.character-video__vertical-cards-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 4.375rem;
+		align-items: center;
+	}
+
+	.character-video__card-title {
+		font-size: 1.250em;
+	}
+
+	.character-video__card-maintext {
+		font-size: 1.125em;
+	}
+
+	.character-video.content-container {
+		width: initial;
+		margin: initial;
+	}
+
+	.character-video__border {
+		width: 100%;
+		margin-bottom: 4.375rem;
+	}
+
+	.character-video__card-video {
+		height: 14.25rem;
+		margin-left: 1.563rem;
+	}
+
+	.character-video__madoong {
+		width: 23.75rem;
+		margin-left: 1.063rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.subvisual {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 4.188rem;
+		margin-top: 6.25rem;
+		margin-bottom: 6.25rem;
+	}
+
+	.Mapos .Mapos__logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.Mapos__horizen-cards-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 4.375rem;
+		margin-top: 4.375rem;
+		align-items: center;
+	}
+
+	.Mapos__card-title {
+		font-size: 1.250em;
+	}
+
+	.Mapos__card-maintext {
+		font-size: 1.125em;
+	}
+
+	.Mapos__card-wrapper {
+		flex-direction: initial;
+		margin-left: 1.063rem;
+	}
+
+	.Mapos__card-end-img {
+		width: 23.75rem;
+		height: 24.875rem;
+		margin-left: 1.063rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.Mapos__subtitle {
+		font-size: 1.500em;
+		text-align: center;
+	}
+
+	.Mapos__action-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Mapos__action-text {
+		font-size: 1.125em;
+	}
+
+	.Mapos.content-container {
+		margin-bottom: 12.5rem;
+		width: initial;
+	}
+
+	.first-text {
+		margin-left: 5.938rem;
+	}
+
+	.second-text {
+		margin-left: 5.938rem;
+	}
+
+	.third-text {
+		margin-left: 5.938rem;
+	}
+
+	.Mapos__emblem-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 4.375rem;
+		margin-bottom: 6.25rem;
+		align-items: center;
+		margin-left: initial;
+	}
+
+	.Mapos__emblem-wrapper img {
+		width: 18.75rem;
+		height: 18.75rem;
+		margin-left: -1.25rem;
+	}
+
+	.MapoBuddies .MapoBuddies__logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.MapoBuddies__cards-wrapper {
+		flex-direction: column;
+		gap: 4.375rem;
+		align-items: center;
+	}
+
+	.MapoBuddies__card-title {
+		font-size: 1.250em;
+	}
+
+	.MapoBuddies__card-maintext {
+		font-size: 1.125em;
+		line-height: 160%;
+	}
+
+	.MapoBuddies__border {
+		width: 100%;
+	}
+
+	.MapoBuddies__card-end-img {
+		width: 23.75rem;
+		height: 9.75rem;
+		margin-left: initial;
+		margin-top: initial;
+	}
+
+	.MapoBuddies__action-img-1,
+	.MapoBuddies__action-img-2,
+	.MapoBuddies__action-img-3,
+	.MapoBuddies__action-img-4 {
+		width: 23.75rem;
+		height: 16.313rem;
+		margin-bottom: 1.875rem;
+		margin-left: 1.063rem;
+	}
+
+	.MapoBuddies__action-img {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+	}
+
+	.MapoBuddies__end-img {
+		height: 15.188rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		margin-top: 6.25rem;
+		margin-bottom: 6.25rem;
+	}
+
+	.MapoFriends .MapoFriends__logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.MapoFriends__cards-wrapper {
+		flex-direction: column;
+		gap: 4.375rem;
+		margin-top: 4.375rem;
+		align-items: center;
+	}
+
+	.MapoFriends__card-title {
+		font-size: 1.250em;
+	}
+
+	.MapoFriends__card-maintext {
+		font-size: 1.125em;
+	}
+
+	.MapoFriends__subtitle {
+		font-size: 1.500em;
+		text-align: center;
+	}
+
+	.MapoFriends__emoticon-wrapper {
+		flex-direction: column;
+		align-items: center;
+		margin-left: initial;
+	}
+
+	.MapoBuddies.content-container {
+		margin-bottom: 200px;
+		width: initial;
+	}
+
+	.MapoFriends__border {
+		width: 100%;
+	}
+
+	.MapoFriends.content-container {
+		margin-bottom: 12.5rem;
+		width: initial;
+	}
+
+	.MVP__cards-wrapper {
+		flex-direction: column;
+		gap: 4.375rem;
+		margin-top: 4.375rem;
+		align-items: center;
+	}
+
+	.MVP__border {
+		width: 100%;
+	}
+
+	.MVP__card-wrapper {
+		width: 23.75rem;
+		margin-left: 1.063rem;
+	}
+
+	.MVP__card-img {
+		width: 20.688rem;
+	}
+
+	.MVP__card-title {
+		font-size: 1.500em;
+	}
+
+	.MVP__card-maintext {
+		font-size: 1.125em;
+	}
+
+	.MVP .MVP__logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.MVP__card-subtext {
+		font-size: 1.250em;
+	}
+
+	.MVP__subtitle {
+		font-size: 1.500em;
+	}
+
+	.MVP__main-character-img {
+		width: 24.125rem;
+		height: 10.313rem;
+	}
+
+	.MVP.content-container {
+		margin-bottom: 12.5rem;
+		width: initial;
+	}
+
+	.Mapoo__border {
+		width: 100%;
+	}
+
+	.Mapoo__logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.Mapoo__cards-wrapper {
+		flex-direction: column;
+		gap: 4.375rem;
+		margin-top: 4.375rem;
+		align-items: center;
+	}
+
+	.Mapoo__card-title {
+		font-size: 1.250em;
+	}
+
+	.Mapoo__card-maintext {
+		font-size: 1.125em;
+	}
+
+	.Mapoo__card-end-img {
+		width: 23.75rem;
+		height: 24.875rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		margin-left: 1.063rem;
+		margin-top: initial;
+	}
+
+	.Mapoo.content-container {
+		width: initial;
+		margin-bottom: initial;
+	}
+
+	.Mapoo_end-img {
+		width: 35rem;
+		height: 14.188rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: 4.375rem;
+		margin-bottom: 4.438rem;
+	}
+
+	.footer {
+		height: 2.875rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.Mapos__border {
+		width: 100%;
+	}
+
+	/* #home_text_pc {
+		display: none;
+	}
+
+	#home_text_moblie {
+		display: block;
+	} */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 	.container {
 		position: static;
 	}

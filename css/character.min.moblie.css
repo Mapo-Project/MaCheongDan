@@ -2,7 +2,69 @@
     display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+
+    .character__background-character-gongong,
+    .character__background-character-bobo,
+    .character__background-character-doha,
+    .character__background-character-hongmang,
+    .character__background-character-yeonyam,
+    .character__background-character-duck,
+    .character__background-character-harinyang,
+    .character__background-character-sangsange,
+    .character__background-character-ahri,
+    .character__background-character-sangsang {
+        display: none;
+    }
+
+    .character__title {
+        font-size: 1.375em;
+        padding-top: 1em;
+    }
+
+    .character__button--closing {
+        height: 1.5rem;
+        width: 1.5rem;
+        top: 1.75rem;
+    }
+
+    .character__headtext {
+        font-size: 1.375em;
+    }
+
+    .character__content-wrapper {
+        gap: 4.375rem;
+    }
+
+    .character__card-wrapper .character__card-img {
+        height: 14.25rem;
+        object-fit: contain;
+    }
+
+    .character__card-wrapper .character__card-borderline {
+        margin-left: 1.563rem;
+    }
+
+    .character__card-wrapper .character__card-title {
+        margin-left: 1.563rem;
+        font-size: 1.250em;
+    }
+
+    .character__card-wrapper .character__card-maintext {
+        font-size: 1.125em;
+        margin-left: 1.563rem;
+    }
+
+    #character__card-maintext_pc {
+        display: none;
+    }
+
+    #character__card-maintext_moblie {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 
     .character__background-character-gongong,
     .character__background-character-bobo,

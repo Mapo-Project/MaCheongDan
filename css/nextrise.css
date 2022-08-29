@@ -3,12 +3,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  background-color: aquamarine;
   width: 100%;
   height: 80px;
   background: url(./../images/nextrise/top_back_banner.png);
   margin: auto;
 }
+
 header .logo {
   font-family: "Noto Sans KR";
   font-style: normal;
@@ -27,6 +28,7 @@ header .logo {
 
   margin-left: 360px;
 }
+
 header .exit_button {
   width: 48px;
   margin-right: 360px;
@@ -42,9 +44,9 @@ main {
   display: flex;
   justify-content: center;
 }
+
 main .main_text {
   margin-top: 350px;
-  width: 582px;
   height: 259px;
   font-family: "MaruBuri";
   font-style: normal;
@@ -59,12 +61,15 @@ main .main_text {
   display: flex;
   flex-direction: column;
 }
+
 main .main_text h1 {
   flex-grow: 1;
 }
+
 main .main_text h1:nth-last-child(1) {
   flex-grow: 0;
 }
+
 main .main_text span {
   color: #01ff00;
 }
@@ -78,6 +83,7 @@ article {
   flex-direction: column;
   margin: auto;
 }
+
 article h1 {
   font-family: "MaruBuri";
   font-style: normal;
@@ -92,6 +98,7 @@ article h1 {
   color: #3c3243;
   margin-bottom: 30px;
 }
+
 article p,
 li {
   font-family: "Noto Sans KR";
@@ -104,41 +111,49 @@ li {
 
   color: #212529;
 }
+
 li::before {
   content: "•";
   margin-left: 12px;
   margin-right: 12px;
 }
+
 article ul {
   list-style: none;
 }
+
 article .article_header_section_container {
   width: 720px;
   height: 435px;
 }
+
 article .article_section_container {
   width: 720px;
   height: 400px;
 }
-article
-  .article_section:nth-child(2n-1)
-  .article_section_container:nth-child(2n) {
+
+article .article_section:nth-child(2n-1) .article_section_container:nth-child(2n) {
   text-align: right;
 }
+
 article .article_header_section {
   display: flex;
 }
+
 article .article_header_left_text {
   margin-top: 85px;
   margin-left: 120px;
 }
+
 article .article_header_left_text p {
   width: 510px;
 }
+
 article .article_header_right_text {
   margin-top: 85px;
   margin-left: 120px;
 }
+
 article .article_section {
   display: flex;
 }
@@ -153,15 +168,18 @@ article .article_section .article_section_container .article_left_text {
   margin-top: 85px;
   margin-left: 120px;
 }
+
 article .article_section .article_section_container .article_right_text {
   width: 450px;
   margin-top: 85px;
   margin-left: 120px;
 }
+
 article .article_section .article_section_container .article_left_text h1 {
   margin-bottom: 30px;
   font-weight: bold;
 }
+
 article .article_section .article_section_container .article_right_text h1 {
   margin-bottom: 30px;
   font-weight: bold;
@@ -175,6 +193,7 @@ article .article_footer_container {
   margin-left: 91px;
   margin-top: 85px;
 }
+
 article .article_footer_text {
   font-family: "Noto Sans KR";
   font-style: normal;
@@ -198,10 +217,12 @@ article .article_footer_comma_container {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 article .article_footer_comma {
   position: absolute;
   width: 48px;
 }
+
 article .article_footer_comma:nth-child(2) {
   position: absolute;
   left: 30px;
