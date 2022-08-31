@@ -225,7 +225,7 @@
 	}
 
 	.slide-img {
-		width: 24rem;
+		width: 35rem;
 		height: 15.625rem;
 	}
 
@@ -248,7 +248,7 @@
 	}
 
 	.first-half-status__img {
-		width: 30rem;
+		width: 35rem;
 		object-fit: contain;
 	}
 
@@ -480,7 +480,7 @@
 	}
 
 	.chungnyun-think__inner-img {
-		width: 30rem;
+		width: 35rem;
 		object-fit: contain;
 	}
 
@@ -620,7 +620,8 @@
 		gap: 3.125rem;
 		margin-top: 3.125rem;
 		flex-direction: column;
-		width: 100%;
+		width: initial;
+		margin-left: 9.375rem;
 	}
 
 	.way-to-come__info-wrapper-second-line {
@@ -628,12 +629,8 @@
 		gap: 3.125rem;
 		margin-top: 3.125rem;
 		flex-direction: column;
-		width: 100%;
-	}
-
-	.way-to-come__info-wrapper-first-line,
-	.way-to-come__info-wrapper-second-line {
-		align-items: center;
+		width: initial;
+		margin-left: 9.375rem;
 	}
 
 	#kakaomap {
